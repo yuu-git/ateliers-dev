@@ -7,26 +7,25 @@ const config: Config = {
   tagline: 'For a Better Future. －より良い未来のために。',
   favicon: 'img/ico/favicon.ico',
 
-  // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
+  // サイトの本番URLをここに設定します
+  url: 'https://ateliers.dev/',
+  // サイトが提供される/<baseUrl>/パス名を設定します
+  // GitHub Pagesのデプロイの場合、通常は '/<projectName>/' です
   baseUrl: '/',
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Yuu.Konno', // Usually your GitHub org/user name.
-  projectName: 'yuu-git', // Usually your repo name.
+  // GitHub Pagesのデプロイ設定
+  // GitHub Pagesを使用していない場合、これらは不要です
+  organizationName: 'yuu-git', // 通常はGitHubの組織名またはユーザー名です
+  projectName: 'ateliers-dev', // 通常はリポジトリ名です
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
+  // 国際化を使用しない場合でも、このフィールドを使用してhtmlの言語などの有用なメタデータを設定できます。
+  // 例えば、サイトが日本語の場合は、"en"を"ja"に置き換えることができます。
   i18n: {
-    defaultLocale: 'ja',
-    locales: ['ja'],
+    defaultLocale: 'en',
+    locales: ['en'],
   },
 
   presets: [
@@ -38,14 +37,14 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/yuu-git/ateliers-dev/edit/master/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/yuu-git/ateliers-dev/edit/master/',        
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -104,19 +103,19 @@ const config: Config = {
           items: [
             {
               label: 'GitHub ガイドライン',
-              to: '/docs/github-guidelines/index',
+              to: '/docs/github-guidelines/',
             },
             {
               label: 'テクニカル ポリシー',
-              to: '/docs/technical-policies/index',
+              to: '/docs/technical-policies/',
             },
             {
               label: 'テクニカル ノート',
-              to: '/docs/technical-notebook/index',
+              to: '/docs/technical-notebook/',
             },
             {
               label: 'プロフィール',
-              to: '/docs/profile/index',
+              to: '/docs/profile/',
             },
           ],
         },
