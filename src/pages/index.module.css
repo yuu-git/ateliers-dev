@@ -1,0 +1,46 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  /* border: 2px dashed #000; /* 外枠の点線 */
+  padding: 20px;
+}
+.content, .image {
+  /* border: 2px solid #000; /* 内部の枠線 */
+  margin: 10px;
+  padding: 20px;
+  flex: 1; /* 同じ幅にする */
+}
+.content {
+  /* background: #fff; /* 白背景 */
+  
+}
+.image {
+  /* background: #ddd; /* 灰色背景 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image img {
+  max-width: 800px;
+  height: auto;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
