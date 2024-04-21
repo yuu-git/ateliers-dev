@@ -27,3 +27,4 @@ jobs:
         with:
           personal_token: ${{ secrets.GH_TOKEN_DEPLOY }}
           publish_dir: ./build
+          cname: ateliers.dev
