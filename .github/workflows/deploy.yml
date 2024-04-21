@@ -1,0 +1,26 @@
+name: Deploy Docusaurus Site
+
+on:
+  push:
+    branches:
+      - master  # またはデプロイをトリガーしたいブランチ
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '12'
+      - run: npm install
+      - run: npm run build
+      - name: Deploy
+        run: npm run deploy
+        env:
+          GIT_USER: ${{ secrets.GIT_USER }}
+          USE_SSH: true
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+      - uses: webfactory/ssh-agent@v0.5.3
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}

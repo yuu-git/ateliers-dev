@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Docusaurus Deploy",
+            "program": "${workspaceFolder}/node_modules/@docusaurus/core/bin/docusaurus.mjs",
+            "args": ["deploy"],
+            "console": "integratedTerminal",
+            "skipFiles": ["<node_internals>/**"],
+            "env": {
+                "GIT_USER": "yuu-git",
+                "USE_SSH": "true"
+            }
+        }
+    ]
+}
