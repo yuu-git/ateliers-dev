@@ -12,6 +12,11 @@ const config: Config = {
   // サイトが提供される/<baseUrl>/パス名を設定します
   // GitHub Pagesのデプロイの場合、通常は '/<projectName>/' です
   baseUrl: '/',
+  // その他の設定...
+  
+  // trailingSlash: true を設定した場合、すべてのページURLの末尾にスラッシュ (/) が付加されます。
+  // false を設定した場合、URLの末尾からスラッシュが削除されます。
+  trailingSlash: false,
 
   // GitHub Pagesのデプロイ設定
   // GitHub Pagesを使用していない場合、これらは不要です
