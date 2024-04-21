@@ -1,26 +1,29 @@
-name: Deploy Docusaurus Site
+name: Build and Deploy Docusaurus Site
 
 on:
   push:
     branches:
-      - master  # またはデプロイをトリガーしたいブランチ
+      - master
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
         with:
-          node-version: '16'    # Node.jsのバージョン
-      - run: npm install
-      - run: npm run build
-      - name: Deploy
-        run: npm run deploy
-        env:
-          GIT_USER: ${{ secrets.GIT_USER }}
-          USE_SSH: true
-          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-      - uses: webfactory/ssh-agent@v0.5.3
+          node-version: '18'  # Node.jsのバージョンを18に設定
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build
+        run: npm run build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
