@@ -43,6 +43,8 @@ const config: Config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/yuu-git/ateliers-dev/edit/master/',
+            showLastUpdateAuthor: false,
+            showLastUpdateTime: true,
         },
         blog: {
           showReadingTime: true,
