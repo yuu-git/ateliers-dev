@@ -3,8 +3,8 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'Atelier for `yuu-git`',
-  tagline: 'For a Better Future. －より良い未来のために。',
+  title: 'Atelier for `Yuu`',
+  tagline: 'For a Better Future. －「より良い未来のために。」',
   favicon: 'img/ico/favicon.ico',
 
   // サイトの本番URLをここに設定します
@@ -127,7 +127,7 @@ const config: Config = {
             },
             {
               label: 'プロフィール',
-              to: '/docs/profile/',
+              to: '/docs/profiles/',
             },
           ],
         },
@@ -167,7 +167,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} ateliers.dev - Yuu.Konno - GitHub: yuu-git`,
     },
     prism: {
       theme: prismThemes.github,

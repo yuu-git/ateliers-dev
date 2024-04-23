@@ -6,6 +6,7 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
 
 import styles from './index.module.css';
+import customConfig from '../../customConfig';
 /* import TitleSvg from './img/ateliers.dev.svg'; */
 
 function HomepageHeader() {
@@ -18,9 +19,14 @@ function HomepageHeader() {
           <img src={titleImg} alt="Title Image" />
           {/* <TitleSvg /> */}
         </div>
-        <div className={styles.content}>
+        <div className={styles.titleContent}>
           <h1>{siteConfig.title}</h1>
           <p>{siteConfig.tagline}</p>
+          <hr/>
+          <div className={styles.description}>
+            <h2>{customConfig.sitePurposeTitle}</h2>
+            <p>{customConfig.sitePurposeDescription}</p>
+          </div>
         </div>
       </div>
     </header>
