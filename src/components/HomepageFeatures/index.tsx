@@ -47,6 +47,15 @@ const FeatureList: FeatureItem[] = [
       </>
     ),
   },
+  {
+    title: 'FAQ',
+    Svg: require('@site/static/img/svg/faq.svg').default,
+    description: (
+      <>
+        よくある(かもしれない)質問についてまとめたセクションです。
+      </>
+    ),
+  },
 ];
 
 function Feature({title, Svg, description}: FeatureItem) {

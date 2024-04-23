@@ -94,6 +94,11 @@ const config: Config = {
           position: 'left',
           label: 'プロフィール',
         },
+        {
+          to: '/docs/faq', 
+          label: 'FAQ', 
+          position: 'left'
+        },
         /*{to: '/blog', label: 'Blog', position: 'left'},*/
         {
           to: '/docs/tags', 
