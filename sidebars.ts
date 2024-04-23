@@ -31,23 +31,19 @@ import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
  */
 const sidebars: SidebarsConfig = {
   githubGuidelinesSidebar: [
-    'github-guidelines/index',
-    {
-      type: 'category',
-      label: 'GitHub Guidelines',
-      items: [
-        'github-guidelines/contents',
-      ],
-    },
+    'github-guidelines/github-guidelines-index',
+    `github-guidelines/github-guidelines-writing-guide`,
   ],
   technicalPoliciesSidebar: [
-    'technical-policies/index',
+    'technical-policies/technical-policies-index',
+    `technical-policies/technical-policies-writing-guide`,
   ],
   technicalNotebookSidebar: [
-    'technical-notebook/index',
+    'technical-notebook/technical-notebook-index',
+    `technical-notebook/technical-notebook-writing-guide`,
   ],
   profileSidebar: [
-    'profile/index',
+    'profiles/profiles-index',
   ],
 };
 

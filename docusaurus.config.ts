@@ -62,7 +62,7 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    /*image: 'img/docusaurus-social-card.jpg', */
     navbar: {
       title: 'ateliers.dev',
       logo: {
@@ -95,6 +95,11 @@ const config: Config = {
           label: 'プロフィール',
         },
         /*{to: '/blog', label: 'Blog', position: 'left'},*/
+        {
+          to: '/docs/tags', 
+          label: 'タグ検索', 
+          position: 'right'
+        },
         {
           href: 'https://github.com/yuu-git',
           label: 'GitHub',
@@ -130,14 +135,14 @@ const config: Config = {
           title: 'Community',
           items: [
             {
+              label: 'はてなブックマーク',
+              href: 'https://b.hatena.ne.jp/yuu-0503/',
+            },
+            {
               label: 'Qiita',
               href: 'https://qiita.com/yuu-dev',
             },
-            /*{
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
+            /* {
               label: 'Discord',
               href: 'https://discordapp.com/invite/docusaurus',
             },

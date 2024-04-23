@@ -40,7 +40,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'プロフィール',
-    Svg: require('@site/static/img/svg/profile.svg').default,
+    Svg: require('@site/static/img/svg/profiles.svg').default,
     description: (
       <>
         私のプロフィールです。経歴やスタックスキル、興味などについて記載しています。

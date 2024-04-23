@@ -6,7 +6,6 @@ export default function DocItem(props) {
   return (
     <div>
       <OriginalDocItem {...props} />
-      <LastUpdated />
     </div>
   );
 }
