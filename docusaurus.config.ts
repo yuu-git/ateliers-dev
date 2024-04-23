@@ -29,8 +29,8 @@ const config: Config = {
   // 国際化を使用しない場合でも、このフィールドを使用してhtmlの言語などの有用なメタデータを設定できます。
   // 例えば、サイトが日本語の場合は、"en"を"ja"に置き換えることができます。
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'ja',
+    locales: ['ja'],
   },
 
   presets: [
