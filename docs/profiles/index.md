@@ -9,7 +9,13 @@ description: ateliers.dev のコンテンツ「プロフィール」のトップ
 ---
 
 # プロフィール
-*[Created: 2024/04/21, Update: 2024/04/23]*
+*[Created: 2024/04/21, Update: 2024/04/24]*
+
+---
+
+![img](../../static/img/jpg/ateliers-dev-profiles.jpg)
+
+---
 
 個人のプロフィールを示すドキュメントです。  
 技術スタック、経歴、連絡先情報などを含みます。

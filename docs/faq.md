@@ -13,6 +13,10 @@ description: ateliers.dev のコンテンツ「FAQ」のトップページです
 
 ---
 
+![img](../static/img/jpg/ateliers-dev-faq.jpg)
+
+---
+
 よくある (かもしれない) 質問とその回答をまとめたドキュメントです。
 
 ## サイト関連の質問

@@ -7,6 +7,7 @@ title: ateliers.dev - テクニカルノート
 sidebar_label: テクニカルノート
 tags: [technical-notebook]
 description: ateliers.dev のコンテンツ「テクニカルノート」のトップページです。
+image: ../../static/img/jpg/ateliers-dev-technical-notebook.jpg
 ---
 
 # テクニカルノート
@@ -14,7 +15,9 @@ description: ateliers.dev のコンテンツ「テクニカルノート」のト
 
 ---
 
-![img](img/technical-memos.png)
+![img](../../static/img/jpg/ateliers-dev-technical-notebook.jpg)
+
+---
 
 技術的なメモやAIとのやり取りを記録した備忘録ドキュメントです。
 
