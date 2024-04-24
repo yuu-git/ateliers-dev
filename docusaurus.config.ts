@@ -39,8 +39,6 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/yuu-git/ateliers-dev/edit/master/',
             showLastUpdateAuthor: false,
@@ -48,8 +46,6 @@ const config: Config = {
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/yuu-git/ateliers-dev/edit/master/',        
         },
@@ -61,8 +57,7 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // Replace with your project's social card
-    /*image: 'img/docusaurus-social-card.jpg', */
+    image: 'img/jpg/ateliers-dev-social-card.jpg', /* Replace with your project's social card */
     navbar: {
       title: 'ateliers.dev',
       logo: {
@@ -116,7 +111,7 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Technical-Dcouments',
           items: [
             {
               label: 'GitHub ガイドライン',
@@ -130,14 +125,23 @@ const config: Config = {
               label: 'テクニカル ノート',
               to: '/docs/technical-notebook/',
             },
+          ],
+        },
+        {
+          title: `Atelier-Guide`,
+          items: [
             {
               label: 'プロフィール',
               to: '/docs/profiles/',
             },
+            {
+              label: 'FAQ',
+              to: '/docs/faq/',
+            },
           ],
         },
         {
-          title: 'Community',
+          title: 'Social-Community',
           items: [
             {
               label: 'はてなブックマーク',
