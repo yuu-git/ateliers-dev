@@ -41,6 +41,19 @@ const sidebars: SidebarsConfig = {
   technicalNotebookSidebar: [
     'technical-notebook/technical-notebook-index',
     `technical-notebook/technical-notebook-writing-guide`,
+    {
+      type: 'category',
+      label: 'OpenAI',
+      items: [
+        {
+          type: 'category',
+          label: 'DALL-E',
+          items: [
+            'technical-notebook/openai-gpt/dall-e/technical-notebook-my-site-image-generation-memo',
+          ],
+        },
+      ],
+    },
   ],
   profileSidebar: [
     'profiles/profiles-index',
