@@ -14,16 +14,16 @@ function HomepageHeader() {
   const titleImg = require('../../static/img/webp/ateliers-dev-main-title.webp').default;
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className={styles.container}>
+      <div className={styles.topContainer}>
         <div className={styles.image}>
           <img src={titleImg} alt="Title Image" />
           {/* <TitleSvg /> */}
         </div>
-        <div className={styles.titleContent}>
+        <div className={styles.topTitleContent}>
           <h1>{siteConfig.title}</h1>
           <p>{siteConfig.tagline}</p>
           <hr/>
-          <div className={styles.description}>
+          <div className={styles.topTitleDescription}>
             <h2>{customConfig.sitePurposeTitle}</h2>
             <p>{customConfig.sitePurposeDescription}</p>
           </div>
