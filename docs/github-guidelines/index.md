@@ -7,7 +7,7 @@ title: ateliers.dev - GitHub ガイドライン
 sidebar_label: GitHub ガイドライン
 tags: [github-guidelines]
 description: ateliers.dev のコンテンツ「GitHub ガイドライン」のトップページです。
-image: ../../static/img/jpg/ateliers-dev-github-guidelines.jpg
+image: img/jpg/ateliers-dev-github-guidelines.jpg
 ---
 
 # GitHub ガイドライン

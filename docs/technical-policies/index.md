@@ -7,7 +7,7 @@ title: ateliers.dev - テクニカルポリシー
 sidebar_label: テクニカルポリシー
 tags: [technical-policies]
 description: ateliers.dev のコンテンツ「テクニカルポリシー」のトップページです。
-image: ../../static/img/jpg/ateliers-dev-technical-policies.jpg
+image: img/jpg/ateliers-dev-technical-policies.jpg
 ---
 
 # テクニカルポリシー

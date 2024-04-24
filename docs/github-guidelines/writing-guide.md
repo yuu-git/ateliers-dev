@@ -7,7 +7,7 @@ title: ateliers.dev - GitHub ガイドライン - GitHub ガイドラインの�
 sidebar_label: GitHub ガイドラインの作成方針
 tags: [github-guidelines, writing-guide, guidline]
 description: ateliers.dev のコンテンツ「GitHub ガイドライン」の作成方針をまとめています。
-image: ../../static/img/jpg/ateliers-dev-github-guidelines.jpg
+image: img/jpg/ateliers-dev-github-guidelines.jpg
 ---
 
 # GitHub ガイドラインの作成方針
