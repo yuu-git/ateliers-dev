@@ -11,7 +11,7 @@ import customConfig from '../../customConfig';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
-  const titleImg = require('./img/ateliers.dev.webp').default;
+  const titleImg = require('../../static/img/webp/ateliers-dev-main-title.webp').default;
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className={styles.container}>
@@ -38,7 +38,7 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      description={`${customConfig.siteShortDescription}`}>
       <HomepageHeader />
       <main>
         <HomepageFeatures />
