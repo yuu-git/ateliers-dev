@@ -1,13 +1,13 @@
 /**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
+ * ここに含まれるCSSはグローバルに適用されます。
+ * クラシックテンプレートではデフォルトでInfimaがバンドルされています。Infimaは、
+ * コンテンツ中心のウェブサイトに適したCSSフレームワークです。
  */
 
-/* You can override the default Infima variables here. */
+/* ここでデフォルトのInfima変数を上書きできます。 */
 :root {
-  --ifm-color-primary: #999999;
-  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary: #308657;
+  --ifm-color-primary-dark: #1f5c3a;
   --ifm-color-primary-darker: #277148;
   --ifm-color-primary-darkest: #205d3b;
   --ifm-color-primary-light: #33925d;
@@ -16,15 +16,38 @@
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
-
-/* For readability concerns, you should choose a lighter palette in dark mode. */
+/* 視認性の問題から、ダークモードではより明るいパレットを選ぶべきです。 */
 [data-theme='dark'] {
-  --ifm-color-primary: #333333;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary: #00adb5;
+  --ifm-color-primary-dark: #008080;
+  --ifm-color-primary-darker: #006666;
   --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-light: #4cdddd;
+  --ifm-color-primary-lighter: #7ff6f6;
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(200, 200, 200, 0.3);
+}
+
+/* .navbar--fixed-top: 全ページのトップナビゲーションバー */
+.navbar--fixed-top {
+  background-color: #FFFFFF !important;
+}
+[data-theme='dark'] .navbar--fixed-top {
+  background-color: #111111 !important;
+}
+
+/* .hero--primary: トップページのタイトル背景 */
+.hero--primary {
+  background-color: #8A9 !important;
+}
+[data-theme='dark'] .hero--primary {
+  background-color: #333333 !important;
+}
+
+/* .footer--dark: 全ページのフッター */
+.footer--dark {
+  background-color: #455 !important;
+}
+[data-theme='dark'] .footer--dark {
+  background-color: #111111 !important;
 }
