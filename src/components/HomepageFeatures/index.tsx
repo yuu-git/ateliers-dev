@@ -14,7 +14,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/svg/github-guidelines.svg').default,
     description: (
       <>
-        『私が GitHub をどうやって運用するか』についてのガイドラインです。
+        『私が GitHub をどうやって運用するか』についてのガイドラインです。<br/>
         リポジトリの運用方針や、Issue や Pull Request の書き方など、GitHub の使い方について記載しています。
       </>
     ),
@@ -80,6 +80,8 @@ export default function HomepageFeatures(): JSX.Element {
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
           ))}
+        </div>
+        <div>
         </div>
       </div>
     </section>

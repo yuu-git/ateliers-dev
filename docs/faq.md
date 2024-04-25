@@ -3,13 +3,13 @@
 id: faq
 slug: /faq/
 category: FAQ
-title: FAQ
+title: ateliers.dev - FAQ
 sidebar_label: FAQ
 description: ateliers.dev のコンテンツ「FAQ」のトップページです。
 ---
 
 # FAQ
-*[Created: 2024/04/24, Update: - ]*
+*[Created: 2024/04/24, Update: 2024/04/25 ]*
 
 ---
 

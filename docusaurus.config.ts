@@ -66,6 +66,11 @@ const config: Config = {
       },
       items: [
         {
+          to: '/docs/site-guidance/', 
+          label: 'サイト案内', 
+          position: 'left'
+        },
+        {
           type: 'docSidebar',
           sidebarId: 'githubGuidelinesSidebar',
           position: 'left',
@@ -130,6 +135,10 @@ const config: Config = {
         {
           title: `Atelier-Guide`,
           items: [
+            {
+              label: 'サイト案内',
+              to: '/docs/site-guidance/',
+            },
             {
               label: 'プロフィール',
               to: '/docs/profiles/',
