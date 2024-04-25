@@ -219,13 +219,27 @@ No.001
 A professional and modern Profile page with a material design aesthetic, focusing on subtle technology and innovation. The main color is black with green accents, set against a white background to create a more inviting and bright atmosphere. The image includes smaller and fewer elements like a single house and one gear, representing the trademark of the site, along with minimalist icons related to personal identity and career development. The design is simplified while maintaining a 3D, material-style texture and a quarter-view perspective to add depth and a tangible quality, representing an informative and user-friendly environment for visitors.
 ```
 
----
-
 No.002
 ![generation-image](./my-site-image-favorite/profile-n002.webp)
 
+|生成AI|生成日|
+|---|---|
+|OpenAI - DALL-E 3|2024/04/24|
+
+特記事項：プロフィール用として作成したが、サイト案内として採用。
+
+プロンプト:
+```prompt
+A professional and modern Profile page with a material design aesthetic, focusing on subtle technology and innovation. The main color is black with green accents, set against a white background to create a more inviting and bright atmosphere. The image effectively utilizes the entire canvas, featuring elements like a single house and one gear representing the trademark of the site, along with minimalist icons related to personal identity and career development. The design is simplified while maintaining a 3D, material-style texture and a quarter-view perspective to add depth and a tangible quality, representing an informative and user-friendly environment for visitors.
+```
+
+---
+
 No.003
 ![generation-image](./my-site-image-favorite/profile-n003.webp)
+
+No.004
+![generation-image](./my-site-image-favorite/profile-n004.webp)
 
 |生成AI|生成日|
 |---|---|
