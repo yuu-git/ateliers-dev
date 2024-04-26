@@ -50,6 +50,7 @@ const sidebars: SidebarsConfig = {
           type: 'category',
           label: 'DALL-E',
           items: [
+            'technical-notebook/openai-gpt/dall-e/technical-notebook-consistent-image-reproduction-method',
             'technical-notebook/openai-gpt/dall-e/technical-notebook-my-site-image-generation-memo',
           ],
         },
