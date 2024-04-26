@@ -297,3 +297,59 @@ No.003
 ```prompt
 A professional and modern FAQ page with a material design aesthetic, focusing on subtle technology and innovation. The main color is black with green accents, set against a white background to create a more inviting and bright atmosphere. The image includes small elements like a single house and one gear, representing the trademark of the site, along with minimalist question mark icons and FAQ-related symbols. The design is enhanced with a 3D, material-style texture to add depth and a tangible quality, representing an informative and user-friendly environment for visitors.
 ```
+
+---
+## 9. お遊び系 生成画像
+---
+
+お遊び系の画像生成メモです。
+
+### 9.1. 目的: UBW を再現したかった
+
+どうしても上手くいかない。
+
+No.001
+![generation-image](./my-site-image-favorite/ucw-n001.webp)
+
+|生成AI|生成日|
+|---|---|
+|OpenAI - DALL-E 3|2024/04/27|
+
+所感： ツールの丘、って感じはあれど、全体的に壮大感がない…。
+
+プロンプト:
+```prompt
+Imagine a landscape in an alien dimension with a gradient of soft brown to lighter shades of orange and red, extending the atmosphere beyond traditional concepts. The scene is slightly darker to create a more mysterious atmosphere. It is filled with floating windows displaying futuristic code and diagrams, and engineering tools such as wrenches, screwdrivers, and pliers spread widely across and beyond the visible frame, some embedded into the ground. Among these, two to three gears are fully materialized, appearing solid and tangible amidst the ethereal environment. These materialized gears symbolize the advanced technology field, seamlessly integrated with nature, some embedded into the ground. The minimalist 3D designed house remains subtly placed, blending with the surreal, tech-infused, darker setting.
+```
+
+---
+
+No.002
+![generation-image](./my-site-image-favorite/ucw-n002.webp)
+
+|生成AI|生成日|
+|---|---|
+|OpenAI - DALL-E 3|2024/04/27|
+
+所感： 全体的に見た目は良いのだけど、ツールが突き刺さっていない。
+
+プロンプト:
+```prompt
+Imagine a landscape in an alien dimension with a gradient of soft brown to lighter shades of orange and red, extending the atmosphere beyond traditional concepts. The scene is slightly darker to create a more mysterious atmosphere. It is filled with floating windows displaying futuristic code and diagrams, and engineering tools such as wrenches, screwdrivers, and pliers spread widely across and beyond the visible frame. Among these, two to three gears are fully materialized, appearing solid and tangible amidst the ethereal environment. These materialized gears symbolize the advanced technology field, seamlessly integrated with nature. The minimalist 3D designed house remains subtly placed, blending with the surreal, tech-infused, darker setting.
+```
+
+---
+
+No.003
+![generation-image](./my-site-image-favorite/ucw-n003.webp)
+
+|生成AI|生成日|
+|---|---|
+|OpenAI - DALL-E 3|2024/04/27|
+
+所感： これはこれで良いけど、やはりツールが突き刺さっていない。
+
+プロンプト:
+```prompt
+Imagine a landscape in an alien dimension with a gradient of soft brown to lighter shades of orange and red, extending the atmosphere beyond traditional concepts. The scene is slightly darker to create a more mysterious atmosphere. It is filled with floating windows displaying futuristic code and diagrams, and engineering tools and servers such as wrenches, screwdrivers, and pliers spread widely across and beyond the visible frame, some embedded into the ground. Among these, two to three gears are fully materialized and made larger, appearing solid and tangible amidst the ethereal environment. These large gears symbolize the advanced technology field, seamlessly integrated with nature, some embedded into the ground. The minimalist 3D designed house remains subtly placed, blending with the surreal, tech-infused, darker setting.
+```
