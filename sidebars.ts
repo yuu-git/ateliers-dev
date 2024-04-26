@@ -32,15 +32,16 @@ import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
 const sidebars: SidebarsConfig = {
   githubGuidelinesSidebar: [
     'github-guidelines/github-guidelines-index',
-    `github-guidelines/github-guidelines-writing-guide`,
+    'github-guidelines/github-guidelines-writing-guide',
+    'github-guidelines/github-guidelines-repository-naming-policy',
   ],
   technicalPoliciesSidebar: [
     'technical-policies/technical-policies-index',
-    `technical-policies/technical-policies-writing-guide`,
+    'technical-policies/technical-policies-writing-guide',
   ],
   technicalNotebookSidebar: [
     'technical-notebook/technical-notebook-index',
-    `technical-notebook/technical-notebook-writing-guide`,
+    'technical-notebook/technical-notebook-writing-guide',
     {
       type: 'category',
       label: 'OpenAI',
