@@ -9,7 +9,7 @@ description: ateliers.dev のコンテンツ「サイト案内」のページで
 ---
 
 # サイト案内
-*[Created: 2024/04/25, Update: - ]*
+*[Created: 2024/04/25, Update: 2024/04/27]*
 
 ---
 
@@ -28,15 +28,14 @@ description: ateliers.dev のコンテンツ「サイト案内」のページで
 
 * サイトURL: https://ateliers.dev/
 * 独自ドメイン: ateliers.dev
-* GitHub ユーザー名: yuu-git
-* GitHub リポジトリ名: ateliers-dev
-* GitHub リポジトリURL: https://github.com/yuu-git/ateliers-dev
+* GitHub ユーザー名: yuu-git (https//github.com/yuu-git)
+* GitHub リポジトリ: ateliers-dev (https://github.com/yuu-git/ateliers-dev)
 * 目的: ウェブサイト「ateliers.dev」は、個人的なテクニカルポートフォリオサイトとして、プロジェクトの展示、技術的なメモ、ガイドラインなどの情報を共有する目的で構築されています。
 * 掲げる信条: 『より良い未来のために。』
 
 ### 1.1. サイト補足情報
 
-* 使用技術: Docusaurusを利用し、静的サイトとして公開されています。また GitHub Actions を通じてCI/CDを組み込み、自動デプロイを実現済です。
+* 使用技術: Docusaurusを利用し、静的サイトとして公開されています。GitHub Actions を通じてCI/CDを組み込み、自動デプロイを実現済です。
 * セキュリティ: GitHubと連携するためのSSHキーやPersonal Access Token (PAT)を利用し、セキュアな接続を維持しています。
 * ライセンス: ソースコードはMITライセンスを採用し、Docusaurusおよび他の使用技術に対する敬意を表明しています。
 * サイトの画像: 画像はDALL-Eを用いて生成され、マテリアルデザインのスタイルを採用しています。また、コンテンツの整理のためにテクニカルノートを利用し、生成した画像のプロンプトを記録しています。これにより、将来的に一貫性を持たせた画像を再生成するための参考情報として活用できます。
@@ -55,7 +54,7 @@ URL: https://ateliers.dev/docs/technical-notebook
 
 ## 3. 主要コンテンツの補足説明
 
-似たようなドキュメントのセクションがありますが、明確に違いがあります。
+似たようなドキュメントのセクションが並んでいますが、明確に違いがあります。
 
 ### 3.1. GitHub ガイドライン  
 
