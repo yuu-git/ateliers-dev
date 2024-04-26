@@ -11,7 +11,7 @@ image: img/jpg/ateliers-dev-technical-notebook.jpg
 ---
 
 # 当サイトのイメージ生成メモ
-*[Created: 2024/04/24, Update: -]*
+*[Created: 2024/04/24, Update: 2024/04/27]*
 
 ---
 
