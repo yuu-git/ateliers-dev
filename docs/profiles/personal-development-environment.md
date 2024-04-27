@@ -41,7 +41,7 @@ description: ateliers.dev のコンテンツ「プロフィール」の個人の
 | IDE | Microsoft Visual Studio Code | C#以外の開発やコードエディタとして使用 |
 | DB | Microsoft SSMS | SQL Server の管理 |
 | Office | Microsoft Office 各種 | 資料作成 |
-| 画像編集 | Adobe Photoshop 2022| 画像編集 |
+| 画像編集 | Adobe Photoshop 2024| 画像編集 |
 | 画像編集 | Sothink Logo Maker Professional | ベクター編集やロゴ作成 |
 | テキスト編集 | サクラエディタ | 昔から愛用するちょっとしたテキスト編集 |
 | バージョン管理 | Git for Windows | バージョン管理 |
