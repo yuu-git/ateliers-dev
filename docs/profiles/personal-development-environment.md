@@ -1,5 +1,4 @@
 ---
-# Docusaurus メタデータ
 id: profiles-personal-development-environment
 slug: /profiles/personal-development-environment/
 category: プロフィール
@@ -9,6 +8,7 @@ description: ateliers.dev のコンテンツ「プロフィール」の個人の
 ---
 
 # 個人の開発環境
+
 *[Created: 2024/04/27, Update: none(same as creation date) ]*
 
 ---
@@ -27,7 +27,7 @@ description: ateliers.dev のコンテンツ「プロフィール」の個人の
 | GPU | NVIDIA GeForce GTX 1650 |
 
 2023年10月頃に、愛用していた Surface Pro がバッテリーの劣化により使い物にならなくなり、5万円程度で買った中古PCです。  
-だいぶ、つらい。特にメモリが。
+***だいぶ、つらい。特にメモリが。***
 
 ## 2. ソフトウェア情報
 
@@ -40,7 +40,6 @@ description: ateliers.dev のコンテンツ「プロフィール」の個人の
 | IDE | Microsoft Visual Studio 2022 Community | メインの開発環境 |
 | IDE | Microsoft Visual Studio Code | C#以外の開発やコードエディタとして使用 |
 | DB | Microsoft SSMS | SQL Server の管理 |
-| DB | Pup SQLite | SQLite 管理用 | 
 | Office | Microsoft Office 各種 | 資料作成 |
 | 画像編集 | Adobe Photoshop 2022| 画像編集 |
 | 画像編集 | Sothink Logo Maker Professional | ベクター編集やロゴ作成 |
@@ -55,6 +54,27 @@ description: ateliers.dev のコンテンツ「プロフィール」の個人の
 
 開発用 Azure の無料クレジットが欲しいので、いずれお布施もかねて Visual Studio Professional に移行したいです。  
 その前にPCをどうにかしないとですが…。
+
+#### 2.1.1 Visual Studio 拡張機能
+
+| 拡張機能 | 説明 |
+| --- | --- |
+| [GitHub Copilot Completions](https://marketplace.visualstudio.com/items?itemName=GitHub.copilotvs) | AI によるコード補完 |
+| [GitHub Copilot Chat](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.VSGitHubCopilot) | AI によるコード補完のチャット機能 |
+| [Markdown Editor v2](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.MarkdownEditor2) | Markdown の編集 |
+| [SQLite/SQL Server Compact Toolbox](https://marketplace.visualstudio.com/items?itemName=ErikEJ.SQLServerCompactSQLiteToolbox) | SQLite のサポート |
+
+#### 2.1.2 Visual Studio Code 拡張機能
+
+| 拡張機能 | 説明 |
+| --- | --- |
+| [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) | AI によるコード補完 |
+| [GitHub Copilot Chat](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat) | AI によるコード補完のチャット機能 |
+| [GitHub Actions](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-github-actions) | GitHub Actions のサポート |
+| [Japanese Language Pack for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-ja) | 日本語化 |
+| [Lua](https://marketplace.visualstudio.com/items?itemName=sumneko.lua) | Lua のサポート(Mod作成とか) |
+| [SQLite](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite) | SQLite のサポート |
+
 
 ### 2.2. クラウドサービス
 
