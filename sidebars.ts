@@ -59,6 +59,7 @@ const sidebars: SidebarsConfig = {
   ],
   profileSidebar: [
     'profiles/profiles-index',
+    'profiles/profiles-personal-development-environment',
   ],
 };
 
