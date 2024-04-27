@@ -66,9 +66,10 @@ const config: Config = {
       },
       items: [
         {
-          to: '/docs/site-guidance/', 
+          type: 'docSidebar',
+          sidebarId: 'siteGuidanceSidebar',
+          position: 'left',
           label: 'サイト案内', 
-          position: 'left'
         },
         {
           type: 'docSidebar',

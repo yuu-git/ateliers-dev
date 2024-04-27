@@ -1,6 +1,5 @@
 ---
-# Docusaurus メタデータ
-id: site-guidance
+id: site-guidance-index
 slug: /site-guidance/
 category: サイト案内
 title: ateliers.dev - サイト案内
@@ -9,15 +8,16 @@ description: ateliers.dev のコンテンツ「サイト案内」のページで
 ---
 
 # サイト案内
-*[Created: 2024/04/25, Update: 2024/04/27]*
+
+*[Created: 2024/04/25, Update: 2024/04/28]*
 
 ---
 
-![img](../static/img/jpg/ateliers-dev-site-guidance.jpg)
+![img](../../static/img/jpg/ateliers-dev-site-guidance.jpg)
 
 ---
 
-***Welcome to My Atelier! this is a personal technical portfolio site.*** 
+***Welcome to My Atelier! this is a personal technical portfolio site.***
 
 ここは、当WEBサイトの案内ページです。  
 各コンテンツの説明や、簡易的なプロフィールを記載しています。
@@ -26,10 +26,10 @@ description: ateliers.dev のコンテンツ「サイト案内」のページで
 
 ## 1. 簡易的なサイト構造およびプロフィール
 
-* サイトURL: https://ateliers.dev/
+* サイトURL: [https://ateliers.dev/](https://ateliers.dev/)
 * 独自ドメイン: ateliers.dev
-* GitHub ユーザー名: yuu-git (https//github.com/yuu-git)
-* GitHub リポジトリ: ateliers-dev (https://github.com/yuu-git/ateliers-dev)
+* GitHub ユーザー名: [yuu-git](https://github.com/yuu-git)
+* GitHub リポジトリ: [ateliers-dev](https://github.com/yuu-git/ateliers-dev)
 * 目的:WEBサイト「ateliers.dev」は、個人的なテクニカルポートフォリオサイトとして、プロジェクトの展示、技術的なメモ、ガイドラインなどの情報を共有する目的で構築されています。
 * 掲げる信条: 『より良い未来のために。』
 
@@ -43,6 +43,7 @@ description: ateliers.dev のコンテンツ「サイト案内」のページで
 * サイトの色調: 白と黒と緑を基調とし、シンプルかつクリーンなデザインが特徴です。トップページのタイトル背景は「#88AA99」で、フッターは「#445555」を設定しています。また、ライトモードとダークモードを切り替えられる機能があります。
 
 ### 1.2. コンテンツの方向性
+
 * 管理者は C# に特化した技術経歴を持ち、Microsoft社の技術スタックを中心に活動しています。そのため、コンテンツは主に C# および .NET 関連の技術情報を中心に提供していきます。
 * 設計デザインパターンは MVC を好み、モデル内にドメイン駆動(DDD)を取り入れた設計を好んでいます。そのため、これらの技術に関する情報も多くなります。
 * 最近は機械学習やAIにも興味を持ち、OpenAIのGPTやDALL-E、GitHub Copilot などの技術を利用したコンテンツも展開します。
@@ -52,14 +53,11 @@ description: ateliers.dev のコンテンツ「サイト案内」のページで
 ## 2. 主要コンテンツの概要
 
 * GitHub ガイドライン：  
-GitHub Guidelines - 個人的な GitHub の利用方針や作業手順を紹介するセクションです。  
-URL: https://ateliers.dev/docs/github-guidelines
+[GitHub Guidelines](../github-guidelines/index.md) - 個人的な GitHub の利用方針や作業手順を紹介するセクションです。  
 * テクニカルポリシー：  
-Technical Policies - 設計や製造時の技術利用方針や作業手順を紹介するセクションです。  
-URL: https://ateliers.dev/docs/technical-policies
+[Technical Policies](../technical-policies/index.md) - 設計や製造時の技術利用方針や作業手順を紹介するセクションです。  
 * テクニカルノート：  
-Technical Notebook - 特定技術の使い方や問題解決、教育資材など、技術的な情報が記録されているセクションです。  
-URL: https://ateliers.dev/docs/technical-notebook
+[Technical Notebook](../technical-notebook/index.md) - 特定技術の使い方や問題解決、教育資材など、技術的な情報が記録されているセクションです。  
 
 ## 3. 主要コンテンツの補足説明
 
@@ -102,13 +100,12 @@ URL: https://ateliers.dev/docs/technical-notebook
 「例外の種類やベストな使い方、解決方法」などは、技術的な情報や解決方法であるため [テクニカルノート] に格納します。
 
 ## 4. サブコンテンツ説明
+
 * プロフィール  
-Profile - 経歴や技術、個人の開発環境や連絡先などを紹介するセクションです。  
-URL: https://ateliers.dev/docs/profile
+[Profile](../profiles/index.md) - 経歴や技術、個人の開発環境や連絡先などを紹介するセクションです。  
 
 * FAQ  
-FAQ - よくある(かもしれない)質問とその回答をまとめたセクションです。  
-URL: https://ateliers.dev/docs/faq
+[FAQ](../faq.md) - よくある(かもしれない)質問とその回答をまとめたセクションです。  
 
 ## 5. 今後の予定
 

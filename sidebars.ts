@@ -30,6 +30,10 @@ import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
   ],
  */
 const sidebars: SidebarsConfig = {
+  siteGuidanceSidebar: [
+    'site-guidance/site-guidance-index',
+    'site-guidance/site-guidance-planned-content-and-update-history',
+  ],
   githubGuidelinesSidebar: [
     'github-guidelines/github-guidelines-index',
     'github-guidelines/github-guidelines-writing-guide',
