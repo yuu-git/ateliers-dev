@@ -60,6 +60,20 @@ const sidebars: SidebarsConfig = {
         },
       ],
     },
+    {
+      type: 'category',
+      label: 'AI問答メモ',
+      items: [
+        {
+          type: 'category',
+          label: 'C#関連',
+          items: [
+            'technical-notebook/ai-chat-memos/csharp/technical-notebook-ai-chat-memos-csharp-20240410-about-email-address',
+            'technical-notebook/ai-chat-memos/csharp/technical-notebook-ai-chat-memos-csharp-20240412-about-exception-handling',
+          ],
+        },
+      ],
+    }
   ],
   profileSidebar: [
     'profiles/profiles-index',
