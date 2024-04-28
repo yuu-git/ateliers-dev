@@ -42,6 +42,13 @@ const sidebars: SidebarsConfig = {
   technicalPoliciesSidebar: [
     'technical-policies/technical-policies-index',
     'technical-policies/technical-policies-writing-guide',
+    {
+      type: 'category',
+      label: 'C# および .NET 関連の技術',
+      items: [
+        'technical-policies/csharp/technical-policies-csharp-names-of-namespaces',
+      ],
+    }
   ],
   technicalNotebookSidebar: [
     'technical-notebook/technical-notebook-index',
