@@ -4,7 +4,7 @@ slug: /technical-policies/csharp/names-of-namespaces/
 category: テクニカルポリシー
 title: ateliers.dev - テクニカルポリシー - 【C#】 名前空間の命名方針
 sidebar_label: 【C#】 名前空間の命名方針
-tags: [csharp, naming-policy, namespace]
+tags: [C#, naming-policy, namespace]
 description: ateliers.dev のコンテンツ「テクニカルポリシー」です。C# における名前空間の命名方針について記載しています。
 image: img/jpg/ateliers-dev-technical-policies.jpg
 ---
