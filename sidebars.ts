@@ -38,6 +38,7 @@ const sidebars: SidebarsConfig = {
     'github-guidelines/github-guidelines-index',
     'github-guidelines/github-guidelines-writing-guide',
     'github-guidelines/github-guidelines-repository-naming-policy',
+    'github-guidelines/github-guidelines-branch-strategy',
   ],
   technicalPoliciesSidebar: [
     'technical-policies/technical-policies-index',
