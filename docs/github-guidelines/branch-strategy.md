@@ -5,14 +5,14 @@ slug: /github-guidelines/branch-strategy
 category: GitHub ガイドライン
 title: ateliers.dev - GitHub ガイドライン - ブランチ戦略
 sidebar_label: ブランチ戦略
-tags: [GitHub, Repository, Branch-Strategy]
+tags: [GitHub, Repository, Branch]
 description: ateliers.dev のコンテンツ「GitHub ガイドライン」です。リポジトリのブランチ戦略と運用について記載しています。
 image: img/jpg/ateliers-dev-github-guidelines.jpg
 ---
 
 # GitHub - ブランチ戦略
 
-*[Created: 2024/04/30, Update: none(same as creation date) ]*
+*[Created: 2024/04/30, Update: 2024/05/01]*
 
 ---
 
@@ -131,7 +131,7 @@ GitHub Flow の単純さと Git Flow のリリース管理の利点を組み合�
   **繰り返しますが master からの派生ではなく、release ブランチから派生**します。  
   master はリリース前の機能が含まれるため、hotfix への派生はできません。
 
-  hotfix ブランチの適用後、release ブランチから master へのマージを行い、修正を適用します。各 feature ブランチは、該当の修正が必要であれば、master ブランチからマージを行います。
+  hotfix ブランチの適用後、release ブランチから master へのマージを行い、修正を適用します。 各 feature ブランチは、該当の修正が必要であれば、master ブランチからマージを行います。
 
 この戦略により、開発の柔軟性が保たれつつ、リリースの品質と整理が向上し、最終的な製品の安定性とセキュリティが確保されます。
 
@@ -185,9 +185,9 @@ GitHub Flow の単純さと Git Flow のリリース管理の利点を組み合�
 
 ### 4.3. 改善の余地
 
-* master においては、自動で release 用のステージングに自動デプロイすることは、一長一短です。
+* master においては、自動で release 用のステージングに自動デプロイすることは、一長一短です。  
   便利である一方で、リリース検証中の動作確認とテストが全てやり直しとなる可能性があります。
-* 同様の理由で、マージ後のテスト成功を自動デプロイのトリガーとするのではなく、release へのプルリクエストをトリガーとすることも検討できます。  
+* 同様の理由で、マージ後のテスト成功をステージングの自動デプロイトリガーとするのではなく、release へのプルリクエストをトリガーとすることも検討できます。  
   ただしこの場合は、master のマージ後テストが必ず成功する状態にあるかが不明確であるため、注意が必要です。
 
 飽くまでも個人プロジェクトや小規模チーム向けのブランチ戦略であり、コストが最優先の簡略化されたフローです。  
@@ -219,12 +219,12 @@ CI/CD のトリガーや、プルリクエストの可否などに使用する�
 各々で管理しやすいように、ブランチ名は各自の裁量で良いかなと考えています。ブランチ名が致命的になる事は無いので。  
 大事なのは『master から派生し master に戻る』ということだけです。
 
-参考として、私が命名の方針としていることは、以下の通りです。
+参考として、私がブランチの命名方針としていることは、以下の通りです。
 
-* 全て小文字で命名する (`feature/db-migration-update` など)
-* 可能であればタスクと紐付けする (`feature/issue-001` など)
-* タスクと紐付かない場合、機能や修正内容を簡潔に表現する (`hotfix/culculate-bug-fix` など)
-* サブタスクはスラッシュ(`/`)やハイフン(`-`)で区切る (`feature/issue-001/subtask-001` など)
+* 全て小文字で命名する。 (`feature/db-migration-update` など)
+* 可能であればタスクと紐付けする。 (`feature/issue-001` など)
+* タスクと紐付かない場合、機能や修正内容を簡潔に表現する。 (`hotfix/culculate-bug-fix` など)
+* サブタスクはスラッシュ(`/`)やハイフン(`-`)で区切る。 (`feature/issue-001/subtask-001` など)
 
 ---
 
