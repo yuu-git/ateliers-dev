@@ -4,17 +4,19 @@ slug: /profiles/personal-development-environment/
 category: プロフィール
 title: ateliers.dev - プロフィール - 個人の開発環境
 sidebar_label: 個人の開発環境
-description: ateliers.dev のコンテンツ「プロフィール」の個人の開発環境についてのページです。
+description: ateliers.dev のコンテンツ「プロフィール」です。個人の開発環境についてのページです。
 ---
 
 # 個人の開発環境
 
-*[Created: 2024/04/27, Update: none(same as creation date) ]*
+*[Created: 2024/04/27, Update: 2024/05/01]*
 
 ---
 
 個人の開発環境について記載します。  
 普段どんな環境で開発しているのか、どんなツールを使っているのかなどを紹介します。
+
+---
 
 ## 1. ハードウェア情報
 
@@ -28,6 +30,11 @@ description: ateliers.dev のコンテンツ「プロフィール」の個人の
 
 2023年10月頃に、愛用していた Surface Pro がバッテリーの劣化により使い物にならなくなり、5万円程度で買った中古PCです。  
 ***だいぶ、つらい。特にメモリが。***
+
+とても「趣味がPC自作」とか言ってる人のスペックじゃないです。  
+結婚前のようにお金を自由に使いたい…
+
+---
 
 ## 2. ソフトウェア情報
 
@@ -75,7 +82,6 @@ description: ateliers.dev のコンテンツ「プロフィール」の個人の
 | [Lua](https://marketplace.visualstudio.com/items?itemName=sumneko.lua) | Lua のサポート(Mod作成とか) |
 | [SQLite](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite) | SQLite のサポート |
 
-
 ### 2.2. クラウドサービス
 
 | 項目 | 用途 | 維持費 |
@@ -95,8 +101,12 @@ description: ateliers.dev のコンテンツ「プロフィール」の個人の
 
 WordPress を使っていた時代は、サーバー代もかかっていたので GitHub Pages に移行して不要になったのも大きいです。
 
+---
+
 ## 3. 今後の予定
 
 OpneAI には、より多くの投資をするかもしれません。  
 Gemini や Claude など、より高性能なAIはありますが、Visual Studio の親和性から GitHub を使い、GitHub Copilot を使う流れとなり、必然と GPT とは関係が強く、個人的に使いやすいです。  
 個人環境で Azule OpneAI Service を使うのは敷居が高すぎるので GPT API を使うつもりでいます。
+
+---
