@@ -9,7 +9,8 @@ description: ateliers.dev のコンテンツ「FAQ」のトップページです
 ---
 
 # FAQ
-*[Created: 2024/04/24, Update: 2024/04/25 ]*
+
+*[Created: 2024/04/24, Update: 2024/05/02 ]*
 
 ---
 
@@ -53,6 +54,8 @@ description: ateliers.dev のコンテンツ「FAQ」のトップページです
 
 このサイトは、[Docusaurus](https://docusaurus.io/) という静的サイトジェネレーターを使用して作成されています。  
 主な言語としては [TypeScript](https://www.typescriptlang.org/) と [Markdown](https://www.markdownguide.org/) を使用しています。
+
+当サイトの作成情報については、[クレジットページ](./site-guidance/credits) にも記載しておりますので、こちらもご参照ください。
 
 ---
 
