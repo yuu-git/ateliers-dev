@@ -33,6 +33,7 @@ const sidebars: SidebarsConfig = {
   siteGuidanceSidebar: [
     'site-guidance/site-guidance-index',
     'site-guidance/site-guidance-planned-content-and-update-history',
+    'site-guidance/site-guidance-credits',
   ],
   githubGuidelinesSidebar: [
     'github-guidelines/github-guidelines-index',

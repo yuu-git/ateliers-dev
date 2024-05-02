@@ -121,15 +121,15 @@ const config: Config = {
           items: [
             {
               label: 'GitHub ガイドライン',
-              to: '/docs/github-guidelines/',
+              to: '/docs/github-guidelines',
             },
             {
               label: 'テクニカル ポリシー',
-              to: '/docs/technical-policies/',
+              to: '/docs/technical-policies',
             },
             {
               label: 'テクニカル ノート',
-              to: '/docs/technical-notebook/',
+              to: '/docs/technical-notebook',
             },
           ],
         },
@@ -138,15 +138,19 @@ const config: Config = {
           items: [
             {
               label: 'サイト案内',
-              to: '/docs/site-guidance/',
+              to: '/docs/site-guidance',
             },
             {
               label: 'プロフィール',
-              to: '/docs/profiles/',
+              to: '/docs/profiles',
             },
             {
               label: 'FAQ',
-              to: '/docs/faq/',
+              to: '/docs/faq',
+            },
+            {
+              label: 'クレジット',
+              to: '/docs/site-guidance/credits',
             },
           ],
         },
@@ -154,21 +158,17 @@ const config: Config = {
           title: 'Social-Community',
           items: [
             {
-              label: 'はてなブックマーク',
-              href: 'https://b.hatena.ne.jp/yuu-0503/',
+              label: 'X (Twitter)',
+              href: 'https://twitter.com/yuu_developer',
             },
             {
-              label: 'Qiita',
-              href: 'https://qiita.com/yuu-dev',
+              label: 'はてなブックマーク',
+              href: 'https://b.hatena.ne.jp/yuu-dev/',
             },
             /* {
               label: 'Discord',
               href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },*/
+            }, */
           ],
         },
         {
@@ -183,10 +183,14 @@ const config: Config = {
               label: 'GitHub',
               href: 'https://github.com/yuu-git',
             },
+            {
+              label: 'Qiita',
+              href: 'https://qiita.com/yuu-dev',
+            },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} ateliers.dev - Yuu.Konno - GitHub: yuu-git`,
+      copyright: `Copyright © ${new Date().getFullYear()} ateliers.dev - Yuu Konno - GitHub: yuu-git`,
     },
     prism: {
       theme: prismThemes.github,
