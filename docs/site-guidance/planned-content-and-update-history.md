@@ -9,11 +9,11 @@ description: ateliers.dev のコンテンツ「サイト案内」です。今後
 
 # 作成予定コンテンツと更新履歴
 
-*[Created: 2024/04/28, Update: none(same as creation date) ]*
+*[Created: 2024/04/28, Update: 2024/05/03]*
 
 ---
 
-![img](../../static/img/jpg/ateliers-dev-site-guidance-2.jpg)
+![img](../../static/img/jpg/ateliers-dev-site-guidance-plan.jpg)
 
 ---
 
@@ -26,17 +26,14 @@ description: ateliers.dev のコンテンツ「サイト案内」です。今後
 
 ### 1.1. GitHub ガイドラインのコンテンツ
 
-* GitHub ガイドラインの作成方針
 * GitHub Actions のワークフロー
 * リポジトリの運用方針
 * プルリクエストの運用方針
-* ブランチ戦略
 
 ...etc
 
 ### 1.2. テクニカルポリシーのコンテンツ
 
-* テクニカルポリシーの作成方針
 * ソフトウェア設計時の技術方針
 * C# および .NET 関連の技術利用方針
 * AI の活用方針
@@ -45,7 +42,6 @@ description: ateliers.dev のコンテンツ「サイト案内」です。今後
 * テスト方針
 * ドキュメント作成方針
 * バージョン管理方針
-* 個人情報保護方針
 
 ...etc
 
@@ -71,10 +67,15 @@ description: ateliers.dev のコンテンツ「サイト案内」です。今後
 
 ...etc
 
+---
+
 ## 2. 更新履歴
 
 細かい記事までは管理しきれないので、大きな更新のみ記載します。
 
 | 更新日 | 更新内容 |
 | --- | --- |
+| 2024/05/01 | Mermaid を導入し、マークダウンで図やフローチャートを作成可能にする |
 | 2024/04/21 | WEBサイト構築、公開 |
+
+---
