@@ -12,17 +12,15 @@ image: img/jpg/ateliers-dev-github-guidelines.jpg
 
 # GitHub - ブランチ戦略
 
-*[Created: 2024/04/30, Update: 2024/05/01]*
+*[Created: 2024/04/30, Update: 2024/05/03]*
 
 ---
 
 この記事では GitHub リポジトリで、私がどのようにブランチを運用するかについて記載します。
 
-:::warning
-
-この記事は、私個人のGitHubの利用方針であり、ベストプラクティスの主張や提示ではありません。  
-個人的なアプローチの紹介であり、全てのプロジェクトや環境に最適なわけではありませんが、参考にしていただければ幸いです。
-
+:::warning[内容は、技術方針の"紹介"です]
+この記事は、私個人の技術利用方針であり、推奨事項やベストプラクティスの主張や提示ではございません。  
+個人的なアプローチ例の紹介であり、すべてのプロジェクトや環境に最適とは限りませんが、参考にしていただけると幸いです。
 :::
 
 ---
@@ -37,23 +35,29 @@ image: img/jpg/ateliers-dev-github-guidelines.jpg
 * 特徴: シンプルで、マスターブランチが常にデプロイ可能な状態を保つことに焦点を当てています。
 * 適用: 小規模から中規模のプロジェクト、頻繁なリリースを行うプロジェクトに適しています。
 
-GitHubの公式ドキュメントにあるGitHub Flowのガイドはこちらです: :outbox_tray:[Understanding the GitHub flow](https://docs.github.com/ja/get-started/using-github/github-flow)  
-このリンクはGitHub Flowの基本的な概念とステップを解説しており、非常にアクセスしやすい形式で提供されています。
+GitHub の公式ドキュメントで、GitHub Flow の基本的な概念とステップを解説しています。
+
+:::tip[より記事の理解を深めたい方へ]  
+GitHub 公式のドキュメントによる詳細な解説は、以下のリンクからご覧いただけます。  
+GitHub Flow ガイド:  :outbox_tray:[Understanding the GitHub flow](https://docs.github.com/ja/get-started/using-github/github-flow)  
+:::
 
 ### 1.2. 補足事項: Git Flow とは？
 
-* 特徴: 開発、リリース、メインテナンス、ホットフィックスのための明確に分かれたブランチを持っています。
+* 特徴: 開発、リリース、メンテナンス、ホットフィックスのための明確に分かれたブランチを持っています。
 * 適用: 複数の環境（開発、ステージング、本番）を持つ大規模なプロジェクトに適しています。
 
-Git Flow の考案者である Vincent Driessen 氏のオリジナルブログポストはこちらです: :outbox_tray:[A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model/)  
-この記事で、Git Flow がどのように開発され、どのような問題を解決するために設計されたかが詳しく説明されています。
+考案者のブログポストで、Git Flow がどのように開発され、どのような問題を解決するために設計されたかが詳しく説明されています。
 
-:::warning
+:::tip[より記事の理解を深めたい方へ]  
+ブログポストでは、図解入りで Git Flow を非常に詳しく解説されています。記事は以下のリンクからご覧いただけます。  
+オリジナルブログポスト:  :outbox_tray:[A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model/)  
+:::
 
+:::warning[考案者の呼びかけについて]
 Git Flow の考案者である Vincent Driessen 氏は、このブログポストで Git Flow の使用について再評価を呼びかけています。具体的には、Git Flow が提案された当時の状況と、現代のソフトウェア開発の状況が異なるため、すべてのプロジェクトに Git Flow を適用するのは適切ではない場合があると指摘しています。
 
 どのブランチ戦略を選択するかは、プロジェクトの特性やチームのニーズに応じて決定するべきであり、一つのモデルが全てのケースに適用可能な万能薬ではないという考えが示されています。
-
 :::
 
 ---
@@ -77,18 +81,20 @@ GitHub Flow の単純さと Git Flow のリリース管理の利点を組み合�
 **ライブラリのブランチ戦略 概要図:**  
 ![img](./img-branch-strategy/ateliers-dev-branch-strategy-library-project.jpg)
 
-### 3.1. やること簡単まとめ
+:::info[このブランチ戦略のキーポイント]
+ブランチやワークフロー図が複雑に見えますが、人の手で行う作業は以下の手順のみで、非常に簡単です。
 
-ブランチやワークフロー図が複雑に見えますが、人の手でやることは基本的に以下の6つのみで、簡単です。
-
-* 開発は master から feature を作り master に戻します。
+* 開発は master から feature を作り、master に戻します。
   * リリースしたい時は master を release に手動でプルリクエストします。
-* 緊急パッチは release から hotfix を作り release に戻します。
-  * hotfix のプルリクエストマージ後 master に対して自動でプルリクエストが作られるので、レビューとコンフリクトを対応し、マージします。
-  * 必要であれば feature ブランチに master の修正を取り込みます。
-* master および release へマージ後、自動でマージ後のテストが実行されます。失敗した場合はイシューやブランチが作成されるので、問題を修正します。
+* 緊急パッチは release から hotfix を作り、release に戻します。
+  * hotfix のプルリクエストマージ後、master に対して自動でプルリクエストが作られるので、レビューとコンフリクトに対応し、マージします。
+  * 必要であれば、feature ブランチに master の修正を取り込みます。
+* master および release へのマージ後、自動でマージ後のテストが実行されます。
+  * 失敗した場合は、イシューやブランチが作成されるので、問題を修正します。
 
-### 3.2. ブランチ戦略をカスタムした理由
+:::
+
+### 3.1. ブランチ戦略をカスタムした理由
 
 コンセプトは『可能な限りシンプルに、しかし最低限の品質チェックポイントは設ける』です。
 
@@ -98,55 +104,192 @@ GitHub Flow の単純さと Git Flow のリリース管理の利点を組み合�
 
 可能な限り複雑さを排除し、シンプル化を図るも、品質担保と自動化を取り入れるため、このようなカスタムブランチ戦略を採用しました。
 
-### 3.3. ブランチの詳細説明
+### 3.2. ブランチの詳細説明
 
-* master ブランチ:  
-  中核となり、最新の安定版を保持します。  
-  基本的には常にリリースが可能な状態を目指しますが、マージの結果によっては自動テストに失敗する可能性もあります。  
-  このテストが失敗する状態は、優先的かつ速やかに修正を行います。
+このセクションでは、使用しているブランチ戦略の具体的なプレフィックスについて詳しく説明します。
 
-  直接的な機能のコミットは許可されず、すべての新機能や修正は派生ブランチで行い、プルリクエストを介してマージします。  
-  プルリクエストは、自動テストとセキュリティチェックを通過する必要があります。
+---
 
-  ただし例外として、README や LICENSE などのドキュメントの変更は、プルリクエストを介さずに直接 master ブランチのコミットを許可します。
+#### 3.2.1 master プレフィックスのブランチについて
 
-* release ブランチ:  
-  特定のリリース準備が整った時、master ブランチからこのブランチにマージされます。  
-  masetr および hotfix ブランチからのみマージを許可します。  
-  release ブランチへのマージをトリガーとして、自動ビルドが行われ、GitHub Packagesへのデプロイを実行します。
+プロジェクトの中核となるブランチで、最新の安定版を保持します。  
+基本的には常にリリースが可能な状態を目指しますが、マージの結果によってはビルドや自動テストに失敗する可能性があります。  
+この正常ではない状態は、自動的にイシューとブランチが作成されるため、優先的かつ速やかに修正を行います。
 
-  いかなるケースであっても、例外は許可されません。
+```mermaid
+  %%{init: { 'theme': 'default', 
+    'gitGraph': {
+      'showBranches': true, 'showCommitLabel':false,'mainBranchName': 'release' },
+    'themeVariables': {
+      'git0': '#C33',
+      'git1': '#33C',
+      'git2': '#3C3',
+      'gitBranchLabel0': '#fff',
+      'gitBranchLabel1': '#fff',
+      'gitBranchLabel2': '#fff' }
+    }}%%
+      gitGraph
+        branch master
+        checkout master
+        commit
+        branch feature
+        commit
+        checkout master
+        merge feature
+        checkout release
+        commit tag:"v1.0.0"
+        merge master tag:"v1.1.0"
+```
 
-* feature (develop) ブランチ:  
-  新機能や大きな変更は短命のフィーチャーブランチで開発され、レビューとテストを経て master にマージされます。
-  master ブランチから派生し、プルリクエストを介して master ブランチにマージします。  
-  
-  例外として、個人の開発であるため develop は長寿命のブランチとして使用します。  
-  (１人での開発で複数の feature ブランチは、管理工数だけが無駄に増えるためです)
+:::info[ブランチの制限事項]
+直接的な機能のコミットは許可されず、すべての新機能や修正は派生ブランチで行い、プルリクエストを介してマージします。  
+プルリクエストは、自動テストとセキュリティチェックを通過する必要があります。
+:::
 
-* hotfix ブランチ:  
-  急を要するバグ修正やセキュリティの問題は、release ブランチから派生した短命の hotfix ブランチで修正されます。  
-  プルリクエストは release ブランチに対して行います。
+:::info[ブランチの制限の例外について]
+例外として、ソースコードの変更を伴わない修正は、直接コミットが許可されます。  
+README や LICENSE などのドキュメントの変更は、プルリクエストを介さずに直接 master ブランチの修正コミットが可能です。
+:::
 
-  **繰り返しますが master からの派生ではなく、release ブランチから派生**します。  
-  master はリリース前の機能が含まれるため、hotfix への派生はできません。
+---
 
-  hotfix ブランチの適用後、release ブランチから master へのマージを行い、修正を適用します。 各 feature ブランチは、該当の修正が必要であれば、master ブランチからマージを行います。
+#### 3.2.2. feature プレフィックスのブランチについて  
 
-この戦略により、開発の柔軟性が保たれつつ、リリースの品質と整理が向上し、最終的な製品の安定性とセキュリティが確保されます。
+新機能や大きな変更は短命のフィーチャーブランチで開発され、レビューとテストを経て master にマージされます。  
+master ブランチから派生し、プルリクエストを介して master ブランチにマージします。  
 
-### 3.4. 複数任での作業時の注意点
+```mermaid
+  %%{init: { 'theme': 'default', 
+    'gitGraph': {
+      'showBranches': true, 'showCommitLabel':false,'mainBranchName': 'master' },
+    'themeVariables': {
+      'git0': '#33C',
+      'git1': '#3C3',
+      'git2': '#3C3',
+      'gitBranchLabel0': '#fff',
+      'gitBranchLabel1': '#fff',
+      'gitBranchLabel2': '#fff' }
+    }}%%
+      gitGraph
+        commit
+        branch feature/issue-001
+        branch feature/issue-002
+        checkout feature/issue-001
+        commit
+        checkout feature/issue-002
+        commit
+        checkout master
+        merge feature/issue-001
+        checkout feature/issue-002
+        merge master
+        commit
+        checkout master
+        merge feature/issue-002
+```
 
-もしこの戦略を参考にし、複数人での開発を行う場合、以下の運用方法を推奨します。
+:::tip[なぜプルリクエスト前にmasterとの差分を確認するのか？]
+複数人で作業する場合、マージ前は正常にテストが終了しても、別ブランチで共通機能などを変更した場合、マージ後にビルドエラーが発生したり、自動テストに失敗する可能性があります。  
+master を常にクリーンに保つため、マージ前に差分を確認し、必要であれば master の修正を適用することを推奨します。
+:::
+:::note[(私のプロジェクトにおける) ブランチの制限の例外について]  
+例外として、私のプロジェクトは個人開発であるため、一部 feature ブランチは長寿命のブランチとして使用します。  
+(１人での開発で複数の feature ブランチは、管理工数だけが無駄に増えるためです)
+:::
 
-* feature から master のプルリクエスト前に、master との差分が無いか、確認してください。  
-  差分がある場合、マージによってビルドエラーが発生したり、自動テストに失敗する可能性があります。
+---
 
-### 3.5 改善の余地
+#### 3.2.3 release プレフィックスのブランチについて
+
+特定のリリース準備が整った時、master ブランチからこのブランチにマージされます。  
+masetr および hotfix ブランチからのみマージを許可します。  
+release ブランチへのマージをトリガーとして、自動ビルドが行われ、GitHub Packagesへのデプロイを実行します。
+
+```mermaid
+  %%{init: { 'theme': 'default', 
+    'gitGraph': {
+      'showBranches': true, 'showCommitLabel':false,'mainBranchName': 'release' },
+    'themeVariables': {
+      'git0': '#C33',
+      'git1': '#33C',
+      'gitBranchLabel0': '#fff',
+      'gitBranchLabel1': '#fff' }
+    }}%%
+      gitGraph
+        branch master
+        checkout master
+        commit
+        checkout release
+        commit tag:"v1.0.0"
+        merge master tag:"v1.1.0"
+        checkout master
+        commit
+        checkout release
+        merge master tag:"v1.2.0"
+        checkout master
+        commit
+        checkout release
+        merge master tag:"v1.3.0"
+```
+
+:::danger[ブランチの制限事項]
+いかなるケースであっても、コミットの例外は許可されません。
+:::
+
+---
+
+#### 3.2.4. hotfix プレフィックスのブランチについて
+
+急を要するバグ修正やセキュリティの問題は、release ブランチから派生した短命の hotfix ブランチで修正されます。  
+プルリクエストは release ブランチに対して行います。
+
+```mermaid
+  %%{init: { 'theme': 'default', 
+    'gitGraph': {
+      'showBranches': true, 'showCommitLabel':false,'mainBranchName': 'release' },
+    'themeVariables': {
+      'git0': '#C33',
+      'git1': '#C93',
+      'git2': '#33C',
+      'git3': '#3C3',
+      'gitBranchLabel0': '#fff',
+      'gitBranchLabel1': '#fff',
+      'gitBranchLabel2': '#fff',
+      'gitBranchLabel3': '#fff' }
+    }}%%
+      gitGraph
+      branch master order:3
+      commit tag:"v1.0.0"
+      branch feature order:4
+      commit
+      checkout release
+      commit tag:"v1.0.0"
+      branch hotfix order:2
+      commit
+      checkout release
+      merge hotfix tag:"v1.0.1"
+      checkout master
+      merge release tag:"v1.0.1"
+      checkout feature
+      merge master
+```
+
+:::info[hotfixブランチのマージ後]
+hotfix ブランチの適用後、release ブランチから master へのマージを行い、修正を適用します。  
+各 feature ブランチは、該当の修正が必要であれば、master ブランチからマージを行います。
+:::
+
+:::warning[派生の注意点]
+**繰り返しますが master からの派生ではなく、release ブランチから派生**します。  
+master はリリース前の機能が含まれるため、hotfix への派生はできません。
+:::
+
+---
+
+### 3.3 改善の余地
 
 いくつか改善の余地があります。
 
-* マージ後の自動テストに失敗時、ブランチを作成します。このフローでは master マージ後の失敗は featue ブランチを作成しますが、厳密には feature とは呼べません。  
+* マージ後の自動テストに失敗時、ブランチを自動で作成します。このフローでは master マージ後の失敗は feature プレフィックスのブランチを作成しますが、厳密には feature とは呼べません。  
   私はこれ以上ブランチの種別を増やしたくないため feature で対応していますが fix-test-failures- などのプレフィックスに変更することで、より明確にすることができます。
 * 同様に release マージ後のテスト失敗時に release ブランチを作成しますが、これも厳密には release ではありません。  
   理由も同様で、ブランチ種別を増やしたくないので release で対応することとしていますが、プレフィックスを変更することで、明確にすることができます。
@@ -204,8 +347,6 @@ GitHub Flow の単純さと Git Flow のリリース管理の利点を組み合�
 
 ハイフンで区切ったり、アンダースコアで区切ったりと、様々なプロジェクトでそれぞれの方針を取られていますが、私はスラッシュ(`/`)で区切ることを選択します。  
 
-CI/CD のトリガーや、プルリクエストの可否などに使用するため、プレフィックスだけはしっかりと運用します。
-
 例:
 
 * `feature/issue-001`
@@ -213,6 +354,10 @@ CI/CD のトリガーや、プルリクエストの可否などに使用する�
 * `hotfix/issue-003`
 * `hotfix/bug-fix`
 * `hotfix/security-fix`
+
+:::tip[プレフィックスだけは慎重に運用します]
+これは CI/CD のトリガーや、プルリクエストの可否などに、自動処理で不具合を起こさないためです。
+:::
 
 ### 5.2. その他の方針
 
@@ -255,5 +400,14 @@ hotfix での修正時には、パッチをインクリメントします。
 
 * リリース時にタグを設定することで、バグのトラブルシューティングや以前のバージョンの回帰テストに利用します。
 * 変更履歴の追跡として使用し、どの変更がどのリリースに含まれているかを確認するために利用します。
+
+---
+
+## フィードバックの提供方法や連絡先
+
+:::tip[お知らせ]
+この記事に関するフィードバックやご質問、ご意見がございましたら [プロフィールページの連絡先](../profiles/self-introduction#2-連絡先) からお気軽にご連絡ください。  
+貴重なディスカッションをお待ちしております。
+:::
 
 ---
