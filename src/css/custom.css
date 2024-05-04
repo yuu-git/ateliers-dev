@@ -14,7 +14,7 @@
   --ifm-color-primary-lighter: #359962;
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --docusaurus-highlighted-code-line-bg: rgba(150, 255, 150, 0.2);
 }
 /* 視認性の問題から、ダークモードではより明るいパレットを選ぶべきです。 */
 [data-theme='dark'] {
@@ -25,7 +25,7 @@
   --ifm-color-primary-light: #4cdddd;
   --ifm-color-primary-lighter: #7ff6f6;
   --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(200, 200, 200, 0.3);
+  --docusaurus-highlighted-code-line-bg: rgba(150, 150, 255, 0.2);
 }
 
 /* .navbar--fixed-top: 全ページのトップナビゲーションバー */
