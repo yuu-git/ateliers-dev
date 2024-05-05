@@ -57,6 +57,23 @@ const sidebars: SidebarsConfig = {
     'technical-notebook/technical-notebook-writing-guide',
     {
       type: 'category',
+      label: 'C# および .NET 関連の技術',
+      items: [
+        {
+          type: 'category',
+          label: 'HTTP プロトコル',
+          items: [
+            'technical-notebook/dotnet/http-protocol/technical-notebook-dotnet-http-protocol-basic-explanation',
+            'technical-notebook/dotnet/http-protocol/technical-notebook-dotnet-http-protocol-get-method',
+            'technical-notebook/dotnet/http-protocol/technical-notebook-dotnet-http-protocol-post-method',
+            'technical-notebook/dotnet/http-protocol/technical-notebook-dotnet-http-protocol-put-method',
+            'technical-notebook/dotnet/http-protocol/technical-notebook-dotnet-http-protocol-delete-method',
+          ],
+        },
+      ]
+    },
+    {
+      type: 'category',
       label: 'OpenAI',
       items: [
         {
