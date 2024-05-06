@@ -59,8 +59,8 @@ TOC (Table of Contents) のようなページとしてご利用ください。
 | 　┗ [HTTP DELETE メソッドの解説](/docs/technical-notebook/dotnet/http-protocol/delete-method) | HTTP DELETE メソッドの解説です。 |
 | OpenAI ||
 | ┗ DALL-E ||
-| 　┣ [一貫した画像再現の方法](/docs/technical-notebook/openai/dalle/consistent-image-reproduction) | DALL-E による一貫した画像再現の方法について解説します。 |
-| 　┗ [当サイトのイメージ生成メモ](/docs/technical-notebook/openai/dalle/image-generation-memo) | DALL-E による当サイトのイメージ生成メモです。 |
+| 　┣ [一貫した画像再現の方法](/docs/technical-notebook/openai-gpt/dall-e/consistent-image-reproduction-method) | DALL-E による一貫した画像再現の方法について解説します。 |
+| 　┗ [当サイトのイメージ生成メモ](/docs/technical-notebook/openai-gpt/dall-e/my-site-image-generation-memo) | DALL-E による当サイトのイメージ生成メモです。 |
 | AI問答メモ | ChatGPT や GitHub Copilot Chat の備忘録です。(放っておくと消えてしまうので...) |
 | ┗ C#関連 ||
 | 　┣ [【C#】メールアドレスについて](/docs/technical-notebook/ai-chat-memos/csharp/20240410-about-email-address) | C# におけるメールアドレスについてのメモです。 |
