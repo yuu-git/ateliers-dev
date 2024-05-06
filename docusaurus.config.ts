@@ -102,14 +102,41 @@ const config: Config = {
         },
         /*{to: '/blog', label: 'Blog', position: 'left'},*/
         {
-          to: '/docs/tags', 
-          label: 'タグ検索', 
-          position: 'right'
+          label: 'コンテンツ案内',
+          type: 'dropdown',
+          position: 'right',
+          items:[
+            {
+              to: '/docs/site-content-list',
+              label: 'コンテンツ一覧',
+            },
+            {
+              to: '/docs/tags', 
+              label: 'タグ一覧', 
+            },
+
+          ]
         },
         {
-          href: 'https://github.com/yuu-git',
           label: 'GitHub',
+          type: 'dropdown',
           position: 'right',
+          items:[
+            {
+              href: 'https://github.com/yuu-git/ateliers-dev',
+              label: 'WebSite Repository',
+            },
+            {
+              href: 'https://github.com/yuu-git',
+              label: '管理者トップ(yuu-git)',
+            },
+          ]
+        },
+        {
+          href: 'https://github.com/facebook/react-native',
+          'aria-label': 'GitHub repository',
+          position: 'right',
+          className: 'navbar-github-link',
         },
       ],
     },
