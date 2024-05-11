@@ -42,7 +42,7 @@ const config: Config = {
           editUrl:
             'https://github.com/yuu-git/ateliers-dev/edit/master/',
             showLastUpdateAuthor: false,
-            showLastUpdateTime: true,
+            showLastUpdateTime: false,
         },
         blog: {
           showReadingTime: true,
