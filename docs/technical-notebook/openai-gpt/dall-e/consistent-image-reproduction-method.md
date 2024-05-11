@@ -5,12 +5,13 @@ slug: /technical-notebook/openai-gpt/dall-e/consistent-image-reproduction-method
 category: テクニカルノート
 title: ateliers.dev - テクニカルノート - 一貫した画像再現の方法
 sidebar_label: 一貫した画像再現の方法
-tags: [technical-notebook, openai-gpt, dall-e]
+tags: [AI, OpenAI-GPT, DALL-E]
 description: ateliers.dev の「テクニカルノート」内コンテンツです。DALL-E による一貫した画像再現の方法について記載しています。
 image: img/jpg/ateliers-dev-technical-notebook.jpg
 ---
 
 # 一貫した画像再現の方法
+
 *[Created: 2024/04/27, Update: none(same as creation date) ]*
 
 ---
@@ -69,4 +70,3 @@ WEBサイトのイメージとして生成AIの画像を利用する場合は、
 
 プロンプトやサイト情報をまとめたりする作業は少々手間がかかりますが、生成AIにイメージを生成させて、なおかつWEBサイト全体の統一感を保つためには、非常に便利な方法です。  
 必要であれば適宜、記録しておくことをお勧めします。
-

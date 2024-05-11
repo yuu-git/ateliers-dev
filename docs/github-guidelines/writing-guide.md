@@ -5,7 +5,6 @@ slug: /github-guidelines/writing-guide
 category: GitHub ガイドライン
 title: ateliers.dev - GitHub ガイドライン - GitHub ガイドラインの作成方針
 sidebar_label: GitHub ガイドラインの作成方針
-tags: [github, writing-guide, guidline]
 description: ateliers.dev のコンテンツ「GitHub ガイドライン」の作成方針をまとめています。
 image: img/jpg/ateliers-dev-github-guidelines.jpg
 ---

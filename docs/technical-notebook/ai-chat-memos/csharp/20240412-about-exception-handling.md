@@ -4,7 +4,7 @@ slug: /technical-notebook/ai-chat-memos/csharp/20240412-about-exception-handling
 category: テクニカルノート
 title: ateliers.dev - テクニカルノート - 【C#】 文字列パラメータの例外処理
 sidebar_label: 【C#】 文字列パラメータの例外処理
-tags: [technical-memo, C#, GitHub Copilot]
+tags: [AI, GitHub-Copilot, C#]
 description: ateliers.dev のコンテンツ「テクニカルノート」です。C# での文字列パラメータの例外処理について、GitHub Copilot とのやりとりを記録しています。
 image: img/jpg/ateliers-dev-technical-notebook.jpg
 ---

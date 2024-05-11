@@ -4,7 +4,7 @@ slug: /technical-notebook/dotnet/http-protocol/put-method
 category: テクニカルノート
 title: ateliers.dev - テクニカルノート - HTTP PUT 解説
 sidebar_label: HTTP PUT 解説
-tags: [c-sharp, .net, web-api, http-protocol]
+tags: [C#, .NET, Web-API, Http-Protocol]
 description: ateliers.dev のコンテンツ「テクニカルノート」です。HTTP プロトコルにおけるPUTの概要や使い方についての解説です。
 image: img/jpg/ateliers-dev-technical-notebook.jpg
 ---

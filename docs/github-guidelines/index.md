@@ -5,7 +5,6 @@ slug: /github-guidelines/
 category: GitHub ガイドライン
 title: ateliers.dev - GitHub ガイドライン
 sidebar_label: GitHub ガイドライン
-tags: [github]
 description: ateliers.dev のコンテンツ「GitHub ガイドライン」のトップページです。
 image: img/jpg/ateliers-dev-github-guidelines.jpg
 ---

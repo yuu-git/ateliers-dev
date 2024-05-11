@@ -5,7 +5,7 @@ slug: /technical-notebook/openai-gpt/dall-e/my-site-image-generation-memo
 category: テクニカルノート
 title: ateliers.dev - テクニカルノート - 当サイトのイメージ生成メモ
 sidebar_label: 当サイトのイメージ生成メモ
-tags: [technical-notebook, openai-gpt, dall-e]
+tags: [AI, OpenAI-GPT, DALL-E]
 description: ateliers.dev の「テクニカルノート」内コンテンツです。当サイトで使っている画像の生成メモをまとめています。
 image: img/jpg/ateliers-dev-technical-notebook.jpg
 ---

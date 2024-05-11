@@ -4,7 +4,7 @@ slug: /technical-notebook/dotnet/http-protocol/basic-explanation
 category: テクニカルノート
 title: ateliers.dev - テクニカルノート - HTTP プロトコルの基本解説
 sidebar_label: HTTP プロトコルの基本解説
-tags: [c-sharp, .net, web-api, http-protocol]
+tags: [C#, .NET, Web-API, Http-Protocol]
 description: ateliers.dev のコンテンツ「テクニカルノート」です。HTTP プロトコルの基本的な概要や使い方についての解説です。
 image: img/jpg/ateliers-dev-technical-notebook.jpg
 ---

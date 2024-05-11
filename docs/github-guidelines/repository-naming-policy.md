@@ -5,7 +5,7 @@ slug: /github-guidelines/repository-naming-policy
 category: GitHub ガイドライン
 title: ateliers.dev - GitHub ガイドライン - リポジトリ命名方針
 sidebar_label: リポジトリ命名方針
-tags: [github, repository, naming-policy]
+tags: [GitHub, Repository, Naming-Policy]
 description: ateliers.dev のコンテンツ「GitHub ガイドライン」のリポジトリ命名方針のページです。
 image: img/jpg/ateliers-dev-github-guidelines.jpg
 ---

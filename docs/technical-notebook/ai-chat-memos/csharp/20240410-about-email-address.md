@@ -4,7 +4,7 @@ slug: /technical-notebook/ai-chat-memos/csharp/20240410-about-email-address
 category: テクニカルノート
 title: ateliers.dev - テクニカルノート - 【C#】 メールアドレスについて
 sidebar_label: 【C#】 メールアドレスについて
-tags: [technical-memo, C#, GitHub Copilot]
+tags: [AI, GitHub-Copilot, C#]
 description: ateliers.dev のコンテンツ「テクニカルノート」です。C# でメールアドレスの形式チェックに関するメモ書きです。
 image: img/jpg/ateliers-dev-technical-notebook.jpg
 ---
