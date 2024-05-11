@@ -9,7 +9,7 @@ description: ateliers.dev のコンテンツ「サイト案内」です。今後
 
 # 作成予定コンテンツと更新履歴
 
-*[Created: 2024/04/28, Update: 2024/05/03]*
+*[Created: 2024/04/28, Update: 2024/05/12]*
 
 ---
 
@@ -27,8 +27,9 @@ description: ateliers.dev のコンテンツ「サイト案内」です。今後
 ### 1.1. GitHub ガイドラインのコンテンツ
 
 * GitHub Actions のワークフロー
-* リポジトリの運用方針
 * プルリクエストの運用方針
+* リリースの運用方針
+* コミットメッセージの運用方針
 
 ...etc
 
@@ -50,6 +51,7 @@ description: ateliers.dev のコンテンツ「サイト案内」です。今後
 * テクニカルノートの作成方針
 * ソフトウェアデザインパターンの解説
 * C# および .NET 関連の技術情報
+  * 各 GitHub Actions の使い方　（進行中）
   * Blazor
   * MAUI
   * DIについて
@@ -59,8 +61,6 @@ description: ateliers.dev のコンテンツ「サイト案内」です。今後
 * AI のこと全般
   * OpenAI GPT
   * GitHub Copilot
-* GitHub のこと
-  * 各 GitHub Actions の使い方
 * データベース技術
 * セキュリティ技術
 * テスト技術
@@ -75,6 +75,7 @@ description: ateliers.dev のコンテンツ「サイト案内」です。今後
 
 | 更新日 | 更新内容 |
 | --- | --- |
+| 2024/05/06 | Docusaurus を 3.2.1 から 3.3.2 のアップグレード |
 | 2024/05/01 | Mermaid を導入し、マークダウンで図やフローチャートを作成可能にする |
 | 2024/04/21 | WEBサイト構築、公開 |
 
