@@ -61,6 +61,13 @@ const sidebars: SidebarsConfig = {
       items: [
         {
           type: 'category',
+          label: 'GitHub Actions',
+          items: [
+            'technical-notebook/dotnet/github-actions/technical-notebook-dotnet-github-actions-automatic-test-execution',
+          ],
+        },
+        {
+          type: 'category',
           label: 'HTTP プロトコル',
           items: [
             'technical-notebook/dotnet/http-protocol/technical-notebook-dotnet-http-protocol-basic-explanation',

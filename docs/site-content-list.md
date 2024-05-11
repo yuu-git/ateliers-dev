@@ -9,7 +9,7 @@ description: ateliers.dev のコンテンツ一覧を記載しています。（
 
 # サイトコンテンツ一覧
 
-*[Created: 2024/05/06, Update: none(same as creation date)]*
+*[Created: 2024/05/06, Update: 2024/05/12]*
 
 ---
 
@@ -51,6 +51,8 @@ TOC (Table of Contents) のようなページとしてご利用ください。
 | タイトルとリンク | 概要説明 |
 |------------------|----------|
 | C# および .NET 関連の技術 ||
+| ┣ GitHub Actions ||
+| ┃ ┗ [【.NET】 テストの自動実行](/docs/technical-notebook/dotnet/github-actions/automatic-test-execution) | GitHub Actions で .NET プロジェクトのテストを自動実行する方法について解説します。 |
 | ┗ HTTP プロトコル||
 | 　┣ [HTTP プロトコルの基本解説](/docs/technical-notebook/dotnet/http-protocol/basic-explanation) | HTTP プロトコルの基本的な概要や使い方についての解説です。 |
 | 　┣ [HTTP GET メソッドの解説](/docs/technical-notebook/dotnet/http-protocol/get-method) | HTTP GET メソッドの解説です。 |
