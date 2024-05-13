@@ -1,0 +1,41 @@
+  .buttons-container {
+    display: flex;
+    justify-content: flex-end;
+    height: 40px; /* コンテナの高さを明示的に指定 */
+    flex-wrap: wrap; /* コンテンツが横幅を超えたら折り返す */
+  }
+  
+  .some-network {
+    vertical-align: top;
+    display: inline-block;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 40px; /* ラインハイトを調整 */
+  }
+  
+  .some-network_share-count {
+    display: inline-flex;
+    justify-content: center;
+    white-space: nowrap;
+    overflow: visible;
+    width: 0;
+    margin-top: 3px;
+    font-size: 12px;
+  }
+  
+  .some-network_share-button {
+    border: none; /* ボーダーがあれば除去 */
+    padding: 0; /* パディングがあれば除去 */
+    display: flex;
+    align-items: center; /* アイコンを中央揃え */
+    justify-content: center; /* アイコンを中央揃え */
+  }
+  
+  .some-network_share-button:hover:not(:active) {
+    opacity: 0.75;
+  }
+  
+  .some-network_custom-icon {
+    width: 32px;
+    height: 32px;
+  }

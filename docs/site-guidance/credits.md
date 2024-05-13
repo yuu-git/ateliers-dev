@@ -1,15 +1,21 @@
 ---
 id: site-guidance-credits
-slug: /site-guidance/credits/
+slug: /site-guidance/credits
 category: サイト案内
 title: ateliers.dev - サイト案内 - クレジット
 sidebar_label: クレジット
 description: ateliers.dev のコンテンツ「サイト案内」です。WEBサイトのクレジットについて記載しています。
 ---
 
+import DateAndCopyUrlHeader from '@site/src/components/IntegratedArticleComponents/DateAndCopyUrlHeader';
+import CopyUrlFooter from '@site/src/components/IntegratedArticleComponents/CopyUrlFooter';
+
 # クレジット
 
-*[Created: 2024/05/02, Update: none(same as creation date) ]*
+<DateAndCopyUrlHeader
+    created="2024/05/02"
+    updated="2024/05/13"
+    url="https://ateliers.dev/docs/site-guidance/credits"/>
 
 ---
 
@@ -18,7 +24,8 @@ description: ateliers.dev のコンテンツ「サイト案内」です。WEBサ
 ---
 
 各開発者やクリエイターに、心から感謝を申し上げます。  
-これらの素晴らしいリソースにより、当サイトはより良いものとなりました。
+これらの素晴らしいリソースにより、当サイトはより良いものとなりました。  
+(敬称略)
 
 ---
 
@@ -26,7 +33,7 @@ description: ateliers.dev のコンテンツ「サイト案内」です。WEBサ
 
 ### GitHub
 
-- **目的**: リポジトリの管理とコードの共有。
+- **目的**: リポジトリの管理とコードの共有。このWebサイトの公開。
 - **開発者**: GitHub, Inc.
 - [公式サイト - https://github.com](https://github.com)
 
@@ -47,6 +54,14 @@ description: ateliers.dev のコンテンツ「サイト案内」です。WEBサ
 - **開発者**: Knut Sveidqvist
 - **ライセンス**: MIT License
 - [公式サイト - https://mermaid-js.github.io/mermaid/](https://mermaid-js.github.io/mermaid/)
+
+### react-share
+
+- **目的**: ソーシャルメディアへのシェアボタンの生成。
+- **開発者**: Klaus Nygard
+- **ライセンス**: MIT License
+- [GitHub - https://github.com/nygardk/react-share](https://github.com/nygardk/react-share)
+- [npm - https://www.npmjs.com/package/react-share](https://www.npmjs.com/package/react-share)
 
 ---
 
@@ -70,8 +85,13 @@ description: ateliers.dev のコンテンツ「サイト案内」です。WEBサ
 
 現在のところ特にございません。
 
+---
+
 ## 6. その他
 
 現在のところ特にございません。
 
 ---
+
+<CopyUrlFooter
+    url="https://ateliers.dev/docs/site-guidance/credits"/>

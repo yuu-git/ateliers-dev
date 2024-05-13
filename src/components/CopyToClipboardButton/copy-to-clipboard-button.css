@@ -1,0 +1,16 @@
+.copy-button {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ccc; /* 軽いグレーのボーダー */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer; /* カーソルをポインターに */
+    outline: none; /* フォーカス時のアウトラインを無くす */
+    border-radius: 3px; /* 角を少し丸める */
+    font-style: italic; /* 斜体に */
+    font-size: 0.9rem; /* フォントサイズを1.5remに */
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
