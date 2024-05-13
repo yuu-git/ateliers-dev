@@ -2,7 +2,7 @@
 .dates-container {
     display: flex;
     flex-flow: column nowrap; /* コンテンツを縦に並べる */
-    margin-left: 10px; /* 日付とコンテンツの間にスペースを追加 */
+    margin-left: 2px; /* 日付とコンテンツの間にスペースを追加 */
     height: 40px;
     align-items: flex-start; /* コンテンツを左寄せ */
 }
