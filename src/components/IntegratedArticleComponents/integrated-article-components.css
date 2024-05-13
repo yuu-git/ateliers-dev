@@ -1,0 +1,45 @@
+
+.full-header-container {
+    display: flex;
+    flex-flow: row wrap; /* コンテンツを横に並べる */
+    justify-content: space-between; /* 要素を左右に均等に配置 */
+}
+
+.full-footer-container {
+    display: flex;
+    align-items: flex-end; /* 要素を上端で揃える */
+    flex-wrap: wrap; /* コンテンツが横幅を超えたら折り返す */
+    justify-content: right; /* コンテンツを右端に揃える */
+}
+
+.date-and-copy-header {
+    display: flex;
+    flex-flow: row wrap; /* コンテンツを横に並べる */
+    justify-content: space-between; /* 要素を左右に均等に配置 */
+}
+
+.article-dates {
+    display: flex;
+    margin-left: 10px; /* 日付とコンテンツの間にスペースを追加 */
+    height: 40px;
+}
+
+.article-buttons {
+    display: flex;
+    flex-flow: row wrap; /* ボタンを横に並べる */
+    margin-left: 10px; /* 日付とコンテンツの間にスペースを追加 */
+    height: 40px;
+}
+
+/* メディアクエリを追加して、特定のビューポートサイズでのスタイルを調整 */
+@media (max-width: 600px) {
+    .full-header-container {
+        flex-direction: column; /* スタックレイアウトに変更 */
+        align-items: stretch; /* 子要素をコンテナの幅いっぱいに広げる */
+    }
+
+    .social-share-buttons, .copy-url-button {
+        text-align: center; /* 中央揃えに変更 */
+        margin: 10px 0; /* 上下のマージンを追加して視覚的なスペースを確保 */
+    }
+}
