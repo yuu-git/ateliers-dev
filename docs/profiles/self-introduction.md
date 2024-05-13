@@ -1,15 +1,22 @@
 ---
 id: profiles-self-introduction
-slug: /profiles/self-introduction/
+slug: /profiles/self-introduction
 category: プロフィール
-title: ateliers.dev - プロフィール - 自己紹介
+title: 自己紹介 | ateliers.dev
 sidebar_label: 自己紹介
 description: ateliers.dev のコンテンツ「プロフィール」です。自己紹介のページです。
 ---
 
-# 自己紹介
+import DateAndCopyUrlHeader from '@site/src/components/IntegratedArticleComponents/DateAndCopyUrlHeader';
+import CopyUrlFooter from '@site/src/components/IntegratedArticleComponents/CopyUrlFooter';
 
-*[Created: 2024/04/28, Update: 2024/05/03]*
+# 管理者の自己紹介
+
+<DateAndCopyUrlHeader
+    slug="/profiles/self-introduction"
+    title="自己紹介 | ateliers.dev"
+    created="2024/04/28"
+    updated="2024/05/03"/>
 
 ---
 
@@ -283,3 +290,7 @@ AIのファインチューニングやラーニングなどにも触れ、一通
 バランス良くシステム開発とAIの両方を学びながら、自分のスキルを磨いていきたいと考えています。
 
 ---
+
+<CopyUrlFooter
+    slug="/profiles/self-introduction"
+    title="自己紹介 | ateliers.dev"/>

@@ -1,15 +1,20 @@
 ---
 # Docusaurus メタデータ
 id: profiles-index
-slug: /profiles/
+slug: /profiles
 category: プロフィール
-title: ateliers.dev - プロフィール
+title: 管理者プロフィール | ateliers.dev
 sidebar_label: プロフィール
 description: ateliers.dev のコンテンツ「プロフィール」のトップページです。
 ---
 
 # プロフィール
-*[Created: 2024/04/21, Update: 2024/04/24]*
+
+import DateHeader from '@site/src/components/DateHeader';
+
+<DateHeader
+    created="2024/04/21"
+    updated="2024/04/24"/>
 
 ---
 
