@@ -4,6 +4,7 @@
     flex-flow: column nowrap; /* コンテンツを縦に並べる */
     margin-left: 10px; /* 日付とコンテンツの間にスペースを追加 */
     height: 40px;
+    align-items: flex-start; /* コンテンツを左寄せ */
 }
 
 .dates-container div {
@@ -13,10 +14,12 @@
 
 .date-entry {
     display: flex;
-    justify-content: flex-end; 
+    align-items: flex-end; /* コンテンツを右寄せ */
 }
 
 .date-label {
+    text-align: right;
+    width: 90px; /* ラベルの幅を固定 */
     margin-right: 8px; /* ラベルと日付の間にスペースを追加 */
 }
 
