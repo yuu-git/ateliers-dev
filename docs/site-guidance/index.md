@@ -1,15 +1,22 @@
 ---
 id: site-guidance-index
-slug: /site-guidance/
+slug: /site-guidance
 category: サイト案内
-title: ateliers.dev - サイト案内
+title: サイト案内 | ateliers.dev
 sidebar_label: サイト案内
 description: ateliers.dev のコンテンツ「サイト案内」のページです。
 ---
 
+import DateAndCopyUrlHeader from '@site/src/components/IntegratedArticleComponents/DateAndCopyUrlHeader';
+import CopyUrlFooter from '@site/src/components/IntegratedArticleComponents/CopyUrlFooter';
+
 # サイト案内
 
-*[Created: 2024/04/25, Update: 2024/04/28]*
+<DateAndCopyUrlHeader
+    slug="/site-guidance"
+    title="サイト案内 | ateliers.dev"
+    created="2024/04/25"
+    updated="2024/04/28"/>
 
 ---
 
@@ -23,6 +30,8 @@ description: ateliers.dev のコンテンツ「サイト案内」のページで
 各コンテンツの説明や、簡易的なプロフィールを記載しています。
 
 また、訪問者の方やAIがサイトの概要を理解しやすいように、全体構造の概略を示しています。
+
+---
 
 ## 1. 簡易的なサイト構造およびプロフィール
 
@@ -50,6 +59,8 @@ description: ateliers.dev のコンテンツ「サイト案内」のページで
 * AIフレンドリーな設計を心がけ、AIがコンテンツを理解しやすいような構造を目指しています。そのため、コンテンツの構造化やメタデータの記載にも気を配っています。
 * 現在はフロントエンドとして MAUI と Blazor、バックエンドとして.NET (Core) を好み、その学習を進めています。
 
+---
+
 ## 2. 主要コンテンツの概要
 
 * GitHub ガイドライン：  
@@ -58,6 +69,8 @@ description: ateliers.dev のコンテンツ「サイト案内」のページで
 [Technical Policies](../technical-policies/index.md) - 設計や製造時の技術利用方針や作業手順を紹介するセクションです。  
 * テクニカルノート：  
 [Technical Notebook](../technical-notebook/index.md) - 特定技術の使い方や問題解決、教育資材など、技術的な情報が記録されているセクションです。  
+
+---
 
 ## 3. 主要コンテンツの補足説明
 
@@ -99,6 +112,8 @@ description: ateliers.dev のコンテンツ「サイト案内」のページで
 「私は例外をこのように使っていく」と示すものは [テクニカルポリシー] に格納します。  
 「例外の種類やベストな使い方、解決方法」などは、技術的な情報や解決方法であるため [テクニカルノート] に格納します。
 
+---
+
 ## 4. サブコンテンツ説明
 
 * プロフィール  
@@ -107,7 +122,15 @@ description: ateliers.dev のコンテンツ「サイト案内」のページで
 * FAQ  
 [FAQ](../faq.md) - よくある(かもしれない)質問とその回答をまとめたセクションです。  
 
+---
+
 ## 5. 今後の予定
 
 サイトコンテンツが充実し、個人ライブラリが落ち着いたら、次のステップとしては、オープンソースウェアの開発と配布を検討しています。  
 その際は、新たに「アプリケーション」セクションや「リリース」ブログの開設、APIドキュメントなどを追加する予定です。
+
+---
+
+<CopyUrlFooter
+    slug="/site-guidance"
+    title="サイト案内 | ateliers.dev"/>

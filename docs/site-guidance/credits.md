@@ -2,7 +2,7 @@
 id: site-guidance-credits
 slug: /site-guidance/credits
 category: サイト案内
-title: ateliers.dev - サイト案内 - クレジット
+title: サイトクレジット | ateliers.dev 
 sidebar_label: クレジット
 description: ateliers.dev のコンテンツ「サイト案内」です。WEBサイトのクレジットについて記載しています。
 ---
@@ -10,12 +10,13 @@ description: ateliers.dev のコンテンツ「サイト案内」です。WEBサ
 import DateAndCopyUrlHeader from '@site/src/components/IntegratedArticleComponents/DateAndCopyUrlHeader';
 import CopyUrlFooter from '@site/src/components/IntegratedArticleComponents/CopyUrlFooter';
 
-# クレジット
+# サイトクレジット
 
 <DateAndCopyUrlHeader
+    slug="/site-guidance/credits"
+    title="サイトクレジット | ateliers.dev"
     created="2024/05/02"
-    updated="2024/05/13"
-    slug="/site-guidance/credits"/>
+    updated="2024/05/13"/>
 
 ---
 
@@ -94,4 +95,5 @@ import CopyUrlFooter from '@site/src/components/IntegratedArticleComponents/Copy
 ---
 
 <CopyUrlFooter
-    slug="/site-guidance/credits"/>
+    slug="/site-guidance/credits"
+    title="サイトクレジット | ateliers.dev"/>

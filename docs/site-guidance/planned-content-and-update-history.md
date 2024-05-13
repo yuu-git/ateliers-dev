@@ -2,7 +2,7 @@
 id: site-guidance-planned-content-and-update-history
 slug: /site-guidance/planned-content-and-update-history
 category: サイト案内
-title: ateliers.dev - サイト案内 - 作成予定コンテンツと更新履歴
+title: 作成予定コンテンツと更新履歴 | ateliers.dev
 sidebar_label: 作成予定コンテンツと更新履歴
 description: ateliers.dev のコンテンツ「サイト案内」です。今後の作成予定コンテンツと更新履歴について記載しています。
 ---
@@ -13,9 +13,10 @@ import CopyUrlFooter from '@site/src/components/IntegratedArticleComponents/Copy
 # 作成予定コンテンツと更新履歴
 
 <DateAndCopyUrlHeader
+    slug="/site-guidance/planned-content-and-update-history"
+    title="作成予定コンテンツと更新履歴 | ateliers.dev"
     created="2024/04/28"
-    updated="2024/05/13"
-    slug="/site-guidance/planned-content-and-update-history"/>
+    updated="2024/05/13"/>
 
 ---
 
@@ -89,4 +90,5 @@ import CopyUrlFooter from '@site/src/components/IntegratedArticleComponents/Copy
 ---
 
 <CopyUrlFooter
-    slug="/site-guidance/planned-content-and-update-history"/>
+    slug="/site-guidance/planned-content-and-update-history"
+    title="作成予定コンテンツと更新履歴 | ateliers.dev"/>
