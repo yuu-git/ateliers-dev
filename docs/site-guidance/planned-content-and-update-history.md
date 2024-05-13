@@ -1,15 +1,21 @@
 ---
 id: site-guidance-planned-content-and-update-history
-slug: /site-guidance/planned-content-and-update-history/
+slug: /site-guidance/planned-content-and-update-history
 category: サイト案内
 title: ateliers.dev - サイト案内 - 作成予定コンテンツと更新履歴
 sidebar_label: 作成予定コンテンツと更新履歴
 description: ateliers.dev のコンテンツ「サイト案内」です。今後の作成予定コンテンツと更新履歴について記載しています。
 ---
 
+import DateAndCopyUrlHeader from '@site/src/components/IntegratedArticleComponents/DateAndCopyUrlHeader';
+import CopyUrlFooter from '@site/src/components/IntegratedArticleComponents/CopyUrlFooter';
+
 # 作成予定コンテンツと更新履歴
 
-*[Created: 2024/04/28, Update: 2024/05/12]*
+<DateAndCopyUrlHeader
+    created="2024/04/28"
+    updated="2024/05/13"
+    slug="/site-guidance/planned-content-and-update-history"/>
 
 ---
 
@@ -75,8 +81,12 @@ description: ateliers.dev のコンテンツ「サイト案内」です。今後
 
 | 更新日 | 更新内容 |
 | --- | --- |
+| 2024/05/13 | react-share を導入し、SNS共有ボタンを追加 |
 | 2024/05/06 | Docusaurus を 3.2.1 から 3.3.2 のアップグレード |
 | 2024/05/01 | Mermaid を導入し、マークダウンで図やフローチャートを作成可能にする |
 | 2024/04/21 | WEBサイト構築、公開 |
 
 ---
+
+<CopyUrlFooter
+    slug="/site-guidance/planned-content-and-update-history"/>

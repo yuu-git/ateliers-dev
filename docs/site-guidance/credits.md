@@ -15,7 +15,7 @@ import CopyUrlFooter from '@site/src/components/IntegratedArticleComponents/Copy
 <DateAndCopyUrlHeader
     created="2024/05/02"
     updated="2024/05/13"
-    url="https://ateliers.dev/docs/site-guidance/credits"/>
+    slug="/site-guidance/credits"/>
 
 ---
 
@@ -94,4 +94,4 @@ import CopyUrlFooter from '@site/src/components/IntegratedArticleComponents/Copy
 ---
 
 <CopyUrlFooter
-    url="https://ateliers.dev/docs/site-guidance/credits"/>
+    slug="/site-guidance/credits"/>
