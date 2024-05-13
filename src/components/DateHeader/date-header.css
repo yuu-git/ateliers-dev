@@ -1,22 +1,26 @@
 
-.content-dates {
+.dates-container {
     display: flex;
     flex-flow: column nowrap; /* コンテンツを縦に並べる */
     margin-left: 10px; /* 日付とコンテンツの間にスペースを追加 */
     height: 40px;
 }
 
-.content-dates div {
+.dates-container div {
     font-style: italic; /* 日付を斜体に */
     height: 20px;
 }
 
-.content-date-entry {
+.date-entry {
     display: flex;
-    text-align: right;
     justify-content: flex-end; 
 }
 
-.content-date-label {
+.date-label {
     margin-right: 8px; /* ラベルと日付の間にスペースを追加 */
+}
+
+.date-value {
+    text-align: left;
+    width: 90px; /* 日付の幅を固定 */
 }
