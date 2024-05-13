@@ -1,16 +1,23 @@
 ---
 # Docusaurus メタデータ
 id: faq
-slug: /faq/
+slug: /faq
 category: FAQ
-title: ateliers.dev - FAQ
+title: FAQ | ateliers.dev
 sidebar_label: FAQ
 description: ateliers.dev のコンテンツ「FAQ」のトップページです。
 ---
 
+import DateAndCopyUrlHeader from '@site/src/components/IntegratedArticleComponents/DateAndCopyUrlHeader';
+import CopyUrlFooter from '@site/src/components/IntegratedArticleComponents/CopyUrlFooter';
+
 # FAQ
 
-*[Created: 2024/04/24, Update: 2024/05/02 ]*
+<DateAndCopyUrlHeader
+    slug="/faq"
+    title="FAQ | ateliers.dev"
+    created="2024/04/24"
+    updated="2024/05/02"/>
 
 ---
 
@@ -124,3 +131,7 @@ GitHub 公開のオープンソースプロジェクトに関する質問とそ�
 問い合わせは、プロフィールに記載している連絡先や、GitHub の Issue などをご利用ください。
 
 ---
+
+<CopyUrlFooter
+    slug="/faq"
+    title="FAQ | ateliers.dev"/>

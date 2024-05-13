@@ -1,15 +1,22 @@
 ---
 id: site-content-list
-slug: /site-content-list/
+slug: /site-content-list
 category: サイトコンテンツ一覧
-title: ateliers.dev - サイトコンテンツ一覧
+title: サイトコンテンツ一覧 | ateliers.dev
 sidebar_label: コンテンツマップ
 description: ateliers.dev のコンテンツ一覧を記載しています。（TOC）
 ---
 
+import DateAndCopyUrlHeader from '@site/src/components/IntegratedArticleComponents/DateAndCopyUrlHeader';
+import CopyUrlFooter from '@site/src/components/IntegratedArticleComponents/CopyUrlFooter';
+
 # サイトコンテンツ一覧
 
-*[Created: 2024/05/06, Update: 2024/05/12]*
+<DateAndCopyUrlHeader
+    slug="/site-content-list"
+    title="サイトコンテンツ一覧 | ateliers.dev"
+    created="2024/05/06"
+    updated="2024/05/12"/>
 
 ---
 
@@ -69,3 +76,7 @@ TOC (Table of Contents) のようなページとしてご利用ください。
 | 　┗ [【C#】文字列パラメータの例外処理](/docs/technical-notebook/ai-chat-memos/csharp/20240412-about-exception-handling) | C# における文字列パラメータの例外処理についてのメモです。 |
 
 ---
+
+<CopyUrlFooter
+    slug="/site-content-list"
+    title="サイトコンテンツ一覧 | ateliers.dev"/>
