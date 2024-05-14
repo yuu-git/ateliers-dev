@@ -2,16 +2,23 @@
 id: technical-notebook-dotnet-http-protocol-basic-explanation
 slug: /technical-notebook/dotnet/http-protocol/basic-explanation
 category: テクニカルノート
-title: ateliers.dev - テクニカルノート - HTTP プロトコルの基本解説
+title: HTTPプロトコルの基本解説 | ateliers.dev
 sidebar_label: HTTP プロトコルの基本解説
 tags: [C#, .NET, Web-API, Http-Protocol]
-description: ateliers.dev のコンテンツ「テクニカルノート」です。HTTP プロトコルの基本的な概要や使い方についての解説です。
+description: ateliers.dev のコンテンツ「テクニカルノート」です。HTTPプロトコルの基本的な概要や使い方についての解説です。
 image: img/jpg/ateliers-dev-technical-notebook.jpg
 ---
 
+import FullHeader from '@site/src/components/IntegratedArticleComponents/FullHeader';
+import FullFooter from '@site/src/components/IntegratedArticleComponents/FullFooter';
+
 # HTTP プロトコルメソッドの基本解説
 
-*[Created: 2024/05/05, Update: none(same as creation date)]*
+<FullHeader
+  slug="/technical-notebook/dotnet/http-protocol/basic-explanation"
+  title="HTTPプロトコルの基本解説 | ateliers.dev"
+  created="2024/05/05"
+  updated="2024/05/12"/>
 
 ---
 
@@ -258,3 +265,7 @@ HTTPについて：
 :::
 
 ---
+
+<FullFooter
+  slug="/technical-notebook/dotnet/http-protocol/basic-explanation"
+  title="ateliers.dev - テクニカルノート - HTTP プロトコルの基本解説" />
