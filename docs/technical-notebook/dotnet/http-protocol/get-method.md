@@ -8,8 +8,11 @@ tags: [C#, .NET, Web-API, Http-Protocol]
 description: ateliers.dev のコンテンツ「テクニカルノート」です。HTTP プロトコルにおけるGETの概要や使い方についての解説です。
 image: img/jpg/ateliers-dev-technical-notebook.jpg
 ---
+
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import SeriesList from '@site/src/components/SeriesList';
+import RelatedArticles from '@site/src/components/RelatedArticles';
 
 # HTTP プロトコルの『GET』解説
 
@@ -32,13 +35,17 @@ GETの概要や使用例、使用ケースについて説明し、C# を使用�
 
 ---
 
-## 関連する解説記事一覧
+## 関連する解説シリーズ記事一覧
 
-1. [HTTP プロトコルの基本解説](/docs/technical-notebook/dotnet/http-protocol/basic-explanation)
-2. GET の解説 (本記事)
-3. [POST の解説](/docs/technical-notebook/dotnet/http-protocol/post-method)
-4. [PUT の解説](/docs/technical-notebook/dotnet/http-protocol/put-method)
-5. [DELETE の解説](/docs/technical-notebook/dotnet/http-protocol/delete-method)
+<SeriesList
+    seriesName="technical-notebook-dotnet-http-protocol"
+    exclusion="get-method"/>
+
+Test
+
+<RelatedArticles
+    currentUrl="/docs/technical-notebook/dotnet/http-protocol/get-method"
+    currentTags={["http", "protocol"]} />
 
 ---
 

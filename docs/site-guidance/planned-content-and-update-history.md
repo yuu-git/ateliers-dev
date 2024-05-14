@@ -82,6 +82,8 @@ import CopyUrlFooter from '@site/src/components/IntegratedArticleComponents/Copy
 
 | 更新日 | 更新内容 |
 | --- | --- |
+| 2024/05/15 | SeriesList(シリーズ記事一覧の表示) コンポーネントを作成 |
+| 2024/05/15 | RelatedArticles(関連記事一覧の表示) コンポーネントを作成 |
 | 2024/05/14 | ArticlesTable コンポーネントを作成し、各ページのコンテンツ一覧を自動作成 |
 | 2024/05/13 | react-share を導入し、SNS共有ボタンを追加 |
 | 2024/05/06 | Docusaurus を 3.2.1 から 3.3.2 のアップグレード |
