@@ -1,17 +1,25 @@
 ---
 # Docusaurus メタデータ 
 id: technical-policies-index
-slug: /technical-policies/
+slug: /technical-policies
 category: テクニカルポリシー
-title: ateliers.dev - テクニカルポリシー
+title: テクニカルポリシー | ateliers.dev
 sidebar_label: テクニカルポリシー
 description: ateliers.dev のコンテンツ「テクニカルポリシー」のトップページです。
 image: img/jpg/ateliers-dev-technical-policies.jpg
 ---
 
+import DateAndCopyUrlHeader from '@site/src/components/IntegratedArticleComponents/DateAndCopyUrlHeader';
+import CopyUrlFooter from '@site/src/components/IntegratedArticleComponents/CopyUrlFooter';
+import ArticlesTable from '@site/src/components/ArticlesTable';
+
 # テクニカルポリシー
 
-*[Created: 2024/04/22, Update: 2024/04/24]*
+<DateAndCopyUrlHeader
+    slug="/technical-policies"
+    title="テクニカルポリシー | ateliers.dev"
+    created="2024/04/22"
+    updated="2024/05/14"/>
 
 ---
 
@@ -25,3 +33,15 @@ image: img/jpg/ateliers-dev-technical-policies.jpg
 「この人は、こういう手法をとっているのだな」という参考にして下さい。
 
 飽くまでも個人的なものなので、参考程度にとどめて下さい。
+
+---
+
+## コンテンツ一覧
+
+<ArticlesTable categoryId="technical-policies" />
+
+---
+
+<CopyUrlFooter
+    slug="/technical-policies"
+    title="テクニカルポリシー | ateliers.dev"/>

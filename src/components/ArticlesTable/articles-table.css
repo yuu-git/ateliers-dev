@@ -1,0 +1,42 @@
+.table-container {
+    margin: 20px 0;
+  }
+  
+  .styled-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .styled-table th, .styled-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .styled-table th {
+    background-color: #f4f4f4;
+    text-align: center; /* 文字列を中央揃えに */
+  }
+  
+  .styled-table .level-0 {
+    font-weight: bold;
+  }
+  
+  .styled-table .level-1, .styled-table .level-2, .styled-table .level-3, .styled-table .level-4, .styled-table .level-5 {
+    padding-left: 20px;
+  }
+  
+  .styled-table .level-2 {
+    padding-left: 40px;
+  }
+  
+  .styled-table .level-3 {
+    padding-left: 60px;
+  }
+  
+  .styled-table .level-4 {
+    padding-left: 80px;
+  }
+  
+  .styled-table .level-5 {
+    padding-left: 100px;
+  }

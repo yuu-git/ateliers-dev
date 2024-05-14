@@ -1,16 +1,25 @@
 ---
 # Docusaurus メタデータ 
 id: technical-notebook-index
-slug: /technical-notebook/
+slug: /technical-notebook
 category: テクニカルノート
-title: ateliers.dev - テクニカルノート
+title: テクニカルノート | ateliers.dev
 sidebar_label: テクニカルノート
 description: ateliers.dev のコンテンツ「テクニカルノート」のトップページです。
 image: img/jpg/ateliers-dev-technical-notebook.jpg
 ---
 
+import DateAndCopyUrlHeader from '@site/src/components/IntegratedArticleComponents/DateAndCopyUrlHeader';
+import CopyUrlFooter from '@site/src/components/IntegratedArticleComponents/CopyUrlFooter';
+import ArticlesTable from '@site/src/components/ArticlesTable';
+
 # テクニカルノート
-*[Created: 2024/04/21, Update: 2024/04/23]*
+
+<DateAndCopyUrlHeader
+    slug="/technical-notebook"
+    title="テクニカルノート | ateliers.dev"
+    created="2024/04/21"
+    updated="2024/05/14"/>
 
 ---
 
@@ -23,7 +32,21 @@ image: img/jpg/ateliers-dev-technical-notebook.jpg
 
 ![img](./img/technical-memos.png)
 
+---
+
+## コンテンツ一覧
+
+<ArticlesTable categoryId="technical-notebook" />
+
+---
+
 ## コンテンツ概要
 
 * 技術的な洞察、チュートリアル、使用例など、教育的なコンテンツを提供する方法を定めます。
 * 読者が新しい技術やフレームワークを効率的に学べるような構造とフォーマットを指定します。
+
+---
+
+<CopyUrlFooter
+    slug="/technical-notebook"
+    title="テクニカルノート | ateliers.dev"/>
