@@ -8,8 +8,15 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          submodules: recursive  # サブモジュールを再帰的に初期化
+
+      - name: Initialize submodules
+        run: git submodule update --init --recursive
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
