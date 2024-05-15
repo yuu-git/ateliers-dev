@@ -9,6 +9,8 @@ description: ateliers.dev のコンテンツ「テクニカルノート」です
 image: img/jpg/ateliers-dev-technical-notebook.jpg
 ---
 
+import SeriesList from '@site/src/components/SeriesList';
+
 # HTTP プロトコルの『POST』解説
 
 *[Created: 2024/05/05, Update: none(same as creation date)]*
@@ -30,13 +32,11 @@ POSTの概要や使用例、使用ケースについて説明し、C# を使用�
 
 ---
 
-## 関連する解説記事一覧
+## 関連する解説シリーズ記事一覧
 
-1. [HTTP プロトコルの基本解説](/docs/technical-notebook/dotnet/http-protocol/basic-explanation)
-2. [GET の解説](/docs/technical-notebook/dotnet/http-protocol/get-method)
-3. POST の解説 (本記事)
-4. [PUT の解説](/docs/technical-notebook/dotnet/http-protocol/put-method)
-5. [DELETE の解説](/docs/technical-notebook/dotnet/http-protocol/delete-method)
+<SeriesList
+    seriesName="technical-notebook-dotnet-http-protocol"
+    exclusion="post-method"/>
 
 ---
 

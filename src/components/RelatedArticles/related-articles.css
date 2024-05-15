@@ -1,0 +1,24 @@
+.related-articles {
+  margin-top: 20px;
+}
+
+.related-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.related-table th, .related-table td {
+  padding: 8px;
+}
+
+.related-table th {
+  text-align: center; /* 文字列を中央揃え */
+}
+
+.related-table td a {
+  text-decoration: none;
+}
+
+.related-table td a:hover {
+  text-decoration: underline;
+}

@@ -11,6 +11,8 @@ image: img/jpg/ateliers-dev-technical-notebook.jpg
 
 import FullHeader from '@site/src/components/IntegratedArticleComponents/FullHeader';
 import FullFooter from '@site/src/components/IntegratedArticleComponents/FullFooter';
+import SeriesList from '@site/src/components/SeriesList';
+import RelatedArticles from '@site/src/components/RelatedArticles';
 
 # HTTP プロトコルメソッドの基本解説
 
@@ -37,17 +39,11 @@ HTTPプロトコル解説シリーズを通して、HTTP プロトコルのメ�
 
 ---
 
-## シリーズ一覧
+## 関連する解説シリーズ記事一覧
 
-1. [HTTP GET メソッドの解説](/docs/technical-notebook/dotnet/http-protocol/get-method)
-2. [HTTP POST メソッドの解説](/docs/technical-notebook/dotnet/http-protocol/post-method)
-3. [HTTP PUT メソッドの解説](/docs/technical-notebook/dotnet/http-protocol/put-method)
-4. [HTTP DELETE メソッドの解説](/docs/technical-notebook/dotnet/http-protocol/delete-method)
-5. HTTP PATCH メソッドの解説 (作成中)
-6. HTTP HEAD メソッドの解説 (作成中)
-7. HTTP OPTIONS メソッドの解説 (作成中)
-8. HTTP TRACE メソッドの解説 (作成中)
-9. HTTP CONNECT メソッドの解説 (作成中)
+<SeriesList
+    seriesName="technical-notebook-dotnet-http-protocol"
+    exclusion="basic-explanation"/>
 
 ---
 ---
@@ -255,6 +251,15 @@ HTTPについて：
 | [wikipedia - セッションハイジャック](https://ja.wikipedia.org/wiki/%E3%82%BB%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%8F%E3%82%A4%E3%82%B8%E3%83%A3%E3%83%83%E3%82%AF) | セッションハイジャックについてのWikipediaの記事 |
 
 ---
+
+<RelatedArticles
+    currentUrl="/docs/technical-notebook/dotnet/http-protocol/basic-explanation"
+    currentSeries="technical-notebook-dotnet-http-protocol"
+    currentTags={["http"]}
+    maxItems={20}
+    showHeading={true}
+    title="関連記事"/>
+
 ---
 
 ## フィードバックの提供方法と連絡先
