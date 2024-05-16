@@ -3,15 +3,23 @@
 id: technical-policies-writing-guide
 slug: /technical-policies/writing-guide
 category: テクニカルポリシー
-title: ateliers.dev - テクニカルポリシー - テクニカルポリシーの作成方針
+title: テクニカルポリシーの作成方針 | ateliers.dev
 sidebar_label: テクニカルポリシーの作成方針
 description: ateliers.dev のコンテンツ「テクニカルポリシー」の作成方針をまとめています。
 image: img/jpg/ateliers-dev-technical-policies.jpg
 ---
 
+import DateAndCopyUrlHeader from '@site/src/components/IntegratedArticleComponents/DateAndCopyUrlHeader';
+import CopyUrlFooter from '@site/src/components/IntegratedArticleComponents/CopyUrlFooter';
+import ArticlesTable from '@site/src/components/ArticlesTable';
+
 # テクニカルポリシーの作成方針
 
-*[Created: 2024/04/23, Update: 2024/05/03]*
+<DateAndCopyUrlHeader
+    slug="/technical-policies/writing-guide"
+    title="テクニカルポリシーの作成方針 | ateliers.dev"
+    created="2024/04/23"
+    updated="2024/05/03"/>
 
 ---
 
@@ -59,8 +67,8 @@ image: img/jpg/ateliers-dev-technical-policies.jpg
 フッターとして、フィードバック提供方法や連絡先を記載します。
 直接的に連絡先を記載すると、連絡先が変更があった場合に全ての記事を修正する必要があるため、基本的にプロフィールへの誘導リンクを記載します。
 
-:::tip[お知らせ]
-この記事に関するフィードバックやご質問、ご意見がございましたら [プロフィールページの連絡先](../profiles/self-introduction#2-連絡先) からお気軽にご連絡ください。  
+:::tip[連絡先]
+この記事に関するフィードバックやご質問、ご意見がございましたら [プロフィールページの連絡先](/docs/profiles/self-introduction#2-連絡先) からお気軽にご連絡ください。  
 貴重なディスカッションをお待ちしております。
 :::
 
@@ -68,3 +76,7 @@ image: img/jpg/ateliers-dev-technical-policies.jpg
 読み手からの意見を受け入れる姿勢を示すために、フィードバック提供方法や連絡先を記載します。  
 
 ---
+
+<CopyUrlFooter
+  slug="/technical-policies/writing-guide"
+  title="テクニカルポリシーの作成方針 | ateliers.dev"/>

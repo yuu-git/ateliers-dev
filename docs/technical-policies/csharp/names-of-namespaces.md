@@ -19,7 +19,7 @@ import RelatedArticles from '@site/src/components/RelatedArticles';
   slug="/technical-policies/csharp/names-of-namespaces"
   title="【C#】 名前空間の命名方針"
   created="2024/04/29"
-  updated="2024/05/03"/>
+  updated="2024/05/16"/>
 
 ---
 
@@ -170,14 +170,15 @@ C#の名前空間においての利用はあまり一般的ではないため、
 | リポジトリ名 | 利用目的 |
 | --- | --- |
 | ateliers-dev | 当WEBサイトのリポジトリ |
+| ateliers-shared-resources | 共有リソース用のリポジトリ |
 | ateliers-ai-assistants | AIサポート機能用のリポジトリ |
 
 ---
 
 ## フィードバックの提供方法や連絡先
 
-:::info
-この記事に関するフィードバックやご質問、ご意見がございましたら [プロフィールページの連絡先](../../profiles/self-introduction#2-連絡先) からお気軽にご連絡ください。  
+:::tip[連絡先]
+この記事に関するフィードバックやご質問、ご意見がございましたら [プロフィールページの連絡先](/docs/profiles/self-introduction#2-連絡先) からお気軽にご連絡ください。  
 貴重なディスカッションをお待ちしております。
 :::
 
