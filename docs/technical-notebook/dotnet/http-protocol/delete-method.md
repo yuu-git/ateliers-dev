@@ -2,18 +2,24 @@
 id: technical-notebook-dotnet-http-protocol-delete-method
 slug: /technical-notebook/dotnet/http-protocol/delete-method
 category: テクニカルノート
-title: ateliers.dev - テクニカルノート - HTTP DELETE 解説
+title: HTTP DELETE 解説 | ateliers.dev
 sidebar_label: HTTP DELETE 解説
 tags: [C#, .NET, Web-API, Http-Protocol]
 description: ateliers.dev のコンテンツ「テクニカルノート」です。HTTP プロトコルにおけるDELETEの概要や使い方についての解説です。
 image: img/jpg/ateliers-dev-technical-notebook.jpg
 ---
 
+import FullHeader from '@site/src/components/IntegratedArticleComponents/FullHeader';
+import FullFooter from '@site/src/components/IntegratedArticleComponents/FullFooter';
 import SeriesList from '@site/src/components/SeriesList';
+import RelatedArticles from '@site/src/components/RelatedArticles';
 
 # HTTP プロトコルの『DELETE』解説
 
-*[Created: 2024/05/03, Update: none(same as creation date)]*
+<FullHeader
+  slug="/technical-notebook/dotnet/http-protocol/delete-method"
+  title="ateliers.dev - テクニカルノート - HTTP DELETE 解説"
+  created="2024/05/03"/>
 
 ---
 
@@ -299,9 +305,13 @@ HTTPについて：
 
 ## フィードバックの提供方法と連絡先
 
-:::tip[お知らせ]
+:::tip[連絡先]
 この記事に関するフィードバックやご質問、ご意見がございましたら [プロフィールページの連絡先](/docs/profiles/self-introduction#2-連絡先) からお気軽にご連絡ください。  
 貴重なディスカッションをお待ちしております。
 :::
 
 ---
+
+<FullFooter
+  slug="/technical-notebook/dotnet/http-protocol/delete-method"
+  title="HTTP DELETE 解説 | ateliers.dev"/>

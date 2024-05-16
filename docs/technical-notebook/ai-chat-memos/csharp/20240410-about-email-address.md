@@ -2,16 +2,23 @@
 id: technical-notebook-ai-chat-memos-csharp-20240410-about-email-address
 slug: /technical-notebook/ai-chat-memos/csharp/20240410-about-email-address
 category: テクニカルノート
-title: ateliers.dev - テクニカルノート - 【C#】 メールアドレスについて
+title: 【C#】 メールアドレスについて | ateliers.dev
 sidebar_label: 【C#】 メールアドレスについて
 tags: [AI, GitHub-Copilot, C#]
 description: ateliers.dev のコンテンツ「テクニカルノート」です。C# でメールアドレスの形式チェックに関するメモ書きです。
 image: img/jpg/ateliers-dev-technical-notebook.jpg
 ---
 
+import DateAndCopyUrlHeader from '@site/src/components/IntegratedArticleComponents/DateAndCopyUrlHeader';
+import CopyUrlFooter from '@site/src/components/IntegratedArticleComponents/CopyUrlFooter';
+import ArticlesTable from '@site/src/components/ArticlesTable';
+
 # メールアドレスについて
 
-*[Created: 2024/04/28, Update: none(same as creation date)]*
+<DateAndCopyUrlHeader
+    slug="/technical-notebook/ai-chat-memos/csharp/20240410-about-email-address"
+    title="【C#】 メールアドレスについて | ateliers.dev"
+    created="2024/04/28"/>
 
 ---
 
@@ -473,3 +480,9 @@ DNSの仕様により、フルドメイン名（すべてのラベルを含む�
 ---
 
 ![Image 5](./img-20240410-about-email-address/SS-2024-04-11-085306.png)
+
+---
+
+<CopyUrlFooter
+    slug="/technical-notebook/ai-chat-memos/csharp/20240410-about-email-address"
+    title="【C#】 メールアドレスについて | ateliers.dev"/>

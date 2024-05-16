@@ -264,7 +264,7 @@ HTTPについて：
 
 ## フィードバックの提供方法と連絡先
 
-:::tip[お知らせ]
+:::tip[連絡先]
 この記事に関するフィードバックやご質問、ご意見がございましたら [プロフィールページの連絡先](/docs/profiles/self-introduction#2-連絡先) からお気軽にご連絡ください。  
 貴重なディスカッションをお待ちしております。
 :::
@@ -273,4 +273,4 @@ HTTPについて：
 
 <FullFooter
   slug="/technical-notebook/dotnet/http-protocol/basic-explanation"
-  title="ateliers.dev - テクニカルノート - HTTP プロトコルの基本解説" />
+  title="HTTPプロトコルの基本解説 | ateliers.dev"/>

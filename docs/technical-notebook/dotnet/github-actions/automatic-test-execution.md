@@ -2,16 +2,24 @@
 id: technical-notebook-dotnet-github-actions-automatic-test-execution
 slug: /technical-notebook/dotnet/github-actions/automatic-test-execution
 category: テクニカルノート
-title: ateliers.dev - テクニカルノート - 【.NET】GitHub Actions でテストを実行
+title: 【.NET】GitHub Actions でテストを実行 | ateliers.dev
 sidebar_label: 【.NET】 テストの自動実行
 tags: [C#, .NET, GitHub, GitHub-Actions]
 description: ateliers.dev のコンテンツ「テクニカルノート」です。GitHub Actions を使用して .NET プロジェクトのテストを実行する方法について解説します。
 image: img/jpg/ateliers-dev-technical-notebook.jpg
 ---
 
+import FullHeader from '@site/src/components/IntegratedArticleComponents/FullHeader';
+import FullFooter from '@site/src/components/IntegratedArticleComponents/FullFooter';
+import SeriesList from '@site/src/components/SeriesList';
+import RelatedArticles from '@site/src/components/RelatedArticles';
+
 # GitHub Actions でテストの自動実行
 
-*[Created: 2024/05/12, Update: none(same as creation date)]*
+<FullHeader
+  slug="/technical-notebook/dotnet/github-actions/automatic-test-execution"
+  title="【.NET】GitHub Actions でテストを実行 | ateliers.dev"
+  created="2024/05/12"/>
 
 ---
 
@@ -27,11 +35,11 @@ GitHub Actions を使用して .NET プロジェクトのテストを自動実�
 
 ---
 
-## シリーズ一覧
+## 関連する解説シリーズ記事一覧
 
-1. GitHub Actions でテストの自動実行 (本記事)
-
-※ 順次、新しい記事を追加していきます。
+<SeriesList
+    seriesName="technical-notebook-dotnet-github-actions"
+    exclusion="automatic-test-execution"/>
 
 ---
 ---
@@ -394,9 +402,13 @@ jobs:
 
 ## フィードバックの提供方法と連絡先
 
-:::tip[お知らせ]
+:::tip[連絡先]
 この記事に関するフィードバックやご質問、ご意見がございましたら [プロフィールページの連絡先](/docs/profiles/self-introduction#2-連絡先) からお気軽にご連絡ください。  
 貴重なディスカッションをお待ちしております。
 :::
 
 ---
+
+<FullFooter
+  slug="/technical-notebook/dotnet/github-actions/automatic-test-execution"
+  title="【.NET】GitHub Actions でテストを実行 | ateliers.dev"/>

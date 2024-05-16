@@ -2,7 +2,7 @@
 id: technical-notebook-dotnet-http-protocol-get-method
 slug: /technical-notebook/dotnet/http-protocol/get-method
 category: テクニカルノート
-title: ateliers.dev - テクニカルノート - HTTP GET 解説
+title: HTTP GET 解説 | ateliers.dev
 sidebar_label: HTTP GET 解説
 tags: [C#, .NET, Web-API, Http-Protocol]
 description: ateliers.dev のコンテンツ「テクニカルノート」です。HTTP プロトコルにおけるGETの概要や使い方についての解説です。
@@ -11,12 +11,18 @@ image: img/jpg/ateliers-dev-technical-notebook.jpg
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import FullHeader from '@site/src/components/IntegratedArticleComponents/FullHeader';
+import FullFooter from '@site/src/components/IntegratedArticleComponents/FullFooter';
 import SeriesList from '@site/src/components/SeriesList';
 import RelatedArticles from '@site/src/components/RelatedArticles';
 
 # HTTP プロトコルの『GET』解説
 
-*[Created: 2024/05/05, Update: 2024/05/08]*
+<FullHeader
+  slug="/technical-notebook/dotnet/http-protocol/get-method"
+  title="HTTP GET 解説 | ateliers.dev"
+  created="2024/05/05"
+  updated="2024/05/08"/>
 
 ---
 
@@ -40,12 +46,6 @@ GETの概要や使用例、使用ケースについて説明し、C# を使用�
 <SeriesList
     seriesName="technical-notebook-dotnet-http-protocol"
     exclusion="get-method"/>
-
-Test
-
-<RelatedArticles
-    currentUrl="/docs/technical-notebook/dotnet/http-protocol/get-method"
-    currentTags={["http", "protocol"]} />
 
 ---
 
@@ -1026,9 +1026,13 @@ HTTPについて：
 
 ## フィードバックの提供方法と連絡先
 
-:::tip[お知らせ]
+:::tip[連絡先]
 この記事に関するフィードバックやご質問、ご意見がございましたら [プロフィールページの連絡先](/docs/profiles/self-introduction#2-連絡先) からお気軽にご連絡ください。  
 貴重なディスカッションをお待ちしております。
 :::
 
 ---
+
+<FullFooter
+  slug="/technical-notebook/dotnet/http-protocol/get-method"
+  title="HTTP GET 解説 | ateliers.dev"/>

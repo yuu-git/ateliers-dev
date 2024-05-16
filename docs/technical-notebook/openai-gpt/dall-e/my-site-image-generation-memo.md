@@ -1,18 +1,25 @@
 ---
-# Docusaurus メタデータ
 id: technical-notebook-my-site-image-generation-memo
 slug: /technical-notebook/openai-gpt/dall-e/my-site-image-generation-memo
 category: テクニカルノート
-title: ateliers.dev - テクニカルノート - 当サイトのイメージ生成メモ
+title: 【DALL-E】当サイトのイメージ生成メモ | ateliers.dev
 sidebar_label: 当サイトのイメージ生成メモ
 tags: [AI, OpenAI-GPT, DALL-E]
 description: ateliers.dev の「テクニカルノート」内コンテンツです。当サイトで使っている画像の生成メモをまとめています。
 image: img/jpg/ateliers-dev-technical-notebook.jpg
 ---
 
+import FullHeader from '@site/src/components/IntegratedArticleComponents/FullHeader';
+import FullFooter from '@site/src/components/IntegratedArticleComponents/FullFooter';
+import RelatedArticles from '@site/src/components/RelatedArticles';
+
 # 当サイトのイメージ生成メモ
 
-*[Created: 2024/04/24, Update: 2024/05/02]*
+<FullHeader
+  slug="/technical-notebook/openai-gpt/dall-e/my-site-image-generation-memo"
+  title="【DALL-E】当サイトのイメージ生成メモ | ateliers.dev"
+  created="2024/04/24"
+  updated="2024/05/02"/>
 
 ---
 
@@ -445,3 +452,19 @@ No.003
 ```prompt
 Imagine a landscape in an alien dimension with a gradient of soft brown to lighter shades of orange and red, extending the atmosphere beyond traditional concepts. The scene is slightly darker to create a more mysterious atmosphere. It is filled with floating windows displaying futuristic code and diagrams, and engineering tools and servers such as wrenches, screwdrivers, and pliers spread widely across and beyond the visible frame, some embedded into the ground. Among these, two to three gears are fully materialized and made larger, appearing solid and tangible amidst the ethereal environment. These large gears symbolize the advanced technology field, seamlessly integrated with nature, some embedded into the ground. The minimalist 3D designed house remains subtly placed, blending with the surreal, tech-infused, darker setting.
 ```
+
+---
+---
+
+## フィードバックの提供方法と連絡先
+
+:::tip[連絡先]
+この記事に関するフィードバックやご質問、ご意見がございましたら [プロフィールページの連絡先](/docs/profiles/self-introduction#2-連絡先) からお気軽にご連絡ください。  
+貴重なディスカッションをお待ちしております。
+:::
+
+---
+
+<FullFooter
+  slug="/technical-notebook/openai-gpt/dall-e/my-site-image-generation-memo"
+  title="【DALL-E】当サイトのイメージ生成メモ | ateliers.dev"/>
