@@ -1,18 +1,25 @@
 ---
-# Docusaurus メタデータ 
 id: github-guidelines-branch-strategy
 slug: /github-guidelines/branch-strategy
 category: GitHub ガイドライン
-title: ateliers.dev - GitHub ガイドライン - ブランチ戦略
+title: GitHub ブランチ戦略 | ateliers.dev
 sidebar_label: ブランチ戦略
 tags: [GitHub, Repository, Branch]
 description: ateliers.dev のコンテンツ「GitHub ガイドライン」です。リポジトリのブランチ戦略と運用について記載しています。
 image: img/jpg/ateliers-dev-github-guidelines.jpg
 ---
 
+import FullHeader from '@site/src/components/IntegratedArticleComponents/FullHeader';
+import FullFooter from '@site/src/components/IntegratedArticleComponents/FullFooter';
+import RelatedArticles from '@site/src/components/RelatedArticles';
+
 # GitHub - ブランチ戦略
 
-*[Created: 2024/04/30, Update: 2024/05/03]*
+<FullHeader
+  slug="/github-guidelines/branch-strategy"
+  title="GitHub ブランチ戦略 | ateliers.dev"
+  created="2024/04/30"
+  updated="2024/05/03"/>
 
 ---
 
@@ -405,9 +412,13 @@ hotfix での修正時には、パッチをインクリメントします。
 
 ## フィードバックの提供方法や連絡先
 
-:::tip[お知らせ]
+:::tip[連絡先]
 この記事に関するフィードバックやご質問、ご意見がございましたら [プロフィールページの連絡先](../profiles/self-introduction#2-連絡先) からお気軽にご連絡ください。  
 貴重なディスカッションをお待ちしております。
 :::
 
 ---
+
+<FullFooter
+  slug="/github-guidelines/branch-strategy"
+  title="GitHub ブランチ戦略 | ateliers.dev"/>

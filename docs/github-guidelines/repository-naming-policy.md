@@ -1,18 +1,25 @@
 ---
-# Docusaurus メタデータ 
 id: github-guidelines-repository-naming-policy
 slug: /github-guidelines/repository-naming-policy
 category: GitHub ガイドライン
-title: ateliers.dev - GitHub ガイドライン - リポジトリ命名方針
+title: GitHub リポジトリ命名方針 | ateliers.dev
 sidebar_label: リポジトリ命名方針
 tags: [GitHub, Repository, Naming-Policy]
 description: ateliers.dev のコンテンツ「GitHub ガイドライン」のリポジトリ命名方針のページです。
 image: img/jpg/ateliers-dev-github-guidelines.jpg
 ---
 
+import FullHeader from '@site/src/components/IntegratedArticleComponents/FullHeader';
+import FullFooter from '@site/src/components/IntegratedArticleComponents/FullFooter';
+import RelatedArticles from '@site/src/components/RelatedArticles';
+
 # GitHub - リポジトリ命名方針
 
-*[Created: 2024/04/27, Update: 2024/05/03]*
+<FullHeader
+  slug="/github-guidelines/repository-naming-policy"
+  title="GitHub リポジトリ命名方針 | ateliers.dev"
+  created="2024/04/27"
+  updated="2024/05/03"/>
 
 ---
 
@@ -148,9 +155,13 @@ GitHub のリポジトリ命名方針に関するドキュメントです。
 
 ## フィードバックの提供方法と連絡先
 
-:::tip[お知らせ]
+:::tip[連絡先]
 この記事に関するフィードバックやご質問、ご意見がございましたら [プロフィールページの連絡先](../profiles/self-introduction#2-連絡先) からお気軽にご連絡ください。  
 貴重なディスカッションをお待ちしております。
 :::
 
 ---
+
+<FullFooter
+  slug="/github-guidelines/repository-naming-policy"
+  title="GitHub リポジトリ命名方針 | ateliers.dev"/>

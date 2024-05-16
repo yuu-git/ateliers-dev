@@ -1,17 +1,24 @@
 ---
-# Docusaurus メタデータ
 id: github-guidelines-writing-guide
 slug: /github-guidelines/writing-guide
 category: GitHub ガイドライン
-title: ateliers.dev - GitHub ガイドライン - GitHub ガイドラインの作成方針
+title: GitHub ガイドラインの作成方針 | ateliers.dev
 sidebar_label: GitHub ガイドラインの作成方針
 description: ateliers.dev のコンテンツ「GitHub ガイドライン」の作成方針をまとめています。
 image: img/jpg/ateliers-dev-github-guidelines.jpg
 ---
 
+import DateAndCopyUrlHeader from '@site/src/components/IntegratedArticleComponents/DateAndCopyUrlHeader';
+import CopyUrlFooter from '@site/src/components/IntegratedArticleComponents/CopyUrlFooter';
+import ArticlesTable from '@site/src/components/ArticlesTable';
+
 # GitHub ガイドラインの作成方針
 
-*[Created: 2024/04/23, Update: 2024/05/03]*
+<DateAndCopyUrlHeader
+    slug="/github-guidelines/writing-guide"
+    title="GitHub ガイドラインの作成方針 | ateliers.dev"
+    created="2024/04/23"
+    updated="2024/05/03"/>
 
 ---
 
@@ -59,7 +66,7 @@ GitHub の機能は日々進歩しており、記事の内容よりも良い機�
 フッターとして、フィードバック提供方法や連絡先を記載します。  
 直接的に連絡先を記載すると、連絡先が変更があった場合に全ての記事を修正する必要があるため、基本的にプロフィールへの誘導リンクを記載します。  
 
-:::tip[お知らせ]
+:::tip[連絡先]
 この記事に関するフィードバックやご質問、ご意見がございましたら [プロフィールページの連絡先](../profiles/self-introduction#2-連絡先) からお気軽にご連絡ください。  
 貴重なディスカッションをお待ちしております。
 :::
@@ -68,3 +75,7 @@ GitHub の機能は日々進歩しており、記事の内容よりも良い機�
 読み手からの意見を受け入れる姿勢を示すために、フィードバック提供方法や連絡先を記載します。  
 
 ---
+
+<CopyUrlFooter
+    slug="/github-guidelines/writing-guide"
+    title="GitHub ガイドラインの作成方針 | ateliers.dev"/>
