@@ -2,16 +2,24 @@
 id: technical-policies-csharp-names-of-namespaces
 slug: /technical-policies/csharp/names-of-namespaces/
 category: テクニカルポリシー
-title: ateliers.dev - テクニカルポリシー - 【C#】 名前空間の命名方針
+title: 【C#】 名前空間の命名方針 | ateliers.dev
 sidebar_label: 【C#】 名前空間の命名方針
 tags: [C#, Naming-Policy, Namespace]
 description: ateliers.dev のコンテンツ「テクニカルポリシー」です。C# における名前空間の命名方針について記載しています。
 image: img/jpg/ateliers-dev-technical-policies.jpg
 ---
 
+import FullHeader from '@site/src/components/IntegratedArticleComponents/FullHeader';
+import FullFooter from '@site/src/components/IntegratedArticleComponents/FullFooter';
+import RelatedArticles from '@site/src/components/RelatedArticles';
+
 # 【C#】 名前空間の命名方針
 
-*[Created: 2024/04/29, Update: 2024/05/03]*
+<FullHeader
+  slug="/technical-policies/csharp/names-of-namespaces"
+  title="【C#】 名前空間の命名方針"
+  created="2024/04/29"
+  updated="2024/05/03"/>
 
 ---
 
@@ -174,3 +182,7 @@ C#の名前空間においての利用はあまり一般的ではないため、
 :::
 
 ---
+
+<FullFooter
+  slug="/technical-policies/csharp/names-of-namespaces"
+  title="【C#】 名前空間の命名方針"/>
