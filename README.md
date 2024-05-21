@@ -26,7 +26,8 @@ Docusaurus は、React と Markdown を使って静的サイトを生成する�
 
 OS: Windows 11 Pro  
 IDE: VS Code 1.88.1  
-IDE Extension:   
+IDE Extension:
+
 * GitHub Copilot 1.181.0
 
 Node.js: v20.7.0
