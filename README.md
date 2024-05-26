@@ -32,7 +32,7 @@ IDE Extension:
 
 Node.js: v20.7.0
 
-Docusaurus のバージョンは 3.2.1 です。
+Docusaurus のバージョンは 3.3.2 です。
 
 ## ブランチについて
 
