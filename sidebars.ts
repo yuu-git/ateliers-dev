@@ -64,6 +64,7 @@ const sidebars: SidebarsConfig = {
           label: 'GitHub Actions',
           items: [
             'technical-notebook/dotnet/github-actions/technical-notebook-dotnet-github-actions-automatic-test-execution',
+            'technical-notebook/dotnet/github-actions/technical-notebook-dotnet-github-actions-vulnerability-scan',
           ],
         },
         {

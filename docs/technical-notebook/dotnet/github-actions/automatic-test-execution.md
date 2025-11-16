@@ -3,7 +3,7 @@ id: technical-notebook-dotnet-github-actions-automatic-test-execution
 slug: /technical-notebook/dotnet/github-actions/automatic-test-execution
 category: テクニカルノート
 title: 【.NET】GitHub Actions でテストを実行 | ateliers.dev
-sidebar_label: 【.NET】 テストの自動実行
+sidebar_label: 【.NET】 テストの実行
 tags: [C#, .NET, GitHub, GitHub-Actions]
 description: ateliers.dev のコンテンツ「テクニカルノート」です。GitHub Actions を使用して .NET プロジェクトのテストを実行する方法について解説します。
 image: img/jpg/ateliers-dev-technical-notebook.jpg
