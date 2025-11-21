@@ -25,14 +25,21 @@ Docusaurus は、React と Markdown を使って静的サイトを生成する�
 以下の環境にて、開発と動作確認を行っています。
 
 OS: Windows 11 Pro  
-IDE: VS Code 1.88.1  
-IDE Extension:
+IDE: VS Code  
 
-* GitHub Copilot 1.181.0
 
 Node.js: v20.7.0
+Docusaurus のバージョンは 3.9.2 です（2025/11/22 時点で最新）。
 
-Docusaurus のバージョンは 3.3.2 です。
+### 2025/11/22 Docusaurus 最新化作業
+- Docusaurus v3.3.2 → v3.9.2 へアップデート
+- 公式推奨に従い、設定ファイルの非推奨項目（onBrokenMarkdownLinks）を修正
+- ブログ著者情報を authors.yml 参照形式に統一
+- 全ブログ記事に <!--truncate--> マーカーを追加
+- HTTP技術記事のアンカーリンク修正
+- ビルド・動作確認済み
+
+> 注意: 今後 Docusaurus v4 へのアップグレード時は breaking change にご注意ください。
 
 ## ブランチについて
 
