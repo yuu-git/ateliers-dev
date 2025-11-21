@@ -19,7 +19,7 @@ import ArticlesTable from '@site/src/components/ArticlesTable';
     slug="/technical-notebook"
     title="テクニカルノート | ateliers.dev"
     created="2024/04/21"
-    updated="2024/05/14"/>
+    updated="2025/11/22"/>
 
 ---
 

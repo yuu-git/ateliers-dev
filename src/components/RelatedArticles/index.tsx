@@ -1,5 +1,5 @@
 import React from 'react';
-import articlesData from '../../../.submodules/ateliers-shared-resource/Data/JSON/WebSite/ateliers-dev_content-list.json'; // サブモジュールからJSONデータをインポート
+import articlesData from '../../data/ateliers-dev_content-list.json'; // src/data配下からJSONデータをインポート
 import './related-articles.css'; // CSSファイルをインポート
 
 // パラメータ:

@@ -57,6 +57,13 @@ const sidebars: SidebarsConfig = {
     'technical-notebook/technical-notebook-writing-guide',
     {
       type: 'category',
+      label: 'GitHub運用・Tips',
+      items: [
+        'technical-notebook/github-methods/pat-update-guide',
+      ],
+    },
+    {
+      type: 'category',
       label: 'C# および .NET 関連の技術',
       items: [
         {
