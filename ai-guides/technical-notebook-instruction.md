@@ -60,6 +60,7 @@
 
 - 新しい記事を追加・カテゴリを編集した場合、必ず `src/data/ateliers-dev_content-list.json`（テーブル用）と `sidebars.ts`（サイドバー用）のカテゴリ名・順序・階層を一致させてください。
   - 例：テーブルで「GitHub運用・Tips」カテゴリに記事を追加した場合、サイドバーの同名カテゴリにも同じ順序・内容で追加すること。
+  - **AI関連記事（例: llms.txt解説記事）は、必ず `"id": "technical-notebook"` の配下（technical-notebookカテゴリ内）に配置してください。他カテゴリ（例: site-guidance等）に誤って追加しないこと。**
   - カテゴリ名・順序・階層が不一致だと、ユーザー体験や自動化運用に不整合が生じます。
 - `src/data/ateliers-dev_content-list.json` には、適切なカテゴリ・階層に `title`, `link`, `description` などを記載してください。
 - `sidebars.ts` の `technicalNotebookSidebar` も同じカテゴリ・順序・階層で記事IDを追加してください。

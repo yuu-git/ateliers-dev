@@ -58,6 +58,7 @@
 
 - 新しいFAQ記事を追加・カテゴリを編集した場合、必ず `src/data/ateliers-dev_content-list.json`（テーブル用）と `sidebars.ts`（サイドバー用）のカテゴリ名・順序・階層を一致させてください。
 	- 例：テーブルで「FAQ」カテゴリに記事を追加した場合、サイドバーの同名カテゴリにも同じ順序・内容で追加すること。
+	- 必ず `"id": "faq"` の配下（faqカテゴリ内）に配置してください。
 	- カテゴリ名・順序・階層が不一致だと、ユーザー体験や自動化運用に不整合が生じます。
 - `src/data/ateliers-dev_content-list.json` には、適切なカテゴリ・階層に `title`, `link`, `description` などを記載してください。
 - `sidebars.ts` の該当Sidebar（例: `faqSidebar` など）も同じカテゴリ・順序・階層で記事IDを追加してください。
