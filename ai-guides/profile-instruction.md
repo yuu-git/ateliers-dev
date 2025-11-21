@@ -53,12 +53,14 @@
 
 ---
 
+
 ## 3. 記事追加・更新時の各種リスト・インデックスの更新
 
-- 新しい記事を追加した場合、必ず `src/data/ateliers-dev_content-list.json` に該当記事のエントリを追加・更新してください。
-	- 適切なカテゴリ・階層に、`title`, `link`, `description` などを記載します。
-	- これによりコンテンツ一覧テーブルや関連記事リストに自動反映されます。
-- `sidebars.ts` の `profileSidebar` に記事IDを追加
+- 新しい記事を追加・カテゴリを編集した場合、必ず `src/data/ateliers-dev_content-list.json`（テーブル用）と `sidebars.ts`（サイドバー用）のカテゴリ名・順序・階層を一致させてください。
+	- 例：テーブルで「プロフィール」カテゴリに記事を追加した場合、サイドバーの同名カテゴリにも同じ順序・内容で追加すること。
+	- カテゴリ名・順序・階層が不一致だと、ユーザー体験や自動化運用に不整合が生じます。
+- `src/data/ateliers-dev_content-list.json` には、適切なカテゴリ・階層に `title`, `link`, `description` などを記載してください。
+- `sidebars.ts` の `profileSidebar` も同じカテゴリ・順序・階層で記事IDを追加してください。
 - `docs/profiles/index.md` の一覧にもリンクを追加
 
 ---

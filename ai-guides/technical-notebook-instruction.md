@@ -55,12 +55,14 @@
 ---
 
 
+
 ## 3. 記事追加・更新時の各種リスト・インデックスの更新
 
-- 新しい記事を追加した場合、必ず `src/data/ateliers-dev_content-list.json` に該当記事のエントリを追加・更新してください。
-  - 適切なカテゴリ・階層に、`title`, `link`, `description` などを記載します。
-  - これによりコンテンツ一覧テーブルや関連記事リストに自動反映されます。
-- `sidebars.ts` の `technicalNotebookSidebar` に記事IDを追加
+- 新しい記事を追加・カテゴリを編集した場合、必ず `src/data/ateliers-dev_content-list.json`（テーブル用）と `sidebars.ts`（サイドバー用）のカテゴリ名・順序・階層を一致させてください。
+  - 例：テーブルで「GitHub運用・Tips」カテゴリに記事を追加した場合、サイドバーの同名カテゴリにも同じ順序・内容で追加すること。
+  - カテゴリ名・順序・階層が不一致だと、ユーザー体験や自動化運用に不整合が生じます。
+- `src/data/ateliers-dev_content-list.json` には、適切なカテゴリ・階層に `title`, `link`, `description` などを記載してください。
+- `sidebars.ts` の `technicalNotebookSidebar` も同じカテゴリ・順序・階層で記事IDを追加してください。
 - 記事を追加・更新した場合は、必ず `docs/technical-notebook/index.md` の `<DateAndCopyUrlHeader ... updated="YYYY/MM/DD"/>` も最新日付に更新すること
 - 必要に応じて、`docs/site-guidance/index.md` や `docs/site-guidance/planned-content-and-update-history.md` も更新し、内容を反映・案内すること。これらを更新した場合も `<DateAndCopyUrlHeader ... updated="YYYY/MM/DD"/>` を最新日付に変更すること
 
