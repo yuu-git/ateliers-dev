@@ -104,6 +104,13 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
+      label: 'AI',
+      items: [
+        'technical-notebook/ai/llms-txt-documentation',
+      ],
+    },
+    {
+      type: 'category',
       label: 'AI問答メモ',
       items: [
         {

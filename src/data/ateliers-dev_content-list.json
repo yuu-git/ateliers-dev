@@ -164,6 +164,16 @@
                     ]
                 },
                 {
+                    "title": "AI",
+                    "articles": [
+                        {
+                            "title": "llms.txt とは",
+                            "link": "/docs/technical-notebook/ai/llms-txt-documentation",
+                            "description": "AIツール向け索引ファイルllms.txtの概要・役割・作成方法・運用ルールを詳しく解説します。"
+                        }
+                    ]
+                },
+                {
                     "title": "OpenAI",
                     "articles": [
                         {
