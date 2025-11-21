@@ -149,12 +149,17 @@
                     ]
                 },
                 {
-                    "title": "GitHub運用・管理手順",
+                    "title": "GitHub運用・Tips",
                     "articles": [
                         {
                             "title": "GitHub Personal Access Token（PAT）更新手順",
                             "link": "/docs/technical-notebook/github-methods/pat-update-guide",
                             "description": "GitHub Actions用のPAT（Personal Access Token）を発行・更新する手順まとめ"
+                        },
+                        {
+                            "title": "Gitのタグ（Tag）運用・管理ガイド",
+                            "link": "/docs/technical-notebook/git/tag-guide",
+                            "description": "Gitのタグ（Tag）の基本、運用ルール、作成・削除・共有方法、CI/CD連携などを解説します。"
                         }
                     ]
                 },

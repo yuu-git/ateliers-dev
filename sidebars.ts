@@ -60,6 +60,7 @@ const sidebars: SidebarsConfig = {
       label: 'GitHub運用・Tips',
       items: [
         'technical-notebook/github-methods/pat-update-guide',
+        'technical-notebook/git/tag-guide',
       ],
     },
     {
