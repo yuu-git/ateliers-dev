@@ -89,7 +89,7 @@ sequenceDiagram
 HTTPの「冪等性」は、同一の操作を何度実行してもシステムの状態が最初の1回目の操作以降変わらないことを意味します。  
 POSTは非冪等性であるため、同じリクエストを複数回送信すると、サーバーの状態が変わる可能性があります。
 
-より詳しい解説は [基本解説の冪等性セクション](/docs/technical-notebook/dotnet/http-protocol/basic-explanation#5-メソッドの冪等性について) を参照してください。
+より詳しい解説は [基本解説の冪等性セクション](/docs/technical-notebook/dotnet/http-protocol/basic-explanation#5-メソッドの冪等性とは) を参照してください。
 :::
 :::tip[簡単に覚える：要約ワンポイント]
 POSTは、サーバーにデータを送信する。非冪等性である。

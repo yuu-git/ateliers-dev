@@ -24,7 +24,12 @@ const config: Config = {
   projectName: 'ateliers-dev', // 通常はリポジトリ名です
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  markdown: {
+    mermaid: true,
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
+  },
 
   // 国際化を使用しない場合でも、このフィールドを使用してhtmlの言語などの有用なメタデータを設定できます。
   // 例えば、サイトが日本語の場合は、"en"を"ja"に置き換えることができます。
@@ -225,9 +230,7 @@ const config: Config = {
       additionalLanguages: ['csharp', 'cshtml', 'powershell', 'yaml', 'json', 'mermaid'],
     },
   } satisfies Preset.ThemeConfig,
-  markdown: {
-    mermaid: true,
-  },
+  // markdown 設定は上部に移動しました
   themes: ['@docusaurus/theme-mermaid'],
 };
 
