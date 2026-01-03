@@ -96,6 +96,12 @@ const config: Config = {
         },
         {
           type: 'docSidebar',
+          sidebarId: 'projectKnowledgeSidebar',
+          position: 'left',
+          label: 'プロジェクトナレッジ',
+        },
+        {
+          type: 'docSidebar',
           sidebarId: 'profileSidebar',
           position: 'left',
           label: 'プロフィール',

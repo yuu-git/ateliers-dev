@@ -129,6 +129,26 @@ const sidebars: SidebarsConfig = {
     'profiles/profiles-self-introduction',
     'profiles/profiles-personal-development-environment',
   ],
+  projectKnowledgeSidebar: [
+    'project-knowledge/index',
+    {
+      type: 'category',
+      label: 'Ateliers.Ai.Mcp',
+      link: {
+        type: 'doc',
+        id: 'project-knowledge/ateliers-ai-mcp/README',
+      },
+      items: [
+        {
+          type: 'category',
+          label: 'リリース戦略',
+          items: [
+            'project-knowledge/ateliers-ai-mcp/content/release-strategy/mcp-core-release-strategy',
+          ],
+        },
+      ],
+    },
+  ],
 };
 
 export default sidebars;

@@ -1,0 +1,140 @@
+name: Update Project Knowledge and Rebuild
+
+on:
+  # 毎日 9:00 (JST) に自動実行
+  schedule:
+    - cron: '0 0 * * *'  # UTC 0:00 = JST 9:00 (毎日)
+  
+  # 手動実行を許可
+  workflow_dispatch:
+
+jobs:
+  update-and-build:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          submodules: recursive
+      
+      - name: Get current submodule commit
+        id: current_commit
+        run: |
+          cd docs/project-knowledge/ateliers-ai-mcp
+          CURRENT_SHA=$(git rev-parse HEAD)
+          CURRENT_SHORT_SHA=$(git rev-parse --short HEAD)
+          echo "sha=$CURRENT_SHA" >> $GITHUB_OUTPUT
+          echo "short_sha=$CURRENT_SHORT_SHA" >> $GITHUB_OUTPUT
+          cd ../../..
+      
+      - name: Update submodule to latest
+        run: |
+          git submodule update --remote --merge docs/project-knowledge/ateliers-ai-mcp
+      
+      - name: Get updated submodule commit
+        id: updated_commit
+        run: |
+          cd docs/project-knowledge/ateliers-ai-mcp
+          UPDATED_SHA=$(git rev-parse HEAD)
+          UPDATED_SHORT_SHA=$(git rev-parse --short HEAD)
+          echo "sha=$UPDATED_SHA" >> $GITHUB_OUTPUT
+          echo "short_sha=$UPDATED_SHORT_SHA" >> $GITHUB_OUTPUT
+          cd ../../..
+      
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if [ "${{ steps.current_commit.outputs.sha }}" == "${{ steps.updated_commit.outputs.sha }}" ]; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "No changes detected in submodule"
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "Changes detected in submodule"
+          fi
+      
+      - name: Get change log
+        if: steps.check_changes.outputs.has_changes == 'true'
+        id: changelog
+        run: |
+          cd docs/project-knowledge/ateliers-ai-mcp
+          CHANGELOG=$(git log --oneline ${{ steps.current_commit.outputs.sha }}..${{ steps.updated_commit.outputs.sha }})
+          echo "log<<EOF" >> $GITHUB_OUTPUT
+          echo "$CHANGELOG" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+          
+          COMMIT_COUNT=$(git rev-list --count ${{ steps.current_commit.outputs.sha }}..${{ steps.updated_commit.outputs.sha }})
+          echo "count=$COMMIT_COUNT" >> $GITHUB_OUTPUT
+          cd ../../..
+      
+      - name: Commit submodule update
+        if: steps.check_changes.outputs.has_changes == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/project-knowledge/ateliers-ai-mcp
+          git commit -m "chore: update project knowledge submodule
+
+          Updated: ${{ steps.current_commit.outputs.short_sha }} → ${{ steps.updated_commit.outputs.short_sha }}
+          Changes: ${{ steps.changelog.outputs.count }} commit(s)
+          
+          ${{ steps.changelog.outputs.log }}"
+          git push
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+      
+      - name: Install dependencies
+        run: npm ci
+      
+      - name: Build Docusaurus site
+        run: npm run build
+      
+      - name: Deploy to GitHub Pages
+        if: steps.check_changes.outputs.has_changes == 'true'
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.GH_TOKEN_DEPLOY }}
+          publish_dir: ./build
+          cname: ateliers.dev
+          commit_message: "docs: rebuild with updated project knowledge (${{ steps.updated_commit.outputs.short_sha }})"
+      
+      - name: Create workflow summary
+        run: |
+          echo "## 📚 Project Knowledge Update Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          
+          if [ "${{ steps.check_changes.outputs.has_changes }}" == "true" ]; then
+            echo "### ✅ Submodule Updated" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "- **From**: \`${{ steps.current_commit.outputs.short_sha }}\`" >> $GITHUB_STEP_SUMMARY
+            echo "- **To**: \`${{ steps.updated_commit.outputs.short_sha }}\`" >> $GITHUB_STEP_SUMMARY
+            echo "- **Changes**: ${{ steps.changelog.outputs.count }} commit(s)" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "### 📝 Change Log" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+            echo "${{ steps.changelog.outputs.log }}" >> $GITHUB_STEP_SUMMARY
+            echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "### 🚀 Deployment" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "Site rebuilt and deployed to [ateliers.dev](https://ateliers.dev/docs/project-knowledge)" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "### ℹ️ No Changes" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "Submodule is already up to date." >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "### ✅ Build Verified" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "Build completed successfully with no changes." >> $GITHUB_STEP_SUMMARY
+          fi
