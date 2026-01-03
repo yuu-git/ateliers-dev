@@ -24,11 +24,9 @@ const config: Config = {
   projectName: 'ateliers-dev', // 通常はリポジトリ名です
 
   onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'warn',
   markdown: {
     mermaid: true,
-    hooks: {
-      onBrokenMarkdownLinks: 'warn',
-    },
   },
 
   // 国際化を使用しない場合でも、このフィールドを使用してhtmlの言語などの有用なメタデータを設定できます。
