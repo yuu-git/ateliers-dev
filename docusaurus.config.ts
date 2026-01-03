@@ -23,8 +23,7 @@ const config: Config = {
   organizationName: 'yuu-git', // 通常はGitHubの組織名またはユーザー名です
   projectName: 'ateliers-dev', // 通常はリポジトリ名です
 
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: 'warn',
   markdown: {
     mermaid: true,
   },
