@@ -4,43 +4,42 @@ import styles from './styles.module.css';
 
 type FeatureItem = {
   title: string;
-  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
+  emoji: string;
   description: JSX.Element;
 };
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'GitHub ガイドライン',
-    Svg: require('@site/static/img/svg/github-guidelines.svg').default,
+    title: '個人開発ガイドライン',
+    emoji: '⚙️',
     description: (
       <>
-        『私が GitHub をどうやって運用するか』についてのガイドラインです。<br/>
-        リポジトリの運用方針や、Issue や Pull Request の書き方など、GitHub の使い方について記載しています。
-      </>
-    ),
-  },
-  {
-    title: 'テクニカル ポリシー',
-    Svg: require('@site/static/img/svg/technical-policies.svg').default,
-    description: (
-      <>
-        コーディングガイドラインや、テスト方針、セキュリティなど、技術的方針について記載しています。
-        主に、得意とする C# や AI に関することを中心に書いています。
+        個人開発における判断基準・設計方針・運用ルールをまとめたガイドラインです。<br/>
+        GitHub の使い方、コーディング方針などを含みます。
       </>
     ),
   },
   {
     title: 'テクニカル ノート',
-    Svg: require('@site/static/img/svg/technical-notebook.svg').default,
+    emoji: '📚',
     description: (
       <>
-        技術的な事のドキュメントです。AI とのやりとりや技術解説の教育資料、技術的なメモを記録し、フィードバックを提供しています。
+        技術的なドキュメントです。AI とのやりとりや技術解説の教育資料、技術的なメモを記録し、フィードバックを提供しています。
+      </>
+    ),
+  },
+  {
+    title: 'プロジェクト ナレッジ',
+    emoji: '🗂️',
+    description: (
+      <>
+        Ateliers プロジェクトに関するナレッジベースです。GitHub のリポジトリからサブモジュール形式で取り込んでいます。
       </>
     ),
   },
   {
     title: 'プロフィール',
-    Svg: require('@site/static/img/svg/profiles.svg').default,
+    emoji: '🪪',
     description: (
       <>
         私のプロフィールです。経歴やスタックスキル、興味などについて記載しています。
@@ -49,20 +48,22 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'FAQ',
-    Svg: require('@site/static/img/svg/faq.svg').default,
+    emoji: '💬',
     description: (
       <>
-        よくある(かもしれない)質問についてまとめたセクションです。
+        よくある（かもしれない）質問についてまとめたセクションです。
       </>
     ),
   },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({title, emoji, description}: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <div className={styles.featureEmoji} role="img" aria-label={title}>
+          {emoji}
+        </div>
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>

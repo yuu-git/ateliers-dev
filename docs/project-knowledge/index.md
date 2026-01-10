@@ -1,33 +1,20 @@
 ---
+# Docusaurus メタデータ 
 title: プロジェクトナレッジ
 description: Ateliers AI MCP プロジェクト群のナレッジベース
+sidebar_label: プロジェクトナレッジ
+sidebar_position: 0
 ---
 
 # プロジェクトナレッジ
 
-Ateliers AI MCP プロジェクト群の設計思想、アーキテクチャ、開発ガイドライン、リリース戦略などのナレッジを集約しています。
+Ateliers プロジェクトのナレッジベースです。  
+GitHub のリポジトリからサブモジュール形式で取り込んでいます。
 
-## 📚 ドキュメント構成
+## 取り込みの仕組み
 
-### Ateliers AI MCP プロジェクト群
+以下の手順でナレッジドキュメントを管理・公開しています。
 
-Model Context Protocol (MCP) サーバー開発のための各種ライブラリとツール群のドキュメントです。
-
-#### リリース戦略
-
-- [mcp-core リリース戦略](ateliers-ai-mcp/content/release-strategy/mcp-core-release-strategy.md)
-
-## 🎯 このナレッジベースについて
-
-このセクションのコンテンツは、Git submodule ([ateliers-ai-mcp-projectbase](https://github.com/yuu-git/ateliers-ai-mcp-projectbase)) として管理されており、各プロジェクトから参照されています。
-
-### 主な目的
-
-- **一貫性の維持**: プロジェクト間で共通の設計思想と開発方針を共有
-- **効率的な開発**: 標準化されたプロセスとベストプラクティスの提供
-- **AI 活用**: LLM による開発支援のためのコンテキスト提供
-- **ドキュメント駆動開発**: AI-DDD (AI-driven Document-Driven Development) の実践
-
-### 更新について
-
-最新情報は [ateliers-ai-mcp-projectbase](https://github.com/yuu-git/ateliers-ai-mcp-projectbase) リポジトリで管理され、日次で自動更新されています。
+- 各プロジェクトのリポジトリにナレッジドキュメントを配置します。
+- ateliers-dev リポジトリの docs/project-knowledge 配下にサブモジュールとして取り込みます。
+- Docusaurus のドキュメントとしてビルドされ、公開されます。

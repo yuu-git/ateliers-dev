@@ -32,25 +32,19 @@ TOC (Table of Contents) のようなページとしてご利用ください。
 
 ---
 
-## 2. GitHub ガイドライン
+## 2. 個人開発ガイドライン
 
-<ArticlesTable categoryId="github-guidelines" />
-
----
-
-## 3. テクニカルポリシー
-
-<ArticlesTable categoryId="technical-policies" />
+<ArticlesTable categoryId="development-guidelines" />
 
 ---
 
-## 4. テクニカルノート
+## 3. テクニカルノート
 
 <ArticlesTable categoryId="technical-notebook" />
 
 ---
 
-## 5. プロフィール
+## 4. プロフィール
 
 <ArticlesTable categoryId="profiles" />
 

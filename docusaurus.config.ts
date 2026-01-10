@@ -75,15 +75,9 @@ const config: Config = {
         },
         {
           type: 'docSidebar',
-          sidebarId: 'githubGuidelinesSidebar',
+          sidebarId: 'developmentGuidelinesSidebar',
           position: 'left',
-          label: 'GitHub ガイドライン',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'technicalPoliciesSidebar',
-          position: 'left',
-          label: 'テクニカルポリシー',
+          label: '個人開発ガイドライン',
         },
         {
           type: 'docSidebar',
@@ -155,12 +149,8 @@ const config: Config = {
           title: 'Technical-Dcouments',
           items: [
             {
-              label: 'GitHub ガイドライン',
-              to: '/docs/github-guidelines',
-            },
-            {
-              label: 'テクニカル ポリシー',
-              to: '/docs/technical-policies',
+              label: '個人開発ガイドライン',
+              to: '/docs/development-guidelines',
             },
             {
               label: 'テクニカル ノート',

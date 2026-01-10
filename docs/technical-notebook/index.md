@@ -5,6 +5,7 @@ slug: /technical-notebook
 category: テクニカルノート
 title: テクニカルノート | ateliers.dev
 sidebar_label: テクニカルノート
+sidebar_position: 0
 description: ateliers.dev のコンテンツ「テクニカルノート」のトップページです。
 image: img/jpg/ateliers-dev-technical-notebook.jpg
 ---

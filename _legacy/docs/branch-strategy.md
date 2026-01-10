@@ -1,6 +1,6 @@
 ---
-id: github-guidelines-branch-strategy
-slug: /github-guidelines/branch-strategy
+id: development-guidelines-github-branch-strategy
+slug: /development-guidelines/github/branch-strategy
 category: GitHub ガイドライン
 title: GitHub ブランチ戦略 | ateliers.dev
 sidebar_label: ブランチ戦略
@@ -16,7 +16,7 @@ import RelatedArticles from '@site/src/components/RelatedArticles';
 # GitHub - ブランチ戦略
 
 <FullHeader
-  slug="/github-guidelines/branch-strategy"
+  slug="/development-guidelines/github/branch-strategy"
   title="GitHub ブランチ戦略 | ateliers.dev"
   created="2024/04/30"
   updated="2024/05/03"/>
@@ -413,12 +413,12 @@ hotfix での修正時には、パッチをインクリメントします。
 ## フィードバックの提供方法や連絡先
 
 :::tip[連絡先]
-この記事に関するフィードバックやご質問、ご意見がございましたら [プロフィールページの連絡先](../profiles/self-introduction#2-連絡先) からお気軽にご連絡ください。  
+この記事に関するフィードバックやご質問、ご意見がございましたら [プロフィールページの連絡先](../../profiles/self-introduction#2-連絡先) からお気軽にご連絡ください。  
 貴重なディスカッションをお待ちしております。
 :::
 
 ---
 
 <FullFooter
-  slug="/github-guidelines/branch-strategy"
+  slug="/development-guidelines/github/branch-strategy"
   title="GitHub ブランチ戦略 | ateliers.dev"/>

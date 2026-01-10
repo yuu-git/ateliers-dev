@@ -1,0 +1,8 @@
+{
+  "label": "⚙️個人開発ガイドライン",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "個人開発における判断基準・設計方針・運用ルールをまとめたガイドラインです。"
+  }
+}

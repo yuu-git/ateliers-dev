@@ -29,36 +29,38 @@
             ]
         },
         {
-            "id": "github-guidelines",
+            "id": "development-guidelines",
             "sort": "2",
-            "name": "GitHub ガイドライン",
-            "description": "GitHub の使い方に関するガイドラインです。",
+            "name": "個人開発ガイドライン",
+            "description": "個人開発における判断基準・設計方針・運用ルールをまとめたガイドラインです。",
             "articles": [
                 {
-                    "title": "リポジトリ命名方針",
-                    "link": "/docs/github-guidelines/repository-naming-policy",
-                    "description": "リポジトリの命名方針です。"
-                },
-                {
-                    "title": "ブランチ戦略",
-                    "link": "/docs/github-guidelines/branch-strategy",
-                    "description": "ブランチの運用方針です。"
-                }
-            ]
-        },
-        {
-            "id": "technical-policies",
-            "sort": "3",
-            "name": "テクニカルポリシー",
-            "description": "当サイトの技術的なポリシーです。",
-            "articles": [
-                {
-                    "title": "C# および .NET 関連の技術",
+                    "title": "GitHub",
                     "articles": [
                         {
-                            "title": "【C#】名前空間の命名方針",
-                            "link": "/docs/technical-policies/csharp/names-of-namespaces",
-                            "description": "C# における名前空間の命名方針です。"
+                            "title": "リポジトリ命名方針",
+                            "link": "/docs/development-guidelines/github/repository-naming-policy",
+                            "description": "リポジトリの命名方針です。"
+                        },
+                        {
+                            "title": "ブランチ戦略",
+                            "link": "/docs/development-guidelines/github/branch-strategy",
+                            "description": "ブランチの運用方針です。"
+                        }
+                    ]
+                },
+                {
+                    "title": "Coding",
+                    "articles": [
+                        {
+                            "title": "C#",
+                            "articles": [
+                                {
+                                    "title": "【C#】名前空間の命名方針",
+                                    "link": "/docs/development-guidelines/coding/csharp/names-of-namespaces",
+                                    "description": "C# における名前空間の命名方針です。"
+                                }
+                            ]
                         }
                     ]
                 }

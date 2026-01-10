@@ -1,7 +1,7 @@
 ---
-id: technical-policies-csharp-names-of-namespaces
-slug: /technical-policies/csharp/names-of-namespaces/
-category: テクニカルポリシー
+id: development-guidelines-coding-csharp-names-of-namespaces
+slug: /development-guidelines/coding/csharp/names-of-namespaces
+category: Development Guidelines
 title: 【C#】 名前空間の命名方針 | ateliers.dev
 sidebar_label: 【C#】 名前空間の命名方針
 tags: [C#, Naming-Policy, Namespace]
@@ -16,7 +16,7 @@ import RelatedArticles from '@site/src/components/RelatedArticles';
 # 【C#】 名前空間の命名方針
 
 <FullHeader
-  slug="/technical-policies/csharp/names-of-namespaces"
+  slug="/development-guidelines/coding/csharp/names-of-namespaces"
   title="【C#】 名前空間の命名方針"
   created="2024/04/29"
   updated="2024/05/16"/>
@@ -111,7 +111,7 @@ C#の名前空間においての利用はあまり一般的ではないため、
 
 より詳しいリポジトリの命名方針については、以下の内部ドキュメントを参照してください。
 
-参考: :page_facing_up:[GitHub ガイドライン - リポジトリの命名方針](/docs/github-guidelines/repository-naming-policy/):leftwards_arrow_with_hook:
+参考: :page_facing_up:[リポジトリの命名方針](/docs/development-guidelines/github/repository-naming-policy):leftwards_arrow_with_hook:
 
 ### 3.1. ソリューションが複数プロジェクトを持つ場合
 
@@ -185,5 +185,5 @@ C#の名前空間においての利用はあまり一般的ではないため、
 ---
 
 <FullFooter
-  slug="/technical-policies/csharp/names-of-namespaces"
+  slug="/development-guidelines/coding/csharp/names-of-namespaces"
   title="【C#】 名前空間の命名方針"/>

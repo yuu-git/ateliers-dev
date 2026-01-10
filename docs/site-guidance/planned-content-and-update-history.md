@@ -31,7 +31,7 @@ import CopyUrlFooter from '@site/src/components/IntegratedArticleComponents/Copy
 2024/04/21 に作成したばかりで、**ほぼコンテンツがない状態**です。  
 今後の作成予定コンテンツを以下、箇条書きとして示します。
 
-### 1.1. GitHub ガイドラインのコンテンツ
+### 1.1. 個人開発ガイドラインのコンテンツ
 
 * GitHub Actions のワークフロー
 * プルリクエストの運用方針
@@ -40,7 +40,7 @@ import CopyUrlFooter from '@site/src/components/IntegratedArticleComponents/Copy
 
 ...etc
 
-### 1.2. テクニカルポリシーのコンテンツ
+### 1.2. コーディング方針のコンテンツ
 
 * ソフトウェア設計時の技術方針
 * C# および .NET 関連の技術利用方針

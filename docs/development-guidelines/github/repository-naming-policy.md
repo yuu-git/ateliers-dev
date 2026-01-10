@@ -1,6 +1,6 @@
 ---
-id: github-guidelines-repository-naming-policy
-slug: /github-guidelines/repository-naming-policy
+id: development-guidelines-github-repository-naming-policy
+slug: /development-guidelines/github/repository-naming-policy
 category: GitHub ガイドライン
 title: GitHub リポジトリ命名方針 | ateliers.dev
 sidebar_label: リポジトリ命名方針
@@ -16,7 +16,7 @@ import RelatedArticles from '@site/src/components/RelatedArticles';
 # GitHub - リポジトリ命名方針
 
 <FullHeader
-  slug="/github-guidelines/repository-naming-policy"
+  slug="/development-guidelines/github/repository-naming-policy"
   title="GitHub リポジトリ命名方針 | ateliers.dev"
   created="2024/04/27"
   updated="2024/05/03"/>
@@ -142,7 +142,7 @@ GitHub のリポジトリ命名方針に関するドキュメントです。
 名前空間についての詳細は、以下の内部ドキュメントを参照してください。
 
 :::tip[参考リンク(サイト内部ページ)]
-参考: :page_facing_up:[テクニカルポリシー - C# の名前空間の命名方針](/docs/technical-policies/csharp/names-of-namespaces/):leftwards_arrow_with_hook:
+参考: :page_facing_up:[【C#】 名前空間の命名方針](/docs/development-guidelines/coding/csharp/names-of-namespaces):leftwards_arrow_with_hook:
 :::
 
 ---
@@ -156,12 +156,12 @@ GitHub のリポジトリ命名方針に関するドキュメントです。
 ## フィードバックの提供方法と連絡先
 
 :::tip[連絡先]
-この記事に関するフィードバックやご質問、ご意見がございましたら [プロフィールページの連絡先](../profiles/self-introduction#2-連絡先) からお気軽にご連絡ください。  
+この記事に関するフィードバックやご質問、ご意見がございましたら [プロフィールページの連絡先](../../profiles/self-introduction#2-連絡先) からお気軽にご連絡ください。  
 貴重なディスカッションをお待ちしております。
 :::
 
 ---
 
 <FullFooter
-  slug="/github-guidelines/repository-naming-policy"
+  slug="/development-guidelines/github/repository-naming-policy"
   title="GitHub リポジトリ命名方針 | ateliers.dev"/>

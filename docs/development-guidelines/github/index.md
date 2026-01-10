@@ -1,8 +1,8 @@
 ---
 # Docusaurus メタデータ 
-id: github-guidelines-index
-slug: /github-guidelines
-category: GitHub ガイドライン
+id: development-guidelines-github-index
+slug: /development-guidelines/github
+category: Development Guidelines
 title: GitHub ガイドライン | ateliers.dev
 sidebar_label: GitHub ガイドライン
 description: ateliers.dev のコンテンツ「GitHub ガイドライン」のトップページです。
@@ -16,14 +16,14 @@ import ArticlesTable from '@site/src/components/ArticlesTable';
 # GitHub ガイドライン
 
 <DateAndCopyUrlHeader
-    slug="/github-guidelines"
+    slug="/development-guidelines/github"
     title="GitHub ガイドライン | ateliers.dev"
     created="2024/04/21"
     updated="2024/05/14"/>
 
 ---
 
-![img](../../static/img/jpg/ateliers-dev-github-guidelines.jpg)
+![img](/img/jpg/ateliers-dev-github-guidelines.jpg)
 
 ---
 
@@ -36,10 +36,10 @@ GitHubの個人的な使用方針に関するドキュメントです。
 
 ## コンテンツ一覧
 
-<ArticlesTable categoryId="github-guidelines" />
+<ArticlesTable categoryId="development-guidelines" />
 
 ---
 
 <CopyUrlFooter
-    slug="/github-guidelines"
+    slug="/development-guidelines/github"
     title="GitHub ガイドライン | ateliers.dev"/>

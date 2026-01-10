@@ -1,6 +1,6 @@
 ---
-id: github-guidelines-writing-guide
-slug: /github-guidelines/writing-guide
+id: development-guidelines-github-writing-guide
+slug: /development-guidelines/github/writing-guide
 category: GitHub ガイドライン
 title: GitHub ガイドラインの作成方針 | ateliers.dev
 sidebar_label: GitHub ガイドラインの作成方針
@@ -15,7 +15,7 @@ import ArticlesTable from '@site/src/components/ArticlesTable';
 # GitHub ガイドラインの作成方針
 
 <DateAndCopyUrlHeader
-    slug="/github-guidelines/writing-guide"
+    slug="/development-guidelines/github/writing-guide"
     title="GitHub ガイドラインの作成方針 | ateliers.dev"
     created="2024/04/23"
     updated="2024/05/03"/>
@@ -67,7 +67,7 @@ GitHub の機能は日々進歩しており、記事の内容よりも良い機�
 直接的に連絡先を記載すると、連絡先が変更があった場合に全ての記事を修正する必要があるため、基本的にプロフィールへの誘導リンクを記載します。  
 
 :::tip[連絡先]
-この記事に関するフィードバックやご質問、ご意見がございましたら [プロフィールページの連絡先](../profiles/self-introduction#2-連絡先) からお気軽にご連絡ください。  
+この記事に関するフィードバックやご質問、ご意見がございましたら [プロフィールページの連絡先](../../profiles/self-introduction#2-連絡先) からお気軽にご連絡ください。  
 貴重なディスカッションをお待ちしております。
 :::
 
@@ -77,5 +77,5 @@ GitHub の機能は日々進歩しており、記事の内容よりも良い機�
 ---
 
 <CopyUrlFooter
-    slug="/github-guidelines/writing-guide"
+    slug="/development-guidelines/github/writing-guide"
     title="GitHub ガイドラインの作成方針 | ateliers.dev"/>
