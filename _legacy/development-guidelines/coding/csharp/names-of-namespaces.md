@@ -171,7 +171,7 @@ C#の名前空間においての利用はあまり一般的ではないため、
 | --- | --- |
 | ateliers-dev | 当WEBサイトのリポジトリ |
 | ateliers-shared-resources | 共有リソース用のリポジトリ |
-| ateliers-ai-assistants | AIサポート機能用のリポジトリ |
+| ateliers-knowledge | AIサポート機能用のリポジトリ |
 
 ---
 

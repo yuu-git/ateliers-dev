@@ -1,6 +1,6 @@
-[submodule ".submodules/ateliers-ai-assistants"]
-	path = .submodules/ateliers-ai-assistants
-	url = https://github.com/yuu-git/ateliers-ai-assistants.git
+[submodule ".submodules/ateliers-knowledge"]
+	path = .submodules/ateliers-knowledge
+	url = https://github.com/yuu-git/ateliers-knowledge.git
 [submodule ".submodules/ateliers-shared-resource"]
 	path = .submodules/ateliers-shared-resource
 	url = https://github.com/yuu-git/ateliers-shared-resource.git

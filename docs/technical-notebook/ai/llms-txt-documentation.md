@@ -426,7 +426,7 @@ llms.txt = AI のための「プロジェクトの説明書」
 
 **次のステップ**
 
-- [llms.txt のサンプルを見る](https://github.com/yuu-git/ateliers-ai-assistants/blob/master/llms.txt)
+- [llms.txt のサンプルを見る](https://github.com/yuu-git/ateliers-knowledge/blob/master/llms.txt)
 
 *AI 時代のプロジェクトには、AI のためのドキュメントが必要です。*
 
