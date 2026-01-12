@@ -1,6 +1,3 @@
-[submodule ".submodules/ateliers-shared-resource"]
-	path = .submodules/ateliers-shared-resource
-	url = https://github.com/yuu-git/ateliers-shared-resource.git
 [submodule "docs/project-knowledge/ateliers-ai-mcp"]
 	path = docs/project-knowledge/ateliers-ai-mcp
 	url = https://github.com/yuu-git/ateliers-ai-mcp-projectbase.git

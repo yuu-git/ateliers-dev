@@ -9,17 +9,7 @@ description: ateliers.dev の「テクニカルノート」内コンテンツで
 image: img/jpg/ateliers-dev-technical-notebook.jpg
 ---
 
-import FullHeader from '@site/src/components/IntegratedArticleComponents/FullHeader';
-import FullFooter from '@site/src/components/IntegratedArticleComponents/FullFooter';
-import RelatedArticles from '@site/src/components/RelatedArticles';
-
 # 当サイトのイメージ生成メモ
-
-<FullHeader
-  slug="/technical-notebook/openai-gpt/dall-e/my-site-image-generation-memo"
-  title="【DALL-E】当サイトのイメージ生成メモ | ateliers.dev"
-  created="2024/04/24"
-  updated="2024/05/02"/>
 
 ---
 
@@ -463,8 +453,4 @@ Imagine a landscape in an alien dimension with a gradient of soft brown to light
 貴重なディスカッションをお待ちしております。
 :::
 
----
 
-<FullFooter
-  slug="/technical-notebook/openai-gpt/dall-e/my-site-image-generation-memo"
-  title="【DALL-E】当サイトのイメージ生成メモ | ateliers.dev"/>

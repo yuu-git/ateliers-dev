@@ -9,18 +9,7 @@ description: ateliers.dev のコンテンツ「テクニカルノート」です
 image: img/jpg/ateliers-dev-technical-notebook.jpg
 ---
 
-import FullHeader from '@site/src/components/IntegratedArticleComponents/FullHeader';
-import FullFooter from '@site/src/components/IntegratedArticleComponents/FullFooter';
-import SeriesList from '@site/src/components/SeriesList';
-import RelatedArticles from '@site/src/components/RelatedArticles';
-
 # HTTP プロトコルメソッドの基本解説
-
-<FullHeader
-  slug="/technical-notebook/dotnet/http-protocol/basic-explanation"
-  title="HTTPプロトコルの基本解説 | ateliers.dev"
-  created="2024/05/05"
-  updated="2024/05/12"/>
 
 ---
 
@@ -39,13 +28,6 @@ HTTPプロトコル解説シリーズを通して、HTTP プロトコルのメ�
 
 ---
 
-## 関連する解説シリーズ記事一覧
-
-<SeriesList
-    seriesName="technical-notebook-dotnet-http-protocol"
-    exclusion="basic-explanation"/>
-
----
 ---
 
 ## 1. HTTP プロトコルとは
@@ -252,16 +234,6 @@ HTTPについて：
 
 ---
 
-<RelatedArticles
-    currentUrl="/docs/technical-notebook/dotnet/http-protocol/basic-explanation"
-    currentSeries="technical-notebook-dotnet-http-protocol"
-    currentTags={["http"]}
-    maxItems={20}
-    showHeading={true}
-    title="関連記事"/>
-
----
-
 ## フィードバックの提供方法と連絡先
 
 :::tip[連絡先]
@@ -269,8 +241,4 @@ HTTPについて：
 貴重なディスカッションをお待ちしております。
 :::
 
----
 
-<FullFooter
-  slug="/technical-notebook/dotnet/http-protocol/basic-explanation"
-  title="HTTPプロトコルの基本解説 | ateliers.dev"/>

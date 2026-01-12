@@ -5,17 +5,7 @@ description: GitHub Actions用のPAT（Personal Access Token）を発行・更�
 tags: [GitHub, Actions, PAT, セキュリティ, 運用]
 ---
 
-import FullHeader from '@site/src/components/IntegratedArticleComponents/FullHeader';
-import FullFooter from '@site/src/components/IntegratedArticleComponents/FullFooter';
-import SeriesList from '@site/src/components/SeriesList';
-import RelatedArticles from '@site/src/components/RelatedArticles';
-
 # GitHub Personal Access Token（PAT）更新手順
-
-<FullHeader
-  slug="/technical-notebook/github-methods/pat-update-guide"
-  title="GitHub Personal Access Token（PAT）更新手順 | ateliers.dev"
-  created="2025/11/22"/>
 
 ---
 
@@ -60,8 +50,4 @@ GitHub Actions などで使う PAT（Personal Access Token）の発行・更新�
 - [GitHub公式ドキュメント: Personal access tokens](https://docs.github.com/ja/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
 - [peaceiris/actions-gh-pages ドキュメント](https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-create-ssh-deploy-key)
 
----
 
-<FullFooter
-  slug="/technical-notebook/github-methods/pat-update-guide"
-  title="GitHub Personal Access Token（PAT）更新手順 | ateliers.dev"/>

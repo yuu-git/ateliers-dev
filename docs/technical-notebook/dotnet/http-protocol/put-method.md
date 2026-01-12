@@ -9,17 +9,7 @@ description: ateliers.dev のコンテンツ「テクニカルノート」です
 image: img/jpg/ateliers-dev-technical-notebook.jpg
 ---
 
-import FullHeader from '@site/src/components/IntegratedArticleComponents/FullHeader';
-import FullFooter from '@site/src/components/IntegratedArticleComponents/FullFooter';
-import SeriesList from '@site/src/components/SeriesList';
-import RelatedArticles from '@site/src/components/RelatedArticles';
-
 # HTTP プロトコルの『PUT』解説
-
-<FullHeader
-  slug="/technical-notebook/dotnet/http-protocol/put-method"
-  title="HTTP PUT 解説 | ateliers.dev"
-  created="2024/05/05"/>
 
 ---
 
@@ -37,12 +27,6 @@ PUTの概要や使用例、使用ケースについて説明し、C# を使用�
 :::
 
 ---
-
-## 関連する解説シリーズ記事一覧
-
-<SeriesList
-    seriesName="technical-notebook-dotnet-http-protocol"
-    exclusion="put-method"/>
 
 ---
 
@@ -377,8 +361,4 @@ HTTPについて：
 貴重なディスカッションをお待ちしております。
 :::
 
----
 
-<FullFooter
-  slug="/technical-notebook/dotnet/http-protocol/put-method"
-  title="HTTP PUT 解説 | ateliers.dev"/>

@@ -11,18 +11,8 @@ image: img/jpg/ateliers-dev-technical-notebook.jpg
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
-import FullHeader from '@site/src/components/IntegratedArticleComponents/FullHeader';
-import FullFooter from '@site/src/components/IntegratedArticleComponents/FullFooter';
-import SeriesList from '@site/src/components/SeriesList';
-import RelatedArticles from '@site/src/components/RelatedArticles';
 
 # HTTP プロトコルの『GET』解説
-
-<FullHeader
-  slug="/technical-notebook/dotnet/http-protocol/get-method"
-  title="HTTP GET 解説 | ateliers.dev"
-  created="2024/05/05"
-  updated="2024/05/08"/>
 
 ---
 
@@ -40,12 +30,6 @@ GETの概要や使用例、使用ケースについて説明し、C# を使用�
 :::
 
 ---
-
-## 関連する解説シリーズ記事一覧
-
-<SeriesList
-    seriesName="technical-notebook-dotnet-http-protocol"
-    exclusion="get-method"/>
 
 ---
 
@@ -1031,8 +1015,4 @@ HTTPについて：
 貴重なディスカッションをお待ちしております。
 :::
 
----
 
-<FullFooter
-  slug="/technical-notebook/dotnet/http-protocol/get-method"
-  title="HTTP GET 解説 | ateliers.dev"/>

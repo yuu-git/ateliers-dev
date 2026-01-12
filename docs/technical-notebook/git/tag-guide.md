@@ -5,17 +5,7 @@ description: Gitのタグ（Tag）の基本、運用ルール、作成・削除�
 tags: [Git, Tag, 運用, バージョン管理, CI/CD]
 ---
 
-import FullHeader from '@site/src/components/IntegratedArticleComponents/FullHeader';
-import FullFooter from '@site/src/components/IntegratedArticleComponents/FullFooter';
-import SeriesList from '@site/src/components/SeriesList';
-import RelatedArticles from '@site/src/components/RelatedArticles';
-
 # Gitのタグ（Tag）運用・管理ガイド
-
-<FullHeader
-  slug="/technical-notebook/git/tag-guide"
-  title="Gitのタグ（Tag）運用・管理ガイド | ateliers.dev"
-  created="2025/11/22"/>
 
 ---
 
@@ -68,8 +58,4 @@ Gitのタグ（Tag）は、リリースや重要なスナップショットに�
 - [Git公式ドキュメント: タグ](https://git-scm.com/book/ja/v2/Git-%E3%81%AE%E5%9F%BA%E6%9C%AC-%E3%82%BF%E3%82%B0)
 - [GitHub Docs: タグの管理](https://docs.github.com/ja/repositories/releasing-projects-on-github/managing-releases-in-a-repository/managing-tags-in-a-repository)
 
----
 
-<FullFooter
-  slug="/technical-notebook/git/tag-guide"
-  title="Gitのタグ（Tag）運用・管理ガイド | ateliers.dev"/>

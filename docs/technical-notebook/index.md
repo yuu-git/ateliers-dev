@@ -12,7 +12,6 @@ image: img/jpg/ateliers-dev-technical-notebook.jpg
 
 import DateAndCopyUrlHeader from '@site/src/components/IntegratedArticleComponents/DateAndCopyUrlHeader';
 import CopyUrlFooter from '@site/src/components/IntegratedArticleComponents/CopyUrlFooter';
-import ArticlesTable from '@site/src/components/ArticlesTable';
 
 # テクニカルノート
 
@@ -32,12 +31,6 @@ import ArticlesTable from '@site/src/components/ArticlesTable';
 継続的に更新されるセクションで、日常的な技術的発見や考察を随時更新していく形式です。
 
 ![img](./img/technical-memos.png)
-
----
-
-## コンテンツ一覧
-
-<ArticlesTable categoryId="technical-notebook" />
 
 ---
 

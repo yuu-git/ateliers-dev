@@ -104,20 +104,9 @@ const config: Config = {
         },
         /*{to: '/blog', label: 'Blog', position: 'left'},*/
         {
-          label: 'コンテンツ案内',
-          type: 'dropdown',
-          position: 'right',
-          items:[
-            {
-              to: '/docs/site-content-list',
-              label: 'コンテンツ一覧',
-            },
-            {
-              to: '/docs/tags', 
-              label: 'タグ一覧', 
-            },
-
-          ]
+          to: '/docs/tags', 
+          label: 'タグ一覧', 
+          position: 'right'
         },
         {
           label: 'GitHub',

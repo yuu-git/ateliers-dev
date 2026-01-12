@@ -64,7 +64,7 @@ import CopyUrlFooter from '@site/src/components/IntegratedArticleComponents/Copy
 ## 2. 主要コンテンツの概要
 
 * 個人開発ガイドライン：  
-[Development Guidelines](../development-guidelines/index.mdx) - 個人開発における判断基準・設計方針・運用ルールをまとめたガイドラインです。GitHub の使い方、コーディング方針などを含みます。  
+[Development Guidelines](../ateliers-knowledge/guidelines/development/README.md) - 個人開発における判断基準・設計方針・運用ルールをまとめたガイドラインです。GitHub の使い方、コーディング方針などを含みます。  
 * テクニカルノート：  
 [Technical Notebook](../technical-notebook/index.md) - 特定技術の使い方や問題解決、教育資材など、技術的な情報が記録されているセクションです。  
 

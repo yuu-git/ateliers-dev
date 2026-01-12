@@ -9,16 +9,7 @@ description: ateliers.dev の「テクニカルノート」内コンテンツで
 image: img/jpg/ateliers-dev-technical-notebook.jpg
 ---
 
-import FullHeader from '@site/src/components/IntegratedArticleComponents/FullHeader';
-import FullFooter from '@site/src/components/IntegratedArticleComponents/FullFooter';
-import RelatedArticles from '@site/src/components/RelatedArticles';
-
 # 一貫した画像再現の方法
-
-<FullHeader
-  slug="/technical-notebook/openai-gpt/dall-e/consistent-image-reproduction-method"
-  title="【DALL-E】一貫した画像再現の方法 | ateliers.dev"
-  created="2024/04/27"/>
 
 ---
 
@@ -86,8 +77,4 @@ WEBサイトのイメージとして生成AIの画像を利用する場合は、
 貴重なディスカッションをお待ちしております。
 :::
 
----
 
-<FullFooter
-  slug="/technical-notebook/openai-gpt/dall-e/consistent-image-reproduction-method"
-  title="【DALL-E】一貫した画像再現の方法 | ateliers.dev"/>
