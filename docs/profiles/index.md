@@ -10,12 +10,6 @@ description: ateliers.dev のコンテンツ「プロフィール」のトップ
 
 # プロフィール
 
-import DateHeader from '@site/src/components/DateHeader';
-
-<DateHeader
-    created="2024/04/21"
-    updated="2024/04/24"/>
-
 ---
 
 ![img](../../static/img/jpg/ateliers-dev-profiles.jpg)

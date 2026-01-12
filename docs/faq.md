@@ -8,16 +8,7 @@ sidebar_label: FAQ
 description: ateliers.dev のコンテンツ「FAQ」のトップページです。
 ---
 
-import DateAndCopyUrlHeader from '@site/src/components/IntegratedArticleComponents/DateAndCopyUrlHeader';
-import CopyUrlFooter from '@site/src/components/IntegratedArticleComponents/CopyUrlFooter';
-
 # FAQ
-
-<DateAndCopyUrlHeader
-    slug="/faq"
-    title="FAQ | ateliers.dev"
-    created="2024/04/24"
-    updated="2024/05/02"/>
 
 ---
 
@@ -132,6 +123,3 @@ GitHub 公開のオープンソースプロジェクトに関する質問とそ�
 
 ---
 
-<CopyUrlFooter
-    slug="/faq"
-    title="FAQ | ateliers.dev"/>

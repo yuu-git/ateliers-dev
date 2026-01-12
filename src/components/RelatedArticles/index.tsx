@@ -1,6 +1,8 @@
 import React from 'react';
-import articlesData from '../../data/ateliers-dev_content-list.json'; // src/data配下からJSONデータをインポート
+// import articlesData from '../../data/ateliers-dev_content-list.json'; // src/data配下からJSONデータをインポート
 import './related-articles.css'; // CSSファイルをインポート
+
+const articlesData = { content: [] }; // Dummy data
 
 // パラメータ:
 // - currentUrl: 現在の記事のURLを指定します（string型）。

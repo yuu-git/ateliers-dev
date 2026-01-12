@@ -9,16 +9,9 @@ description: ateliers.dev のコンテンツ「テクニカルノート」です
 image: img/jpg/ateliers-dev-technical-notebook.jpg
 ---
 
-import DateAndCopyUrlHeader from '@site/src/components/IntegratedArticleComponents/DateAndCopyUrlHeader';
-import CopyUrlFooter from '@site/src/components/IntegratedArticleComponents/CopyUrlFooter';
 import ArticlesTable from '@site/src/components/ArticlesTable';
 
 # C#のパラメータnullや空文字の例外種別について
-
-<DateAndCopyUrlHeader
-    slug="/technical-notebook/ai-chat-memos/csharp/20240412-about-exception-handling"
-    title="【C#】 文字列パラメータの例外処理 | ateliers.dev"
-    created="2024/04/28"/>
 
 ---
 
@@ -148,7 +141,3 @@ if (string.IsNullOrWhiteSpace(createProgramId))
 ![image1](./img-20240412-about-exception-handling/SS-2024-04-12-091638.png)
 
 ---
-
-<CopyUrlFooter
-  slug="/technical-notebook/ai-chat-memos/csharp/20240412-about-exception-handling"
-  title="【C#】 文字列パラメータの例外処理 | ateliers.dev"/>

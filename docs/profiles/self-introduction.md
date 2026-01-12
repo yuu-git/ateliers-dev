@@ -7,16 +7,7 @@ sidebar_label: 自己紹介
 description: ateliers.dev のコンテンツ「プロフィール」です。自己紹介のページです。
 ---
 
-import DateAndCopyUrlHeader from '@site/src/components/IntegratedArticleComponents/DateAndCopyUrlHeader';
-import CopyUrlFooter from '@site/src/components/IntegratedArticleComponents/CopyUrlFooter';
-
 # 管理者の自己紹介
-
-<DateAndCopyUrlHeader
-    slug="/profiles/self-introduction"
-    title="自己紹介 | ateliers.dev"
-    created="2024/04/28"
-    updated="2024/05/03"/>
 
 ---
 
@@ -291,6 +282,3 @@ AIのファインチューニングやラーニングなどにも触れ、一通
 
 ---
 
-<CopyUrlFooter
-    slug="/profiles/self-introduction"
-    title="自己紹介 | ateliers.dev"/>

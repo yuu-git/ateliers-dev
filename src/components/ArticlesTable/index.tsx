@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import articlesData from '../../data/ateliers-dev_content-list.json'; // src/data配下からJSONデータをインポート
+// import articlesData from '../../data/ateliers-dev_content-list.json'; // src/data配下からJSONデータをインポート
 import './articles-table.css'; // CSSファイルをインポート
+
+const articlesData = { content: [] }; // Dummy data
 
 const ArticlesTable = ({ categoryId }) => {
     const [category, setCategory] = useState(null);

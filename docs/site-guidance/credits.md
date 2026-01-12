@@ -7,16 +7,7 @@ sidebar_label: クレジット
 description: ateliers.dev のコンテンツ「サイト案内」です。WEBサイトのクレジットについて記載しています。
 ---
 
-import DateAndCopyUrlHeader from '@site/src/components/IntegratedArticleComponents/DateAndCopyUrlHeader';
-import CopyUrlFooter from '@site/src/components/IntegratedArticleComponents/CopyUrlFooter';
-
 # サイトクレジット
-
-<DateAndCopyUrlHeader
-    slug="/site-guidance/credits"
-    title="サイトクレジット | ateliers.dev"
-    created="2024/05/02"
-    updated="2024/05/13"/>
 
 ---
 
@@ -93,7 +84,3 @@ import CopyUrlFooter from '@site/src/components/IntegratedArticleComponents/Copy
 現在のところ特にございません。
 
 ---
-
-<CopyUrlFooter
-    slug="/site-guidance/credits"
-    title="サイトクレジット | ateliers.dev"/>

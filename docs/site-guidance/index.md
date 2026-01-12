@@ -7,16 +7,7 @@ sidebar_label: サイト案内
 description: ateliers.dev のコンテンツ「サイト案内」のページです。
 ---
 
-import DateAndCopyUrlHeader from '@site/src/components/IntegratedArticleComponents/DateAndCopyUrlHeader';
-import CopyUrlFooter from '@site/src/components/IntegratedArticleComponents/CopyUrlFooter';
-
 # サイト案内
-
-<DateAndCopyUrlHeader
-    slug="/site-guidance"
-    title="サイト案内 | ateliers.dev"
-    created="2024/04/25"
-    updated="2024/04/28"/>
 
 ---
 
@@ -117,7 +108,3 @@ GitHub の使い方、コーディング・設計方針、プロジェクト運�
 その際は、新たに「アプリケーション」セクションや「リリース」ブログの開設、APIドキュメントなどを追加する予定です。
 
 ---
-
-<CopyUrlFooter
-    slug="/site-guidance"
-    title="サイト案内 | ateliers.dev"/>

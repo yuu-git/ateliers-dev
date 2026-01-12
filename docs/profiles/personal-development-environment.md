@@ -7,16 +7,7 @@ sidebar_label: 個人の開発環境
 description: ateliers.dev のコンテンツ「プロフィール」です。個人の開発環境についてのページです。
 ---
 
-import DateAndCopyUrlHeader from '@site/src/components/IntegratedArticleComponents/DateAndCopyUrlHeader';
-import CopyUrlFooter from '@site/src/components/IntegratedArticleComponents/CopyUrlFooter';
-
 # 個人の開発環境紹介
-
-<DateAndCopyUrlHeader
-    slug="/profiles/personal-development-environment"
-    title="開発環境紹介 | ateliers.dev"
-    created="2024/04/27"
-    updated="2024/05/01"/>
 
 ---
 
@@ -117,7 +108,3 @@ Gemini や Claude など、より高性能なAIはありますが、Visual Studi
 個人環境で Azule OpneAI Service を使うのは敷居が高すぎるので GPT API を使うつもりでいます。
 
 ---
-
-<CopyUrlFooter
-    slug="/profiles/personal-development-environment"
-    title="開発環境紹介 | ateliers.dev"/>

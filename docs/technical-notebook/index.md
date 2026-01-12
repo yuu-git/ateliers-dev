@@ -10,16 +10,7 @@ description: ateliers.dev のコンテンツ「テクニカルノート」のト
 image: img/jpg/ateliers-dev-technical-notebook.jpg
 ---
 
-import DateAndCopyUrlHeader from '@site/src/components/IntegratedArticleComponents/DateAndCopyUrlHeader';
-import CopyUrlFooter from '@site/src/components/IntegratedArticleComponents/CopyUrlFooter';
-
 # テクニカルノート
-
-<DateAndCopyUrlHeader
-    slug="/technical-notebook"
-    title="テクニカルノート | ateliers.dev"
-    created="2024/04/21"
-    updated="2025/11/22"/>
 
 ---
 
@@ -40,7 +31,3 @@ import CopyUrlFooter from '@site/src/components/IntegratedArticleComponents/Copy
 * 読者が新しい技術やフレームワークを効率的に学べるような構造とフォーマットを指定します。
 
 ---
-
-<CopyUrlFooter
-    slug="/technical-notebook"
-    title="テクニカルノート | ateliers.dev"/>

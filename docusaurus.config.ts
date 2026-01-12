@@ -91,17 +91,6 @@ const config: Config = {
           position: 'left',
           label: 'プロジェクトナレッジ',
         },
-        {
-          type: 'docSidebar',
-          sidebarId: 'profileSidebar',
-          position: 'left',
-          label: 'プロフィール',
-        },
-        {
-          to: '/docs/faq', 
-          label: 'FAQ', 
-          position: 'left'
-        },
         /*{to: '/blog', label: 'Blog', position: 'left'},*/
         {
           to: '/docs/tags', 
@@ -144,6 +133,10 @@ const config: Config = {
             {
               label: 'テクニカル ノート',
               to: '/docs/technical-notebook',
+            },
+            {
+              label: 'プロジェクト ナレッジ',
+              to: '/docs/project-knowledge',
             },
           ],
         },

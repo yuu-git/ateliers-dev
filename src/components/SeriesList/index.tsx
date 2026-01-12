@@ -1,6 +1,8 @@
 import React from 'react';
-import articlesData from '../../../.submodules/ateliers-shared-resource/Data/JSON/WebSite/ateliers-dev_content-list.json'; // サブモジュールからJSONデータをインポート
+// import articlesData from '../../../.submodules/ateliers-shared-resource/Data/JSON/WebSite/ateliers-dev_content-list.json'; // サブモジュールからJSONデータをインポート
 import './series-list.css'; // CSSファイルをインポート
+
+const articlesData = { content: [] }; // Dummy data
 
 const SeriesList = ({ seriesName, exclusion }) => {
   const seriesArticles = [];
