@@ -1,0 +1,333 @@
+# ateliers-knowledge
+
+> Ateliers プロジェクトのナレッジベース - AI 駆動開発とドキュメント駆動開発を支える知識リポジトリ
+> GitHub Copilot、Cursor、Claude 等の AI ツールで利用可能なテキストベースリポジトリ
+
+## Overview
+
+- **Repository**: https://github.com/yuu-git/ateliers-knowledge
+- **Former Name**: ateliers-ai-assistants (2026-01-11 にリネーム)
+- **Author**: @yuu-git
+- **Language**: Japanese (日本語)
+- **License**: MIT
+- **Type**: Text-based guidelines, samples, and best practices
+- **Primary Use**: Git Submodule
+- **Last Updated**: 2026-01-11 (Renamed and expanded scope)
+
+## Purpose
+
+このリポジトリは以下の目的で運用されます：
+
+1. **AI 駆動開発の支援**: AI による自動コード生成・テスト生成のためのガイドラインとサンプル
+2. **ドキュメント駆動開発**: プロジェクト横断的な開発ガイドライン・ベストプラクティスの一元管理
+3. **再利用可能なナレッジ**: サブモジュールとして各プロジェクトから参照可能
+4. **Docusaurus 統合**: 静的サイト生成による技術文書の公開
+
+特に C# と xUnit を使用した開発において、一貫性のあるコード品質を保つための規約を定義しています。
+
+**主な変更履歴**:
+- 2025-11: AI ツール非依存・多言語対応の構造に全面改訂
+- 2026-01: `ateliers-knowledge` にリネーム、開発ガイドラインの統合開始
+
+## Installation
+
+### Quick Setup (Recommended)
+
+```bash
+# ワンライナーで自動セットアップ
+curl -fsSL https://raw.githubusercontent.com/yuu-git/ateliers-knowledge/master/scripts/init-for-project.sh | bash
+```
+
+このスクリプトは以下を自動実行します：
+- サブモジュールの追加と初期化
+- masterブランチへの切り替え
+- 更新スクリプトのコピー
+- GitHub Actions の設定（オプション）
+
+### Manual Setup
+
+```bash
+# サブモジュールとして追加
+git submodule add https://github.com/yuu-git/ateliers-knowledge.git .submodules/ateliers-knowledge
+
+# 初期化と更新
+git submodule update --init --recursive
+
+# masterブランチに切り替え
+cd .submodules/ateliers-knowledge
+git checkout master
+git pull origin master
+cd ../..
+```
+
+## Updates
+
+### Method 1: Manual Script
+
+```bash
+# 更新スクリプトを実行（init-for-project.sh でコピー済み）
+./scripts/update-ai-guidelines.sh
+```
+
+### Method 2: GitHub Actions (Auto-update)
+
+毎週月曜日9時に自動更新（init-for-project.sh で設定可能）
+
+手動実行：GitHub > Actions > Update AI Guidelines > Run workflow
+
+### Method 3: Direct Command
+
+```bash
+cd .submodules/ateliers-knowledge
+git checkout master
+git pull origin master
+cd ../..
+```
+
+## Directory Structure
+
+```
+ateliers-knowledge/
+├─ guidelines/                           # 開発ガイドライン（2026-01追加）
+│  └─ development/
+│     ├─ github/                        # GitHub 運用
+│     └─ coding/                        # コーディング規約
+│        └─ csharp/
+├─ ai-generation-guidelines/             # AI 生成用ガイドライン
+│  ├─ fundamentals/
+│  ├─ by-language/
+│  │  ├─ csharp/
+│  │  ├─ powershell/
+│  │  ├─ yaml/
+│  │  └─ lua/
+│  ├─ by-framework/
+│  ├─ by-tool/
+│  └─ meta/
+├─ ai-training-samples/                  # AI トレーニング用サンプル
+│  └─ codes/
+├─ tool-specific/                        # ツール固有設定
+├─ scripts/                              # セットアップスクリプト
+├─ .github/workflows/                    # GitHub Actions
+└─ docs/                                 # プロジェクト文書
+```
+├─ ai-generation-guidelines/             # AI生成用ガイドライン
+│  ├─ fundamentals/                     # 基本原則（言語非依存）
+│  ├─ by-language/                      # 言語別ガイドライン
+│  │  ├─ csharp/
+│  │  ├─ powershell/
+│  │  ├─ yaml/
+│  │  └─ lua/
+│  ├─ by-framework/                     # フレームワーク別
+│  ├─ by-tool/                          # ツール別
+│  └─ meta/                             # メタガイドライン
+│     └─ llms-txt/
+├─ ai-training-samples/                  # AIトレーニング用サンプル
+│  └─ codes/                            # コードサンプル
+│     ├─ csharp/
+│     ├─ powershell/
+│     ├─ yaml/
+│     └─ lua/
+├─ tool-specific/                        # ツール固有設定
+│  ├─ github-copilot/
+│  ├─ cursor/
+│  └─ claude/
+├─ docs/                                 # プロジェクト文書
+├─ README.md
+├─ llms.txt                              # このファイル
+└─ LICENSE.txt
+```
+
+## Core Guidelines
+
+### 📋 Development Guidelines (開発ガイドライン - 2026-01 追加)
+
+プロジェクト横断的な開発方針・規約：
+
+**GitHub 運用**:
+- [Repository Naming Policy](guidelines/development/github/repository-naming-policy.md): リポジトリ命名方針
+- [Writing Guide](guidelines/development/github/writing-guide.md): ドキュメント作成ガイド
+
+**C# コーディング規約**:
+- [Namespace Naming](guidelines/development/coding/csharp/names-of-namespaces.md): 名前空間の命名方針
+
+### 🎯 Fundamentals (言語非依存の基本原則)
+
+基本的なコーディング原則とベストプラクティス（準備中）
+
+- Naming Conventions: 命名規則の基本
+- Documentation Standards: ドキュメント標準
+- Code Quality Principles: コード品質の基本原則
+
+### 💻 C# Guidelines
+
+#### Test Generation (最重要)
+
+- [xUnit Test Creation Guidelines](ai-generation-guidelines/by-language/csharp/test-generation/xunit.md)
+  - テスト命名規則（`TESTNAME_XXX_XXXXX`形式）
+  - partial class による自動生成と手動テストの共存
+  - nameof() を使用したリファクタリング対応
+  - カバレッジ100%を目指すテスト観点
+  - 完全な実装例を含む実践的ガイド
+
+#### Code Review (参考用)
+
+**注意**: 2024/03/17時点でGitHub Copilotはコードレビューをまだサポートしていません
+
+- [Code Quality Principles](ai-generation-guidelines/fundamentals/code-quality-principles.md)
+  - 全コードに適用される共通の品質基準
+- [ValueObject Review Guidelines](ai-generation-guidelines/by-language/csharp/code-review/value-object.md)
+  - DDD値オブジェクト向けレビュー基準
+  - 不変性、等値性のチェック項目
+
+### 🔧 PowerShell Guidelines
+
+準備中
+
+### 📄 YAML Guidelines
+
+準備中
+
+### 🎮 Lua Guidelines
+
+準備中
+
+## Training Samples
+
+### C# Code Patterns
+
+- [Common Patterns](ai-training-samples/codes/csharp/common-patterns.md)
+  - null チェックのパターン
+  - 基本的なC#の書き方
+- [LINQ Patterns](ai-training-samples/codes/csharp/linq-patterns.md)
+  - LINQ の推奨パターン
+  - パフォーマンスを考慮した書き方
+
+### Complete Examples
+
+- [DateTime Extensions Example](ai-training-samples/codes/csharp/datetime-extensions.md)
+  - 実装とテストの完全なサンプル
+  - DateTimeExtensions の実装例
+  - 対応するxUnitテストコードの実例
+  - 実践的なテスト設計パターン
+
+## Meta Guidelines
+
+### llms.txt Maintenance
+
+- [llms.txt Maintenance Guidelines](ai-generation-guidelines/meta/llms-txt/maintenance.md)
+  - llms.txt の更新手順
+  - 品質チェックリスト
+  - AIによる自動更新方法
+
+## Usage in AI Tools
+
+### Cursor / Cline
+
+```
+# Raw URL（推奨・常に最新版）
+@Docs https://raw.githubusercontent.com/yuu-git/ateliers-knowledge/master/llms.txt
+
+# ローカルのサブモジュール
+@Docs .submodules/ateliers-knowledge/llms.txt
+```
+
+### GitHub Copilot
+
+サブモジュールとして追加後、該当ディレクトリ内のファイルを開くことでコンテキストとして認識されます。
+
+主要ファイル:
+- `ai-generation-guidelines/by-language/csharp/test-generation/xunit.md`
+- `ai-training-samples/codes/csharp/common-patterns.md`
+- `ai-training-samples/codes/csharp/linq-patterns.md`
+
+### Claude
+
+会話の最初に以下を貼り付けてください:
+
+```
+このリポジトリのガイドラインに従ってください：
+https://raw.githubusercontent.com/yuu-git/ateliers-knowledge/master/llms.txt
+```
+
+## Branch Strategy
+
+- **master**: 安定版（推奨）
+- **develop**: 開発版
+
+## Technical Details
+
+- **Primary Language**: C# (他言語も追加可能な構造)
+- **Test Framework**: xUnit
+- **Design Approach**: Domain-Driven Design (DDD) 対応
+- **AI Tools Supported**: 
+  - GitHub Copilot
+  - Cursor
+  - Cline
+  - Claude
+  - その他LLMベースのコーディング支援ツール
+
+## Architecture Principles
+
+### Multi-language Support
+
+新しい言語は以下のように追加できます:
+
+```
+ai-generation-guidelines/
+  by-language/
+    [new-language]/
+      test-generation/
+      code-review/
+      patterns/
+      style-guide.md
+```
+
+### AI Tool Agnostic
+
+ガイドラインは特定のAIツールに依存しない設計:
+
+- `ai-generation-guidelines/`: 汎用的なガイドライン
+- `tool-specific/`: ツール固有の設定（必要な場合のみ）
+
+## Future Plans
+
+### 言語別ガイドライン
+
+- **JavaScript/TypeScript**: Jest/Vitest テストパターン、React コンポーネント設計
+- **Python**: pytest パターン、型ヒントの活用
+- **Go**: テーブル駆動テスト、エラーハンドリング
+
+### フレームワーク別ガイドライン
+
+- **.NET**: ASP.NET Core, Blazor, Entity Framework
+- **React**: Hooks パターン、状態管理
+- **Vue**: Composition API パターン
+
+### ツール別ガイドライン
+
+- **Git**: コミットメッセージ規約、ブランチ戦略
+- **Docker**: Dockerfile ベストプラクティス
+- **CI/CD**: GitHub Actions、Azure DevOps パターン
+
+## Contact
+
+- GitHub: [@yuu-git](https://github.com/yuu-git)
+- Repository: https://github.com/yuu-git/ateliers-knowledge
+
+## Notes
+
+- このリポジトリは**テキストベース**であり、実行可能なコードは含まれません
+- パッケージではなく**サブモジュール**として利用することを想定しています
+- AIツールが `.md` ファイルを直接参照できるように設計されています
+- 2025年11月にAIツール非依存・多言語対応の構造に全面改訂
+
+## Project Documentation
+
+- [README](README.md): リポジトリの基本情報と使い方
+- [Image Management](guidelines/image-management-guide.md): 画像ファイル管理ガイドライン
+
+---
+
+*Generated: 2025-11-15*  
+*AI Optimization: Multi-language support with clear hierarchy*  
+*Structure: AI tool-agnostic design for maximum compatibility*
