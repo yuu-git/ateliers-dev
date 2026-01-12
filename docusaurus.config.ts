@@ -45,6 +45,10 @@ const config: Config = {
             'https://github.com/yuu-git/ateliers-dev/edit/master/',
             showLastUpdateAuthor: false,
             showLastUpdateTime: false,
+          remarkPlugins: [],
+          rehypePlugins: [],
+          beforeDefaultRemarkPlugins: [],
+          beforeDefaultRehypePlugins: [],
         },
         blog: {
           showReadingTime: true,
