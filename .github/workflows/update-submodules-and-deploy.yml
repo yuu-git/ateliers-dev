@@ -37,7 +37,11 @@ jobs:
       
       - name: Update ateliers-ai-mcp submodule to latest
         run: |
-          git submodule update --remote --merge docs/project-knowledge/ateliers-ai-mcp
+          cd docs/project-knowledge/ateliers-ai-mcp
+          git fetch origin
+          git checkout origin/master || git checkout origin/main
+          cd ../../..
+          git add docs/project-knowledge/ateliers-ai-mcp
       
       - name: Get updated ateliers-ai-mcp commit
         id: updated_mcp_commit
@@ -70,7 +74,7 @@ jobs:
           echo "$CHANGELOG" >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
           
-          COMMIT_COUNT=$(git rev-list --count ${{ steps.current_mcp_commit.outputs.sha }}..${{ steps.updated_mcp_commit.outputs.sha }})
+          COMMIT_COUNT=$(git rev-list --count ${{ steps.current_mcp_commit.outputs.sha }}..${{ steps.updated_mcp_commit outputs.sha }})
           echo "count=$COMMIT_COUNT" >> $GITHUB_OUTPUT
           cd ../../..
       
@@ -87,7 +91,11 @@ jobs:
       
       - name: Update ateliers-knowledge submodule to latest
         run: |
-          git submodule update --remote --merge docs/ateliers-knowledge
+          cd docs/ateliers-knowledge
+          git fetch origin
+          git checkout origin/master || git checkout origin/main
+          cd ../..
+          git add docs/ateliers-knowledge
       
       - name: Get updated ateliers-knowledge commit
         id: updated_knowledge_commit
