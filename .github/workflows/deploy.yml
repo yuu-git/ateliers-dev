@@ -1,4 +1,4 @@
-name: Build and Deploy Docusaurus Site
+﻿name: Build and Deploy Docusaurus Site
 
 on:
   push:
@@ -8,23 +8,27 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
-          submodules: recursive  # サブモジュールを再帰的に初期化
-
-      - name: Initialize submodules
-        run: git submodule update --init --recursive
+          token: ${{ secrets.GITHUB_TOKEN }}
+          submodules: recursive
 
       - name: Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: '20'
+          cache: 'npm'
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
       - name: Build
         run: npm run build
@@ -35,3 +39,4 @@ jobs:
           personal_token: ${{ secrets.GH_TOKEN_DEPLOY }}
           publish_dir: ./build
           cname: ateliers.dev
+          commit_message: "docs: deploy from ${{ github.sha }}"

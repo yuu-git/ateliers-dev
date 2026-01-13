@@ -74,7 +74,7 @@ jobs:
           echo "$CHANGELOG" >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
           
-          COMMIT_COUNT=$(git rev-list --count ${{ steps.current_mcp_commit.outputs.sha }}..${{ steps.updated_mcp_commit outputs.sha }})
+          COMMIT_COUNT=$(git rev-list --count ${{ steps.current_mcp_commit.outputs.sha }}..${{ steps.updated_mcp_commit.outputs.sha }})
           echo "count=$COMMIT_COUNT" >> $GITHUB_OUTPUT
           cd ../../..
       
@@ -179,7 +179,6 @@ jobs:
         run: npm run build
       
       - name: Deploy to GitHub Pages
-        if: steps.check_mcp_changes.outputs.has_changes == 'true' || steps.check_knowledge_changes.outputs.has_changes == 'true'
         uses: peaceiris/actions-gh-pages@v3
         with:
           personal_token: ${{ secrets.GH_TOKEN_DEPLOY }}
