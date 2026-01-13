@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Include=".github\workflows\deploy.yml" />
+    <None Include=".github\workflows\update-submodules-and-deploy.yml" />
+  </ItemGroup>
+
 </Project>
